@@ -1,4 +1,4 @@
-This project is based on the Linux Project Demo which Digilent provided,the original project is the ori,but the project is created from XPS, i changed it to planahead,and it can successfully run.
+This project test_linux is based on the Linux Project Demo which Digilent provided,the original project is the ori,but the project is created from XPS, i changed it to planahead,and it can successfully run.
  The file trd_xilinx_14.4.rar is based on the xilinx trd project,and i changed it to zedboard! The project implements:
   1. reads from the web camera
 	2. use the opencv lib
