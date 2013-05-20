@@ -1,0 +1,8 @@
+INTSTYLE=pa
+INFILE=E:\Project\openhw\test_linux\test_linux.runs\impl_1\system_stub_routed.ncd
+OUTFILE=E:\Project\openhw\test_linux\test_linux.runs\impl_1\system_stub.bit
+FAMILY=Zynq
+PART=xc7z020-1clg484
+WORKINGDIR=E:\Project\openhw\test_linux\test_linux.runs\impl_1
+LICENSE=WebPack
+USER_INFO=_

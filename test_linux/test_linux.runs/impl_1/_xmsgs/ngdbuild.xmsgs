@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="NgdBuild" num="649" delta="new" >Removing redundant &apos;<arg fmt="%s" index="1">IBUF</arg>&apos; symbol &apos;<arg fmt="%s" index="2">processing_system7_0_PS_PORB_pin_IBUF</arg>&apos;.  All constraints associated with this symbol will be ignored.
+</msg>
+
+<msg type="info" file="NgdBuild" num="649" delta="new" >Removing redundant &apos;<arg fmt="%s" index="1">IBUF</arg>&apos; symbol &apos;<arg fmt="%s" index="2">processing_system7_0_PS_CLK_pin_IBUF</arg>&apos;.  All constraints associated with this symbol will be ignored.
+</msg>
+
+<msg type="info" file="NgdBuild" num="649" delta="new" >Removing redundant &apos;<arg fmt="%s" index="1">IBUF</arg>&apos; symbol &apos;<arg fmt="%s" index="2">processing_system7_0_PS_SRSTB_pin_IBUF</arg>&apos;.  All constraints associated with this symbol will be ignored.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="58" delta="new" >Constraint <arg fmt="%s" index="1">&lt;TIMEGRP axi_interconnect_1_reset_source =   FFS  PADS  CPUS;&gt; [system_stub.ucf(550)]</arg>: <arg fmt="%s" index="2">CPUS &quot;*&quot;</arg> does not match any design objects.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="58" delta="new" >Constraint <arg fmt="%s" index="1">&lt;TIMEGRP axi_interconnect_2_reset_source =   FFS  PADS  CPUS;&gt; [system_stub.ucf(568)]</arg>: <arg fmt="%s" index="2">CPUS &quot;*&quot;</arg> does not match any design objects.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="58" delta="new" >Constraint <arg fmt="%s" index="1">&lt;TIMEGRP axi_interconnect_3_reset_source =   FFS  PADS  CPUS;&gt; [system_stub.ucf(586)]</arg>: <arg fmt="%s" index="2">CPUS &quot;*&quot;</arg> does not match any design objects.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">clk_fpga_2</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_clk_fpga_2</arg>&apos;, was traced into <arg fmt="%s" index="4">MMCME2_ADV</arg> instance <arg fmt="%s" index="5">axi_clkgen_0/USER_LOGIC_I/i_clkgen/i_mmcm</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">MMCME2_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT0</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_system_i_axi_clkgen_0_axi_clkgen_0_USER_LOGIC_I_i_clkgen_mmcm_clk_s = PERIOD &quot;system_i_axi_clkgen_0_axi_clkgen_0_USER_LOGIC_I_i_clkgen_mmcm_clk_s&quot; TS_clk_fpga_2 * 0.742424242 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">clk_fpga_1</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_clk_fpga_1</arg>&apos;, was traced into <arg fmt="%s" index="4">MMCME2_ADV</arg> instance <arg fmt="%s" index="5">clock_generator_0/MMCM1_INST/MMCM_ADV_inst</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">MMCME2_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT0</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_system_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PERIOD &quot;system_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0&quot; TS_clk_fpga_1 * 0.061440678 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="new" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;system_i/i2s_bclk&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(615)]</arg> is overridden on the design object <arg fmt="%s" index="2">i2s_bclk</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;i2s_bclk&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(959)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="new" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;system_i/i2s_lrclk&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(617)]</arg> is overridden on the design object <arg fmt="%s" index="2">i2s_lrclk</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;i2s_lrclk&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(961)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="new" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;system_i/i2s_sdata_I&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(619)]</arg> is overridden on the design object <arg fmt="%s" index="2">i2s_sdata_I</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;i2s_sdata_I&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(963)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="new" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;system_i/i2s_sdata_O&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(621)]</arg> is overridden on the design object <arg fmt="%s" index="2">i2s_sdata_O</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;i2s_sdata_O&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(965)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="new" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;system_i/i2s_mclk&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(624)]</arg> is overridden on the design object <arg fmt="%s" index="2">i2s_mclk</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;i2s_mclk&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(968)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="new" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;system_i/hdmi_clk&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(642)]</arg> is overridden on the design object <arg fmt="%s" index="2">hdmi_clk</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;hdmi_clk&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(978)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="new" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;system_i/hdmi_vsync&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(644)]</arg> is overridden on the design object <arg fmt="%s" index="2">hdmi_vsync</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;hdmi_vsync&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(980)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="new" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;system_i/hdmi_hsync&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(646)]</arg> is overridden on the design object <arg fmt="%s" index="2">hdmi_hsync</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;hdmi_hsync&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(982)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="new" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;system_i/hdmi_data_e&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(648)]</arg> is overridden on the design object <arg fmt="%s" index="2">hdmi_data_e</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;hdmi_data_e&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(984)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="new" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;system_i/hdmi_data[0]&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(650)]</arg> is overridden on the design object <arg fmt="%s" index="2">hdmi_data[0]</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;hdmi_data[0]&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(986)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="new" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;system_i/hdmi_data[1]&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(652)]</arg> is overridden on the design object <arg fmt="%s" index="2">hdmi_data[1]</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;hdmi_data[1]&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(988)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="new" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;system_i/hdmi_data[2]&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(654)]</arg> is overridden on the design object <arg fmt="%s" index="2">hdmi_data[2]</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;hdmi_data[2]&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(990)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="new" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;system_i/hdmi_data[3]&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(656)]</arg> is overridden on the design object <arg fmt="%s" index="2">hdmi_data[3]</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;hdmi_data[3]&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(992)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="new" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;system_i/hdmi_data[4]&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(658)]</arg> is overridden on the design object <arg fmt="%s" index="2">hdmi_data[4]</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;hdmi_data[4]&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(994)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="new" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;system_i/hdmi_data[5]&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(660)]</arg> is overridden on the design object <arg fmt="%s" index="2">hdmi_data[5]</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;hdmi_data[5]&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(996)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="new" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;system_i/hdmi_data[6]&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(662)]</arg> is overridden on the design object <arg fmt="%s" index="2">hdmi_data[6]</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;hdmi_data[6]&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(998)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="new" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;system_i/hdmi_data[7]&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(664)]</arg> is overridden on the design object <arg fmt="%s" index="2">hdmi_data[7]</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;hdmi_data[7]&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(1000)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="new" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;system_i/hdmi_data[8]&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(666)]</arg> is overridden on the design object <arg fmt="%s" index="2">hdmi_data[8]</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;hdmi_data[8]&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(1002)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="new" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;system_i/hdmi_data[9]&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(668)]</arg> is overridden on the design object <arg fmt="%s" index="2">hdmi_data[9]</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;hdmi_data[9]&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(1004)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="new" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;system_i/hdmi_data[10]&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(670)]</arg> is overridden on the design object <arg fmt="%s" index="2">hdmi_data[10]</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;hdmi_data[10]&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(1006)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="new" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;system_i/hdmi_data[11]&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(672)]</arg> is overridden on the design object <arg fmt="%s" index="2">hdmi_data[11]</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;hdmi_data[11]&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(1008)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="new" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;system_i/hdmi_data[12]&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(674)]</arg> is overridden on the design object <arg fmt="%s" index="2">hdmi_data[12]</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;hdmi_data[12]&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(1010)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="new" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;system_i/hdmi_data[13]&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(676)]</arg> is overridden on the design object <arg fmt="%s" index="2">hdmi_data[13]</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;hdmi_data[13]&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(1012)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="new" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;system_i/hdmi_data[14]&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(678)]</arg> is overridden on the design object <arg fmt="%s" index="2">hdmi_data[14]</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;hdmi_data[14]&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(1014)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="new" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;system_i/hdmi_data[15]&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(680)]</arg> is overridden on the design object <arg fmt="%s" index="2">hdmi_data[15]</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;hdmi_data[15]&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(1016)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="new" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;system_i/hdmi_spdif&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(682)]</arg> is overridden on the design object <arg fmt="%s" index="2">hdmi_spdif</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;hdmi_spdif&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(1018)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="new" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;system_i/hdmi_int&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(684)]</arg> is overridden on the design object <arg fmt="%s" index="2">hdmi_int</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;hdmi_int&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(1020)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="new" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;system_i/otg_oc&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(945)]</arg> is overridden on the design object <arg fmt="%s" index="2">otg_oc</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;otg_oc&quot; IOSTANDARD = LVCMOS33;&gt; [system_stub.ucf(1157)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1440" delta="new" >User specified non-default attribute value (<arg fmt="%s" index="1">5</arg>) was detected for the <arg fmt="%s" index="2">CLKIN1_PERIOD</arg> attribute on <arg fmt="%s" index="3">MMCM</arg> &quot;<arg fmt="%s" index="4">clock_generator_0/MMCM1_INST/MMCM_ADV_inst</arg>&quot;.  This does not match the PERIOD constraint value (<arg fmt="%s" index="5">166667 KHz.</arg>).  The uncertainty calculation will use the PERIOD constraint value.  This could result in incorrect uncertainty calculated for <arg fmt="%s" index="6">MMCM</arg> output clocks.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="new" >Attribute &quot;<arg fmt="%s" index="1">CLOCK_HOLD</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">clock_generator_0/MMCM1_INST/MMCM_ADV_inst</arg>&quot; of type &quot;<arg fmt="%s" index="3">MMCME2_ADV</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="new" >SFF primitive &apos;<arg fmt="%s" index="1">system_i/axi_iic_hdmi/axi_iic_hdmi/X_IIC/X_AXI_IPIF_SSP1/X_SOFT_RESET/FF_WRACK</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="new" >SFF primitive &apos;<arg fmt="%s" index="1">system_i/axi_iic_i2s/axi_iic_i2s/X_IIC/X_AXI_IPIF_SSP1/X_SOFT_RESET/FF_WRACK</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="483" delta="new" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; on &quot;<arg fmt="%s" index="2">system_i/axi_dma_i2s/axi_dma_i2s/GEN_SG_ENGINE.I_SG_ENGINE/I_SG_FETCH_MNGR/I_FTCH_PNTR_MNGR/ch2_sg_idle</arg>&quot; is on the wrong type of object.  Please see the Constraints Guide for more information on this attribute.
+</msg>
+
+</messages>
+

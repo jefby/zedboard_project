@@ -1,0 +1,206 @@
+
+#############################################################
+#                                                           #
+# I2S Audio Codec Interface                                 #
+#                                                           #
+#############################################################
+NET "i2s_bclk" LOC = AA6;
+NET "i2s_bclk" IOSTANDARD = LVCMOS33;
+NET "i2s_lrclk" LOC = Y6;
+NET "i2s_lrclk" IOSTANDARD = LVCMOS33;
+NET "i2s_sdata_I" LOC = AA7;
+NET "i2s_sdata_I" IOSTANDARD = LVCMOS33;
+NET "i2s_sdata_O" LOC = Y8;
+NET "i2s_sdata_O" IOSTANDARD = LVCMOS33;
+
+NET "i2s_mclk" LOC = AB2;
+NET "i2s_mclk" IOSTANDARD = LVCMOS33;
+
+
+
+#############################################################
+#                                                           #
+# HDMI Interface                                            #
+#                                                           #
+#############################################################
+NET "hdmi_clk" LOC = W18;
+NET "hdmi_clk" IOSTANDARD = LVCMOS33;
+NET "hdmi_vsync" LOC = W17;
+NET "hdmi_vsync" IOSTANDARD = LVCMOS33;
+NET "hdmi_hsync" LOC = V17;
+NET "hdmi_hsync" IOSTANDARD = LVCMOS33;
+NET "hdmi_data_e" LOC = U16;
+NET "hdmi_data_e" IOSTANDARD = LVCMOS33;
+NET "hdmi_data[0]" LOC = Y13;
+NET "hdmi_data[0]" IOSTANDARD = LVCMOS33;
+NET "hdmi_data[1]" LOC = AA13;
+NET "hdmi_data[1]" IOSTANDARD = LVCMOS33;
+NET "hdmi_data[2]" LOC = AA14;
+NET "hdmi_data[2]" IOSTANDARD = LVCMOS33;
+NET "hdmi_data[3]" LOC = Y14;
+NET "hdmi_data[3]" IOSTANDARD = LVCMOS33;
+NET "hdmi_data[4]" LOC = AB15;
+NET "hdmi_data[4]" IOSTANDARD = LVCMOS33;
+NET "hdmi_data[5]" LOC = AB16;
+NET "hdmi_data[5]" IOSTANDARD = LVCMOS33;
+NET "hdmi_data[6]" LOC = AA16;
+NET "hdmi_data[6]" IOSTANDARD = LVCMOS33;
+NET "hdmi_data[7]" LOC = AB17;
+NET "hdmi_data[7]" IOSTANDARD = LVCMOS33;
+NET "hdmi_data[8]" LOC = AA17;
+NET "hdmi_data[8]" IOSTANDARD = LVCMOS33;
+NET "hdmi_data[9]" LOC = Y15;
+NET "hdmi_data[9]" IOSTANDARD = LVCMOS33;
+NET "hdmi_data[10]" LOC = W13;
+NET "hdmi_data[10]" IOSTANDARD = LVCMOS33;
+NET "hdmi_data[11]" LOC = W15;
+NET "hdmi_data[11]" IOSTANDARD = LVCMOS33;
+NET "hdmi_data[12]" LOC = V15;
+NET "hdmi_data[12]" IOSTANDARD = LVCMOS33;
+NET "hdmi_data[13]" LOC = U17;
+NET "hdmi_data[13]" IOSTANDARD = LVCMOS33;
+NET "hdmi_data[14]" LOC = V14;
+NET "hdmi_data[14]" IOSTANDARD = LVCMOS33;
+NET "hdmi_data[15]" LOC = V13;
+NET "hdmi_data[15]" IOSTANDARD = LVCMOS33;
+NET "hdmi_spdif" LOC = U15;
+NET "hdmi_spdif" IOSTANDARD = LVCMOS33;
+NET "hdmi_int" LOC = W16;
+NET "hdmi_int" IOSTANDARD = LVCMOS33;
+
+
+#############################################################
+#                                                           #
+# GPIO Interface                                            #
+#                                                           #
+#############################################################
+
+############################
+#                          #
+# GPIO pin to reset the    #
+# USB OTG PHY              #
+#                          #
+############################
+# USB-Reset
+
+############################
+#                          #
+# On-board OLED            #
+#                          #
+# Voltage control and      #
+# Bitbanged SPI over GPIO  #
+#                          #
+############################
+# OLED-VBAT
+# OLED-VDD
+# OLED-RES
+# OLED-DC
+# OLED-SCLK
+# OLED-SDIN
+
+############################
+#                          #
+# On-board LED's           #
+#                          #
+############################
+# LD0
+# LD1
+# LD2
+# LD3
+# LD4
+# LD5
+# LD6
+# LD7
+
+############################
+#                          #
+# On-board Slide Switches  #
+#                          #
+############################
+# SW0
+# SW1
+# SW2
+# SW3
+# SW4
+# SW5
+# SW6
+# SW7
+
+############################
+#                          #
+# On-board Left, Right,    #
+# Up, Down, and Select     #
+# Pushbuttons              #
+#                          #
+############################
+# BTNL
+# BTNR
+# BTNU
+# BTND
+# BTNS
+
+############################
+#                          #
+# Pmod JA                  #
+#                          #
+############################
+# JA1
+# JA2
+# JA3
+# JA4
+# JA7
+# JA8
+# JA9
+# JA10
+
+############################
+#                          #
+# Pmod JB                  #
+#                          #
+############################
+# JB1
+# JB2
+# JB3
+# JB4
+# JB7
+# JB8
+# JB9
+# JB10
+
+############################
+#                          #
+# Pmod JC                  #
+#                          #
+############################
+# JC1_P	(JC1)
+# JC1_N	(JC2)
+# JC2_P	(JC3)
+# JC2_N	(JC4)
+# JC3_P	(JC7)
+# JC3_N	(JC8)
+# JC4_P	(JC9)
+# JC4_N	(JC10)
+
+############################
+#                          #
+# Pmod JD                  #
+#                          #
+############################
+# JD1_P	(JD1)
+# JD1_N	(JD2)
+# JD2_P	(JD3)
+# JD2_N	(JD4)
+# JD3_P	(JD7)
+# JD3_N	(JD8)
+# JD4_P	(JD9)
+# JD4_N	(JD10)
+
+
+#############################################################
+#                                                           #
+# Pin for detecting USB OTG over-current condition          #
+#                                                           #
+#############################################################
+
+NET "otg_oc" LOC = L16;
+NET "otg_oc" IOSTANDARD = LVCMOS33;

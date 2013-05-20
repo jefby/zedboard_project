@@ -1,0 +1,209 @@
+Release 14.4 ngdbuild P.49d (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.4\ISE_DS\ISE\bin\nt\unwrapped\ngdbuild.exe -intstyle
+ise -p xc7z020clg484-1 -dd _ngo -uc system_stub.ucf system_stub.edf
+
+Executing edif2ngd -quiet "system_stub.edf" "_ngo\system_stub.ngo"
+Release 14.4 - edif2ngd P.49d (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Reading NGO file
+"E:/Project/openhw/test_linux/test_linux.runs/impl_1/_ngo/system_stub.ngo" ...
+Gathering constraint information from source properties...
+Done.
+INFO:NgdBuild:649 - Removing redundant 'IBUF' symbol
+   'processing_system7_0_PS_PORB_pin_IBUF'.  All constraints associated with
+   this symbol will be ignored.
+INFO:NgdBuild:649 - Removing redundant 'IBUF' symbol
+   'processing_system7_0_PS_CLK_pin_IBUF'.  All constraints associated with this
+   symbol will be ignored.
+INFO:NgdBuild:649 - Removing redundant 'IBUF' symbol
+   'processing_system7_0_PS_SRSTB_pin_IBUF'.  All constraints associated with
+   this symbol will be ignored.
+
+Annotating constraints to design from ucf file "system_stub.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+WARNING:ConstraintSystem:58 - Constraint <TIMEGRP
+   axi_interconnect_1_reset_source =   FFS  PADS  CPUS;> [system_stub.ucf(550)]:
+   CPUS "*" does not match any design objects.
+
+WARNING:ConstraintSystem:58 - Constraint <TIMEGRP
+   axi_interconnect_2_reset_source =   FFS  PADS  CPUS;> [system_stub.ucf(568)]:
+   CPUS "*" does not match any design objects.
+
+WARNING:ConstraintSystem:58 - Constraint <TIMEGRP
+   axi_interconnect_3_reset_source =   FFS  PADS  CPUS;> [system_stub.ucf(586)]:
+   CPUS "*" does not match any design objects.
+
+INFO:ConstraintSystem:178 - TNM 'clk_fpga_2', used in period specification
+   'TS_clk_fpga_2', was traced into MMCME2_ADV instance
+   axi_clkgen_0/USER_LOGIC_I/i_clkgen/i_mmcm. The following new TNM groups and
+   period specifications were generated at the MMCME2_ADV output(s): 
+   CLKOUT0: <TIMESPEC
+   TS_system_i_axi_clkgen_0_axi_clkgen_0_USER_LOGIC_I_i_clkgen_mmcm_clk_s =
+   PERIOD "system_i_axi_clkgen_0_axi_clkgen_0_USER_LOGIC_I_i_clkgen_mmcm_clk_s"
+   TS_clk_fpga_2 * 0.742424242 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'clk_fpga_1', used in period specification
+   'TS_clk_fpga_1', was traced into MMCME2_ADV instance
+   clock_generator_0/MMCM1_INST/MMCM_ADV_inst. The following new TNM groups and
+   period specifications were generated at the MMCME2_ADV output(s): 
+   CLKOUT0: <TIMESPEC
+   TS_system_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PERIOD
+   "system_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0"
+   TS_clk_fpga_1 * 0.061440678 HIGH 50%>
+
+WARNING:NgdBuild:1012 - The constraint <NET "system_i/i2s_bclk" IOSTANDARD =
+   LVCMOS33;> [system_stub.ucf(615)] is overridden on the design object i2s_bclk
+   by the constraint <NET "i2s_bclk" IOSTANDARD = LVCMOS33;>
+   [system_stub.ucf(959)].
+WARNING:NgdBuild:1012 - The constraint <NET "system_i/i2s_lrclk" IOSTANDARD =
+   LVCMOS33;> [system_stub.ucf(617)] is overridden on the design object
+   i2s_lrclk by the constraint <NET "i2s_lrclk" IOSTANDARD = LVCMOS33;>
+   [system_stub.ucf(961)].
+WARNING:NgdBuild:1012 - The constraint <NET "system_i/i2s_sdata_I" IOSTANDARD =
+   LVCMOS33;> [system_stub.ucf(619)] is overridden on the design object
+   i2s_sdata_I by the constraint <NET "i2s_sdata_I" IOSTANDARD = LVCMOS33;>
+   [system_stub.ucf(963)].
+WARNING:NgdBuild:1012 - The constraint <NET "system_i/i2s_sdata_O" IOSTANDARD =
+   LVCMOS33;> [system_stub.ucf(621)] is overridden on the design object
+   i2s_sdata_O by the constraint <NET "i2s_sdata_O" IOSTANDARD = LVCMOS33;>
+   [system_stub.ucf(965)].
+WARNING:NgdBuild:1012 - The constraint <NET "system_i/i2s_mclk" IOSTANDARD =
+   LVCMOS33;> [system_stub.ucf(624)] is overridden on the design object i2s_mclk
+   by the constraint <NET "i2s_mclk" IOSTANDARD = LVCMOS33;>
+   [system_stub.ucf(968)].
+WARNING:NgdBuild:1012 - The constraint <NET "system_i/hdmi_clk" IOSTANDARD =
+   LVCMOS33;> [system_stub.ucf(642)] is overridden on the design object hdmi_clk
+   by the constraint <NET "hdmi_clk" IOSTANDARD = LVCMOS33;>
+   [system_stub.ucf(978)].
+WARNING:NgdBuild:1012 - The constraint <NET "system_i/hdmi_vsync" IOSTANDARD =
+   LVCMOS33;> [system_stub.ucf(644)] is overridden on the design object
+   hdmi_vsync by the constraint <NET "hdmi_vsync" IOSTANDARD = LVCMOS33;>
+   [system_stub.ucf(980)].
+WARNING:NgdBuild:1012 - The constraint <NET "system_i/hdmi_hsync" IOSTANDARD =
+   LVCMOS33;> [system_stub.ucf(646)] is overridden on the design object
+   hdmi_hsync by the constraint <NET "hdmi_hsync" IOSTANDARD = LVCMOS33;>
+   [system_stub.ucf(982)].
+WARNING:NgdBuild:1012 - The constraint <NET "system_i/hdmi_data_e" IOSTANDARD =
+   LVCMOS33;> [system_stub.ucf(648)] is overridden on the design object
+   hdmi_data_e by the constraint <NET "hdmi_data_e" IOSTANDARD = LVCMOS33;>
+   [system_stub.ucf(984)].
+WARNING:NgdBuild:1012 - The constraint <NET "system_i/hdmi_data[0]" IOSTANDARD =
+   LVCMOS33;> [system_stub.ucf(650)] is overridden on the design object
+   hdmi_data[0] by the constraint <NET "hdmi_data[0]" IOSTANDARD = LVCMOS33;>
+   [system_stub.ucf(986)].
+WARNING:NgdBuild:1012 - The constraint <NET "system_i/hdmi_data[1]" IOSTANDARD =
+   LVCMOS33;> [system_stub.ucf(652)] is overridden on the design object
+   hdmi_data[1] by the constraint <NET "hdmi_data[1]" IOSTANDARD = LVCMOS33;>
+   [system_stub.ucf(988)].
+WARNING:NgdBuild:1012 - The constraint <NET "system_i/hdmi_data[2]" IOSTANDARD =
+   LVCMOS33;> [system_stub.ucf(654)] is overridden on the design object
+   hdmi_data[2] by the constraint <NET "hdmi_data[2]" IOSTANDARD = LVCMOS33;>
+   [system_stub.ucf(990)].
+WARNING:NgdBuild:1012 - The constraint <NET "system_i/hdmi_data[3]" IOSTANDARD =
+   LVCMOS33;> [system_stub.ucf(656)] is overridden on the design object
+   hdmi_data[3] by the constraint <NET "hdmi_data[3]" IOSTANDARD = LVCMOS33;>
+   [system_stub.ucf(992)].
+WARNING:NgdBuild:1012 - The constraint <NET "system_i/hdmi_data[4]" IOSTANDARD =
+   LVCMOS33;> [system_stub.ucf(658)] is overridden on the design object
+   hdmi_data[4] by the constraint <NET "hdmi_data[4]" IOSTANDARD = LVCMOS33;>
+   [system_stub.ucf(994)].
+WARNING:NgdBuild:1012 - The constraint <NET "system_i/hdmi_data[5]" IOSTANDARD =
+   LVCMOS33;> [system_stub.ucf(660)] is overridden on the design object
+   hdmi_data[5] by the constraint <NET "hdmi_data[5]" IOSTANDARD = LVCMOS33;>
+   [system_stub.ucf(996)].
+WARNING:NgdBuild:1012 - The constraint <NET "system_i/hdmi_data[6]" IOSTANDARD =
+   LVCMOS33;> [system_stub.ucf(662)] is overridden on the design object
+   hdmi_data[6] by the constraint <NET "hdmi_data[6]" IOSTANDARD = LVCMOS33;>
+   [system_stub.ucf(998)].
+WARNING:NgdBuild:1012 - The constraint <NET "system_i/hdmi_data[7]" IOSTANDARD =
+   LVCMOS33;> [system_stub.ucf(664)] is overridden on the design object
+   hdmi_data[7] by the constraint <NET "hdmi_data[7]" IOSTANDARD = LVCMOS33;>
+   [system_stub.ucf(1000)].
+WARNING:NgdBuild:1012 - The constraint <NET "system_i/hdmi_data[8]" IOSTANDARD =
+   LVCMOS33;> [system_stub.ucf(666)] is overridden on the design object
+   hdmi_data[8] by the constraint <NET "hdmi_data[8]" IOSTANDARD = LVCMOS33;>
+   [system_stub.ucf(1002)].
+WARNING:NgdBuild:1012 - The constraint <NET "system_i/hdmi_data[9]" IOSTANDARD =
+   LVCMOS33;> [system_stub.ucf(668)] is overridden on the design object
+   hdmi_data[9] by the constraint <NET "hdmi_data[9]" IOSTANDARD = LVCMOS33;>
+   [system_stub.ucf(1004)].
+WARNING:NgdBuild:1012 - The constraint <NET "system_i/hdmi_data[10]" IOSTANDARD
+   = LVCMOS33;> [system_stub.ucf(670)] is overridden on the design object
+   hdmi_data[10] by the constraint <NET "hdmi_data[10]" IOSTANDARD = LVCMOS33;>
+   [system_stub.ucf(1006)].
+WARNING:NgdBuild:1012 - The constraint <NET "system_i/hdmi_data[11]" IOSTANDARD
+   = LVCMOS33;> [system_stub.ucf(672)] is overridden on the design object
+   hdmi_data[11] by the constraint <NET "hdmi_data[11]" IOSTANDARD = LVCMOS33;>
+   [system_stub.ucf(1008)].
+WARNING:NgdBuild:1012 - The constraint <NET "system_i/hdmi_data[12]" IOSTANDARD
+   = LVCMOS33;> [system_stub.ucf(674)] is overridden on the design object
+   hdmi_data[12] by the constraint <NET "hdmi_data[12]" IOSTANDARD = LVCMOS33;>
+   [system_stub.ucf(1010)].
+WARNING:NgdBuild:1012 - The constraint <NET "system_i/hdmi_data[13]" IOSTANDARD
+   = LVCMOS33;> [system_stub.ucf(676)] is overridden on the design object
+   hdmi_data[13] by the constraint <NET "hdmi_data[13]" IOSTANDARD = LVCMOS33;>
+   [system_stub.ucf(1012)].
+WARNING:NgdBuild:1012 - The constraint <NET "system_i/hdmi_data[14]" IOSTANDARD
+   = LVCMOS33;> [system_stub.ucf(678)] is overridden on the design object
+   hdmi_data[14] by the constraint <NET "hdmi_data[14]" IOSTANDARD = LVCMOS33;>
+   [system_stub.ucf(1014)].
+WARNING:NgdBuild:1012 - The constraint <NET "system_i/hdmi_data[15]" IOSTANDARD
+   = LVCMOS33;> [system_stub.ucf(680)] is overridden on the design object
+   hdmi_data[15] by the constraint <NET "hdmi_data[15]" IOSTANDARD = LVCMOS33;>
+   [system_stub.ucf(1016)].
+WARNING:NgdBuild:1012 - The constraint <NET "system_i/hdmi_spdif" IOSTANDARD =
+   LVCMOS33;> [system_stub.ucf(682)] is overridden on the design object
+   hdmi_spdif by the constraint <NET "hdmi_spdif" IOSTANDARD = LVCMOS33;>
+   [system_stub.ucf(1018)].
+WARNING:NgdBuild:1012 - The constraint <NET "system_i/hdmi_int" IOSTANDARD =
+   LVCMOS33;> [system_stub.ucf(684)] is overridden on the design object hdmi_int
+   by the constraint <NET "hdmi_int" IOSTANDARD = LVCMOS33;>
+   [system_stub.ucf(1020)].
+WARNING:NgdBuild:1012 - The constraint <NET "system_i/otg_oc" IOSTANDARD =
+   LVCMOS33;> [system_stub.ucf(945)] is overridden on the design object otg_oc
+   by the constraint <NET "otg_oc" IOSTANDARD = LVCMOS33;>
+   [system_stub.ucf(1157)].
+Done...
+
+WARNING:NgdBuild:1440 - User specified non-default attribute value (5) was
+   detected for the CLKIN1_PERIOD attribute on MMCM
+   "clock_generator_0/MMCM1_INST/MMCM_ADV_inst".  This does not match the PERIOD
+   constraint value (166667 KHz.).  The uncertainty calculation will use the
+   PERIOD constraint value.  This could result in incorrect uncertainty
+   calculated for MMCM output clocks.
+Checking expanded design ...
+WARNING:NgdBuild:486 - Attribute "CLOCK_HOLD" is not allowed on symbol
+   "clock_generator_0/MMCM1_INST/MMCM_ADV_inst" of type "MMCME2_ADV".  This
+   attribute will be ignored.
+WARNING:NgdBuild:443 - SFF primitive
+   'system_i/axi_iic_hdmi/axi_iic_hdmi/X_IIC/X_AXI_IPIF_SSP1/X_SOFT_RESET/FF_WRA
+   CK' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'system_i/axi_iic_i2s/axi_iic_i2s/X_IIC/X_AXI_IPIF_SSP1/X_SOFT_RESET/FF_WRACK
+   ' has unconnected output pin
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "system_i/axi_dma_i2s/axi_dma_i2s/GEN_SG_ENGINE.I_SG_ENGINE/I_SG_FETCH_MNGR/I
+   _FTCH_PNTR_MNGR/ch2_sg_idle" is on the wrong type of object.  Please see the
+   Constraints Guide for more information on this attribute.
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:  36
+
+Total memory usage is 275704 kilobytes
+
+Writing NGD file "system_stub.ngd" ...
+Total REAL time to NGDBUILD completion: 2 min  59 sec
+Total CPU time to NGDBUILD completion:  1 min  33 sec
+
+Writing NGDBUILD log file "system_stub.bld"...

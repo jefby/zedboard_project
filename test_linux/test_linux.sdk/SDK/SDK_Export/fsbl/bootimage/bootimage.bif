@@ -1,0 +1,6 @@
+the_ROM_image:
+{
+	[bootloader]/Project/openhw/test_linux/test_linux.sdk/SDK/SDK_Export/fsbl/Debug/fsbl.elf
+	/Project/openhw/test_linux/system.bit
+	/Project/openhw/ZedBoard_Linux_Design/ZedBoard_Linux_Design/boot_image/u-boot.elf
+}
