@@ -1,6 +1,19 @@
-The project test_linux is based on the Linux Project Demo which Digilent provided,
+1. The project test_linux is based on the Linux Project Demo which Digilent provided,
    the original project is the ori,but the project is created from XPS, i changed it 
    to planahead,and it can successfully run.
+
+2. trd_xilinx_14.4.rar is based on the trd project xilinx provided , and i changed it
+   to zedboard,but Now there is something wrong with it,it can't drive the HDMI monitor,
+   maybe because the clock frequency is too low! i will correct it in time.
+   
+   Features:
+            a. reads from the usb webcam 
+            b. can use in linaro12.06
+            c. can use software and hardware accelorator
+            d. use the VDMA ip core
+            e. use the FILTER which Xilinx Provided
+   By the way, my work is based on the Shakith Fernando,his related blog address is
+   shakithwebblog.blogspot.com/2012/12/getting-sobel-filter-application.html
 
 Date:2013/5/20
 Author : jefby
