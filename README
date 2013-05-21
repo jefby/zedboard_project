@@ -1,10 +1,7 @@
-1. The project test_linux is based on the Linux Project Demo which Digilent provided,the original project is the ori,but the project is created from XPS, i changed it to planahead,and it can successfully run.
-2. The file trd_xilinx_14.4.rar is based on the xilinx trd project,and i changed it to zedboard! The project implements:
- 	(1). reads from the web camera
-	(2). use the opencv lib
-	(3). can use the software accelerator and hardware accelerator
-	(4). can implement a simplement 
-  Finally,Thanks to shakith, i changed the project to 14.4 version,and regenerate the project in xilinx 14.4, by the way the shakith blog address is  http://shakithweblog.blogspot.nl/2012/12/getting-sobel-filter-application.html
+The project test_linux is based on the Linux Project Demo which Digilent provided,
+   the original project is the ori,but the project is created from XPS, i changed it 
+   to planahead,and it can successfully run.
+
 Date:2013/5/20
 Author : jefby
 Email : jef199006@gmail.com
