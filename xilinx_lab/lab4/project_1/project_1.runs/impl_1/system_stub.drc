@@ -1,0 +1,75 @@
+Release 14.4 Drc P.49d (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Wed May 22 00:17:21 2013
+
+drc -z system_stub_routed.ncd system_stub.pcf
+
+WARNING:PhysDesignRules:367 - The signal
+   <system_i/axi_HP0/axi_HP0/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot
+   _conv.conv_inst/gen_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANN
+   EL.cmd_b_queue/inst/fifo_gen_inst/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/g
+   ntv_or_sync_fifo.mem/gdm.dm/Mram_RAM_RAMD_D1_O> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <system_i/axi_HP0/axi_HP0/mi_converter_bank/gen_conv_slot[1].gen_downsizer.do
+   wnsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_ge
+   n_inst/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm
+   /Mram_RAM_RAMD_D1_O> is incomplete. The signal does not drive any load pins
+   in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <system_i/axi_HP0/axi_HP0/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot
+   _conv.conv_inst/gen_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.
+   cmd_queue/inst/fifo_gen_inst/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_o
+   r_sync_fifo.mem/gdm.dm/Mram_RAM_RAMD_D1_O> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <system_i/axi_HP0/axi_HP0/mi_converter_bank/gen_conv_slot[1].gen_downsizer.do
+   wnsizer_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_ins
+   t/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram
+   _RAM4_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <system_i/axi_HP0/axi_HP0/mi_converter_bank/gen_conv_slot[1].gen_downsizer.do
+   wnsizer_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_ins
+   t/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram
+   _RAM3_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <system_i/axi_HP0/axi_HP0/mi_converter_bank/gen_conv_slot[1].gen_downsizer.do
+   wnsizer_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_ins
+   t/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram
+   _RAM2_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <system_i/axi_HP0/axi_HP0/mi_converter_bank/gen_conv_slot[1].gen_downsizer.do
+   wnsizer_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_ins
+   t/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram
+   _RAM1_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <system_i/axi_HP0/axi_HP0/mi_converter_bank/gen_conv_slot[1].gen_downsizer.do
+   wnsizer_inst/USE_READ.read_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_R
+   AM4_RAMD_D1_O> is incomplete. The signal does not drive any load pins in the
+   design.
+WARNING:PhysDesignRules:367 - The signal
+   <system_i/axi_HP0/axi_HP0/mi_converter_bank/gen_conv_slot[1].gen_downsizer.do
+   wnsizer_inst/USE_READ.read_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_R
+   AM3_RAMD_D1_O> is incomplete. The signal does not drive any load pins in the
+   design.
+WARNING:PhysDesignRules:367 - The signal
+   <system_i/axi_HP0/axi_HP0/mi_converter_bank/gen_conv_slot[1].gen_downsizer.do
+   wnsizer_inst/USE_READ.read_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_R
+   AM1_RAMD_D1_O> is incomplete. The signal does not drive any load pins in the
+   design.
+WARNING:PhysDesignRules:367 - The signal
+   <system_i/axi_HP0/axi_HP0/mi_converter_bank/gen_conv_slot[1].gen_downsizer.do
+   wnsizer_inst/USE_READ.read_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_R
+   AM2_RAMD_D1_O> is incomplete. The signal does not drive any load pins in the
+   design.
+DRC detected 0 errors and 11 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

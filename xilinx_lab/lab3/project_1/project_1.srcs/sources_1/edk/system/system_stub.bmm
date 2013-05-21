@@ -1,0 +1,26 @@
+// File: H:\github\linux_zedboard\xilinx_lab\lab3\project_1\project_1.srcs\sources_1\edk\system\system_stub.bmm
+
+ADDRESS_MAP processing_system7_0 ARM 100
+	ADDRESS_SPACE axi_bram_ctrl_0_bram_block_1_combined COMBINED [0x81250000:0x8125ffff]
+		ADDRESS_RANGE RAMB32
+		BUS_BLOCK
+			system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_0 [31:30] INPUT = axi_bram_ctrl_0_bram_block_1_combined_0.mem ;
+			system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_1 [29:28] INPUT = axi_bram_ctrl_0_bram_block_1_combined_1.mem ;
+			system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_2 [27:26] INPUT = axi_bram_ctrl_0_bram_block_1_combined_2.mem ;
+			system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_3 [25:24] INPUT = axi_bram_ctrl_0_bram_block_1_combined_3.mem ;
+			system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_4 [23:22] INPUT = axi_bram_ctrl_0_bram_block_1_combined_4.mem ;
+			system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_5 [21:20] INPUT = axi_bram_ctrl_0_bram_block_1_combined_5.mem ;
+			system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_6 [19:18] INPUT = axi_bram_ctrl_0_bram_block_1_combined_6.mem ;
+			system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_7 [17:16] INPUT = axi_bram_ctrl_0_bram_block_1_combined_7.mem ;
+			system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_8 [15:14] INPUT = axi_bram_ctrl_0_bram_block_1_combined_8.mem ;
+			system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_9 [13:12] INPUT = axi_bram_ctrl_0_bram_block_1_combined_9.mem ;
+			system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_10 [11:10] INPUT = axi_bram_ctrl_0_bram_block_1_combined_10.mem ;
+			system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_11 [9:8] INPUT = axi_bram_ctrl_0_bram_block_1_combined_11.mem ;
+			system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_12 [7:6] INPUT = axi_bram_ctrl_0_bram_block_1_combined_12.mem ;
+			system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_13 [5:4] INPUT = axi_bram_ctrl_0_bram_block_1_combined_13.mem ;
+			system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_14 [3:2] INPUT = axi_bram_ctrl_0_bram_block_1_combined_14.mem ;
+			system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_15 [1:0] INPUT = axi_bram_ctrl_0_bram_block_1_combined_15.mem ;
+		END_BUS_BLOCK;
+		END_ADDRESS_RANGE;
+	END_ADDRESS_SPACE;
+END_ADDRESS_MAP;

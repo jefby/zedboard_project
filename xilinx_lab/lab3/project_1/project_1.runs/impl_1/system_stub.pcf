@@ -1,0 +1,1923 @@
+//! **************************************************************************
+// Written by: Map P.49d on Tue May 21 20:20:58 2013
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "dip_GPIO_IO_I_pin[5]" LOCATE = SITE "H18" LEVEL 1;
+COMP "dip_GPIO_IO_I_pin[6]" LOCATE = SITE "H17" LEVEL 1;
+COMP "dip_GPIO_IO_I_pin[3]" LOCATE = SITE "F21" LEVEL 1;
+COMP "dip_GPIO_IO_I_pin[4]" LOCATE = SITE "H19" LEVEL 1;
+COMP "dip_GPIO_IO_I_pin[7]" LOCATE = SITE "M15" LEVEL 1;
+COMP "dip_GPIO_IO_I_pin[1]" LOCATE = SITE "G22" LEVEL 1;
+COMP "dip_GPIO_IO_I_pin[2]" LOCATE = SITE "H22" LEVEL 1;
+COMP "dip_GPIO_IO_I_pin[0]" LOCATE = SITE "F22" LEVEL 1;
+COMP "processing_system7_0_DDR_ODT" LOCATE = SITE "P5" LEVEL 1;
+COMP "processing_system7_0_DDR_Addr[13]" LOCATE = SITE "F4" LEVEL 1;
+COMP "processing_system7_0_DDR_Addr[14]" LOCATE = SITE "G4" LEVEL 1;
+COMP "processing_system7_0_DDR_Addr[11]" LOCATE = SITE "G5" LEVEL 1;
+COMP "processing_system7_0_DDR_Addr[12]" LOCATE = SITE "H4" LEVEL 1;
+COMP "processing_system7_0_DDR_Addr[10]" LOCATE = SITE "J3" LEVEL 1;
+COMP "processing_system7_0_DDR_WEB_pin" LOCATE = SITE "R4" LEVEL 1;
+COMP "processing_system7_0_MIO[24]" LOCATE = SITE "B7" LEVEL 1;
+COMP "processing_system7_0_MIO[23]" LOCATE = SITE "E11" LEVEL 1;
+COMP "processing_system7_0_MIO[26]" LOCATE = SITE "A13" LEVEL 1;
+COMP "processing_system7_0_MIO[25]" LOCATE = SITE "F12" LEVEL 1;
+COMP "processing_system7_0_MIO[28]" LOCATE = SITE "A12" LEVEL 1;
+COMP "processing_system7_0_MIO[27]" LOCATE = SITE "D7" LEVEL 1;
+COMP "processing_system7_0_MIO[29]" LOCATE = SITE "E8" LEVEL 1;
+COMP "processing_system7_0_MIO[20]" LOCATE = SITE "A8" LEVEL 1;
+COMP "processing_system7_0_MIO[22]" LOCATE = SITE "A14" LEVEL 1;
+COMP "processing_system7_0_MIO[21]" LOCATE = SITE "F11" LEVEL 1;
+COMP "processing_system7_0_MIO[14]" LOCATE = SITE "B6" LEVEL 1;
+COMP "processing_system7_0_MIO[13]" LOCATE = SITE "A6" LEVEL 1;
+COMP "processing_system7_0_MIO[16]" LOCATE = SITE "D6" LEVEL 1;
+COMP "processing_system7_0_MIO[15]" LOCATE = SITE "E6" LEVEL 1;
+COMP "processing_system7_0_MIO[18]" LOCATE = SITE "A7" LEVEL 1;
+COMP "processing_system7_0_MIO[17]" LOCATE = SITE "E9" LEVEL 1;
+COMP "processing_system7_0_MIO[19]" LOCATE = SITE "E10" LEVEL 1;
+COMP "processing_system7_0_MIO[10]" LOCATE = SITE "G7" LEVEL 1;
+COMP "processing_system7_0_MIO[12]" LOCATE = SITE "C5" LEVEL 1;
+COMP "processing_system7_0_DDR_CAS_n" LOCATE = SITE "P3" LEVEL 1;
+COMP "processing_system7_0_MIO[11]" LOCATE = SITE "B4" LEVEL 1;
+COMP "processing_system7_0_MIO[44]" LOCATE = SITE "E13" LEVEL 1;
+COMP "processing_system7_0_MIO[43]" LOCATE = SITE "B11" LEVEL 1;
+COMP "processing_system7_0_MIO[46]" LOCATE = SITE "D12" LEVEL 1;
+COMP "processing_system7_0_MIO[45]" LOCATE = SITE "B9" LEVEL 1;
+COMP "processing_system7_0_MIO[48]" LOCATE = SITE "D11" LEVEL 1;
+COMP "processing_system7_0_MIO[47]" LOCATE = SITE "B10" LEVEL 1;
+COMP "processing_system7_0_MIO[49]" LOCATE = SITE "C14" LEVEL 1;
+COMP "processing_system7_0_MIO[40]" LOCATE = SITE "E14" LEVEL 1;
+COMP "processing_system7_0_DDR_BankAddr[0]" LOCATE = SITE "L7" LEVEL 1;
+COMP "processing_system7_0_MIO[42]" LOCATE = SITE "D8" LEVEL 1;
+COMP "processing_system7_0_DDR_BankAddr[1]" LOCATE = SITE "L6" LEVEL 1;
+COMP "processing_system7_0_MIO[41]" LOCATE = SITE "C8" LEVEL 1;
+COMP "processing_system7_0_DDR_BankAddr[2]" LOCATE = SITE "M6" LEVEL 1;
+COMP "processing_system7_0_MIO[34]" LOCATE = SITE "B12" LEVEL 1;
+COMP "processing_system7_0_MIO[33]" LOCATE = SITE "G13" LEVEL 1;
+COMP "processing_system7_0_MIO[36]" LOCATE = SITE "A9" LEVEL 1;
+COMP "processing_system7_0_MIO[35]" LOCATE = SITE "F14" LEVEL 1;
+COMP "processing_system7_0_MIO[38]" LOCATE = SITE "F13" LEVEL 1;
+COMP "processing_system7_0_MIO[37]" LOCATE = SITE "B14" LEVEL 1;
+COMP "processing_system7_0_MIO[39]" LOCATE = SITE "C13" LEVEL 1;
+COMP "processing_system7_0_MIO[30]" LOCATE = SITE "A11" LEVEL 1;
+COMP "processing_system7_0_MIO[32]" LOCATE = SITE "C7" LEVEL 1;
+COMP "processing_system7_0_MIO[31]" LOCATE = SITE "F9" LEVEL 1;
+COMP "processing_system7_0_DDR_RAS_n" LOCATE = SITE "R5" LEVEL 1;
+COMP "processing_system7_0_DDR_DQS_n[0]" LOCATE = SITE "D2" LEVEL 1;
+COMP "processing_system7_0_DDR_DQS_n[1]" LOCATE = SITE "J2" LEVEL 1;
+COMP "processing_system7_0_DDR_DQS_n[2]" LOCATE = SITE "P2" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[31]" LOCATE = SITE "Y1" LEVEL 1;
+COMP "processing_system7_0_DDR_DQS_n[3]" LOCATE = SITE "W2" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[30]" LOCATE = SITE "W3" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[22]" LOCATE = SITE "M2" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[21]" LOCATE = SITE "T2" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[20]" LOCATE = SITE "R3" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[26]" LOCATE = SITE "AA1" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[25]" LOCATE = SITE "U1" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[2]" LOCATE = SITE "B2" LEVEL 1;
+COMP "processing_system7_0_DDR_Addr[9]" LOCATE = SITE "H5" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[24]" LOCATE = SITE "AA3" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[1]" LOCATE = SITE "C3" LEVEL 1;
+COMP "processing_system7_0_DDR_Addr[8]" LOCATE = SITE "J5" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[23]" LOCATE = SITE "R1" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[0]" LOCATE = SITE "D1" LEVEL 1;
+COMP "processing_system7_0_DDR_Addr[7]" LOCATE = SITE "J6" LEVEL 1;
+COMP "processing_system7_0_DDR_Addr[6]" LOCATE = SITE "J7" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[29]" LOCATE = SITE "Y3" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[6]" LOCATE = SITE "F2" LEVEL 1;
+COMP "processing_system7_0_DDR_Addr[5]" LOCATE = SITE "K5" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[28]" LOCATE = SITE "W1" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[5]" LOCATE = SITE "E1" LEVEL 1;
+COMP "processing_system7_0_DDR_Addr[4]" LOCATE = SITE "K6" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[27]" LOCATE = SITE "U2" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[4]" LOCATE = SITE "E3" LEVEL 1;
+COMP "processing_system7_0_DDR_Addr[3]" LOCATE = SITE "L4" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[3]" LOCATE = SITE "D3" LEVEL 1;
+COMP "processing_system7_0_DDR_Addr[2]" LOCATE = SITE "K4" LEVEL 1;
+COMP "processing_system7_0_DDR_Addr[1]" LOCATE = SITE "M5" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[9]" LOCATE = SITE "G1" LEVEL 1;
+COMP "processing_system7_0_DDR_Addr[0]" LOCATE = SITE "M4" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[8]" LOCATE = SITE "G2" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[12]" LOCATE = SITE "L3" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[7]" LOCATE = SITE "F1" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[11]" LOCATE = SITE "L2" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[10]" LOCATE = SITE "L1" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[16]" LOCATE = SITE "M1" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[15]" LOCATE = SITE "K3" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[14]" LOCATE = SITE "J1" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[13]" LOCATE = SITE "K1" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[19]" LOCATE = SITE "T1" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[18]" LOCATE = SITE "N3" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[17]" LOCATE = SITE "T3" LEVEL 1;
+COMP "processing_system7_0_DDR_Clk" LOCATE = SITE "N4" LEVEL 1;
+COMP "processing_system7_0_GPIO_I_pin[0]" LOCATE = SITE "R18" LEVEL 1;
+COMP "processing_system7_0_MIO[4]" LOCATE = SITE "E4" LEVEL 1;
+COMP "processing_system7_0_MIO[3]" LOCATE = SITE "F6" LEVEL 1;
+COMP "processing_system7_0_MIO[6]" LOCATE = SITE "A4" LEVEL 1;
+COMP "processing_system7_0_MIO[5]" LOCATE = SITE "A3" LEVEL 1;
+COMP "processing_system7_0_MIO[8]" LOCATE = SITE "E5" LEVEL 1;
+COMP "processing_system7_0_MIO[7]" LOCATE = SITE "D5" LEVEL 1;
+COMP "processing_system7_0_MIO[9]" LOCATE = SITE "C4" LEVEL 1;
+COMP "processing_system7_0_MIO[0]" LOCATE = SITE "G6" LEVEL 1;
+COMP "processing_system7_0_MIO[2]" LOCATE = SITE "A2" LEVEL 1;
+COMP "processing_system7_0_MIO[1]" LOCATE = SITE "A1" LEVEL 1;
+COMP "processing_system7_0_DDR_VRN" LOCATE = SITE "M7" LEVEL 1;
+COMP "processing_system7_0_DDR_VRP" LOCATE = SITE "N7" LEVEL 1;
+COMP "processing_system7_0_DDR_Clk_n" LOCATE = SITE "N5" LEVEL 1;
+COMP "processing_system7_0_DDR_CS_n" LOCATE = SITE "P6" LEVEL 1;
+COMP "processing_system7_0_DDR_CKE" LOCATE = SITE "V3" LEVEL 1;
+COMP "processing_system7_0_DDR_DM[2]" LOCATE = SITE "P1" LEVEL 1;
+COMP "processing_system7_0_DDR_DM[1]" LOCATE = SITE "H3" LEVEL 1;
+COMP "processing_system7_0_DDR_DM[0]" LOCATE = SITE "B1" LEVEL 1;
+COMP "processing_system7_0_DDR_DM[3]" LOCATE = SITE "AA2" LEVEL 1;
+COMP "led_GPIO_IO_O_pin[1]" LOCATE = SITE "T21" LEVEL 1;
+COMP "led_GPIO_IO_O_pin[2]" LOCATE = SITE "U22" LEVEL 1;
+COMP "led_GPIO_IO_O_pin[0]" LOCATE = SITE "T22" LEVEL 1;
+COMP "led_GPIO_IO_O_pin[7]" LOCATE = SITE "U14" LEVEL 1;
+COMP "led_GPIO_IO_O_pin[5]" LOCATE = SITE "W22" LEVEL 1;
+COMP "led_GPIO_IO_O_pin[6]" LOCATE = SITE "U19" LEVEL 1;
+COMP "led_GPIO_IO_O_pin[3]" LOCATE = SITE "U21" LEVEL 1;
+COMP "led_GPIO_IO_O_pin[4]" LOCATE = SITE "V22" LEVEL 1;
+COMP "processing_system7_0_MIO[53]" LOCATE = SITE "C12" LEVEL 1;
+COMP "processing_system7_0_MIO[50]" LOCATE = SITE "D13" LEVEL 1;
+COMP "processing_system7_0_MIO[52]" LOCATE = SITE "D10" LEVEL 1;
+COMP "processing_system7_0_MIO[51]" LOCATE = SITE "C10" LEVEL 1;
+COMP "processing_system7_0_DDR_DRSTB" LOCATE = SITE "F3" LEVEL 1;
+COMP "processing_system7_0_DDR_DQS[2]" LOCATE = SITE "N2" LEVEL 1;
+COMP "processing_system7_0_DDR_DQS[1]" LOCATE = SITE "H2" LEVEL 1;
+COMP "processing_system7_0_DDR_DQS[0]" LOCATE = SITE "C2" LEVEL 1;
+COMP "processing_system7_0_DDR_DQS[3]" LOCATE = SITE "V2" LEVEL 1;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_0_pins<63>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_0"
+        PINNAME CLKARDCLKU;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_0_pins<62>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_0"
+        PINNAME CLKARDCLKL;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_0_pins<65>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_0"
+        PINNAME CLKBWRCLKU;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_0_pins<64>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_0"
+        PINNAME CLKBWRCLKL;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_1_pins<63>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_1"
+        PINNAME CLKARDCLKU;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_1_pins<62>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_1"
+        PINNAME CLKARDCLKL;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_1_pins<65>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_1"
+        PINNAME CLKBWRCLKU;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_1_pins<64>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_1"
+        PINNAME CLKBWRCLKL;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_10_pins<63>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_10"
+        PINNAME CLKARDCLKU;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_10_pins<62>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_10"
+        PINNAME CLKARDCLKL;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_10_pins<65>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_10"
+        PINNAME CLKBWRCLKU;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_10_pins<64>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_10"
+        PINNAME CLKBWRCLKL;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_11_pins<63>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_11"
+        PINNAME CLKARDCLKU;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_11_pins<62>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_11"
+        PINNAME CLKARDCLKL;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_11_pins<65>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_11"
+        PINNAME CLKBWRCLKU;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_11_pins<64>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_11"
+        PINNAME CLKBWRCLKL;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_12_pins<63>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_12"
+        PINNAME CLKARDCLKU;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_12_pins<62>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_12"
+        PINNAME CLKARDCLKL;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_12_pins<65>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_12"
+        PINNAME CLKBWRCLKU;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_12_pins<64>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_12"
+        PINNAME CLKBWRCLKL;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_13_pins<63>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_13"
+        PINNAME CLKARDCLKU;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_13_pins<62>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_13"
+        PINNAME CLKARDCLKL;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_13_pins<65>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_13"
+        PINNAME CLKBWRCLKU;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_13_pins<64>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_13"
+        PINNAME CLKBWRCLKL;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_14_pins<63>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_14"
+        PINNAME CLKARDCLKU;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_14_pins<62>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_14"
+        PINNAME CLKARDCLKL;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_14_pins<65>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_14"
+        PINNAME CLKBWRCLKU;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_14_pins<64>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_14"
+        PINNAME CLKBWRCLKL;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_15_pins<63>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_15"
+        PINNAME CLKARDCLKU;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_15_pins<62>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_15"
+        PINNAME CLKARDCLKL;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_15_pins<65>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_15"
+        PINNAME CLKBWRCLKU;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_15_pins<64>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_15"
+        PINNAME CLKBWRCLKL;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_2_pins<63>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_2"
+        PINNAME CLKARDCLKU;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_2_pins<62>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_2"
+        PINNAME CLKARDCLKL;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_2_pins<65>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_2"
+        PINNAME CLKBWRCLKU;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_2_pins<64>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_2"
+        PINNAME CLKBWRCLKL;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_3_pins<63>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_3"
+        PINNAME CLKARDCLKU;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_3_pins<62>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_3"
+        PINNAME CLKARDCLKL;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_3_pins<65>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_3"
+        PINNAME CLKBWRCLKU;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_3_pins<64>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_3"
+        PINNAME CLKBWRCLKL;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_4_pins<63>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_4"
+        PINNAME CLKARDCLKU;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_4_pins<62>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_4"
+        PINNAME CLKARDCLKL;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_4_pins<65>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_4"
+        PINNAME CLKBWRCLKU;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_4_pins<64>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_4"
+        PINNAME CLKBWRCLKL;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_5_pins<63>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_5"
+        PINNAME CLKARDCLKU;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_5_pins<62>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_5"
+        PINNAME CLKARDCLKL;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_5_pins<65>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_5"
+        PINNAME CLKBWRCLKU;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_5_pins<64>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_5"
+        PINNAME CLKBWRCLKL;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_6_pins<63>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_6"
+        PINNAME CLKARDCLKU;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_6_pins<62>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_6"
+        PINNAME CLKARDCLKL;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_6_pins<65>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_6"
+        PINNAME CLKBWRCLKU;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_6_pins<64>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_6"
+        PINNAME CLKBWRCLKL;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_7_pins<63>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_7"
+        PINNAME CLKARDCLKU;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_7_pins<62>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_7"
+        PINNAME CLKARDCLKL;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_7_pins<65>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_7"
+        PINNAME CLKBWRCLKU;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_7_pins<64>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_7"
+        PINNAME CLKBWRCLKL;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_8_pins<63>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_8"
+        PINNAME CLKARDCLKU;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_8_pins<62>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_8"
+        PINNAME CLKARDCLKL;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_8_pins<65>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_8"
+        PINNAME CLKBWRCLKU;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_8_pins<64>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_8"
+        PINNAME CLKBWRCLKL;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_9_pins<63>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_9"
+        PINNAME CLKARDCLKU;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_9_pins<62>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_9"
+        PINNAME CLKARDCLKL;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_9_pins<65>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_9"
+        PINNAME CLKBWRCLKU;
+PIN
+        system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_9_pins<64>
+        = BEL
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_9"
+        PINNAME CLKBWRCLKL;
+PIN system_i/processing_system7_0/processing_system7_0/PS7_i_pins<522> = BEL
+        "system_i/processing_system7_0/processing_system7_0/PS7_i" PINNAME
+        MAXIGP1ACLK;
+TIMEGRP clk_fpga_1 = PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_0_pins<63>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_0_pins<62>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_0_pins<65>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_0_pins<64>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_1_pins<63>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_1_pins<62>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_1_pins<65>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_1_pins<64>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_10_pins<63>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_10_pins<62>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_10_pins<65>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_10_pins<64>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_11_pins<63>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_11_pins<62>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_11_pins<65>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_11_pins<64>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_12_pins<63>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_12_pins<62>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_12_pins<65>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_12_pins<64>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_13_pins<63>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_13_pins<62>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_13_pins<65>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_13_pins<64>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_14_pins<63>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_14_pins<62>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_14_pins<65>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_14_pins<64>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_15_pins<63>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_15_pins<62>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_15_pins<65>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_15_pins<64>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_2_pins<63>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_2_pins<62>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_2_pins<65>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_2_pins<64>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_3_pins<63>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_3_pins<62>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_3_pins<65>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_3_pins<64>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_4_pins<63>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_4_pins<62>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_4_pins<65>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_4_pins<64>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_5_pins<63>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_5_pins<62>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_5_pins<65>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_5_pins<64>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_6_pins<63>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_6_pins<62>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_6_pins<65>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_6_pins<64>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_7_pins<63>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_7_pins<62>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_7_pins<65>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_7_pins<64>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_8_pins<63>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_8_pins<62>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_8_pins<65>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_8_pins<64>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_9_pins<63>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_9_pins<62>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_9_pins<65>"
+        PIN
+        "system_i/axi_bram_ctrl_0_bram_block_1/axi_bram_ctrl_0_bram_block_1/ramb36e1_9_pins<64>"
+        BEL
+        "system_i/axi_interconnect_2/axi_interconnect_2/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_pipe_1"
+        BEL
+        "system_i/axi_interconnect_2/axi_interconnect_2/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_pipe_2"
+        BEL
+        "system_i/axi_interconnect_2/axi_interconnect_2/mi_converter_bank/gen_conv_slot[0].clock_conv_inst/m_axi_reset_out_n_i"
+        BEL
+        "system_i/axi_interconnect_2/axi_interconnect_2/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_0"
+        BEL
+        "system_i/axi_interconnect_2/axi_interconnect_2/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_1"
+        BEL
+        "system_i/axi_interconnect_2/axi_interconnect_2/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_2"
+        BEL
+        "system_i/axi_interconnect_2/axi_interconnect_2/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_pipe_0"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rid_temp_full_d1"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/curr_awlen_reg_1_or_2"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/last_bram_addr"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awaddr_full"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_9"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_8"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_7"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_6"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_5"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_4"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_3"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_2"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awaddr_full_1"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/BID_FIFO/Data_Exists_DFF"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rid_int_11"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rid_int_10"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/BID_FIFO/Addr_Counters[0].FDRE_I"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_arburst_pipe_fixed"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rid_temp2_9"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rid_temp2_8"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rid_temp2_7"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rid_temp2_6"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rid_temp2_5"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rid_temp2_4"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rid_temp2_3"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rid_temp2_2"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rid_temp2_1"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rid_temp2_0"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_aresetn_d2"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_aresetn_d1"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rid_temp_9"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rid_temp_8"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rid_temp_7"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rid_temp_6"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rid_temp_5"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rid_temp_4"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rid_temp_3"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rid_temp_2"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rid_temp_1"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rid_temp_0"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/act_rd_burst"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awlen_pipe_1_or_2"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/pend_rd_op"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_arlen_pipe_1_or_2"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awburst_pipe_fixed"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/end_brst_rd"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/wr_data_sm_cs_FSM_FFd3"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/wr_data_sm_cs_FSM_FFd2"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/wr_data_sm_cs_FSM_FFd1"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_arid_pipe_9"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_addr_int_29"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_arid_pipe_8"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_arid_pipe_7"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_addr_int_28"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_arid_pipe_6"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_addr_int_27"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_addr_int_26"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_arid_pipe_5"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_addr_int_31"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_addr_int_25"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_arid_pipe_4"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_addr_int_30"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_addr_int_19"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_arid_pipe_3"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_addr_int_24"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_addr_int_23"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_addr_int_18"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_arid_pipe_2"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_addr_int_22"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_addr_int_17"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_arid_pipe_1"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_addr_int_21"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_addr_int_16"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_arid_pipe_0"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_addr_int_15"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_addr_int_20"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_addr_int_14"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_addr_int_13"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_addr_int_12"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_addr_int_11"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_addr_int_10"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/GEN_RDATA_NO_ECC.axi_rdata_int_9"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/GEN_RDATA_NO_ECC.axi_rdata_int_8"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/GEN_RDATA_NO_ECC.axi_rdata_int_7"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/GEN_RDATA_NO_ECC.axi_rdata_int_6"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/GEN_RDATA_NO_ECC.axi_rdata_int_5"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/GEN_RDATA_NO_ECC.axi_rdata_int_4"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/GEN_RDATA_NO_ECC.axi_rdata_int_3"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/GEN_RDATA_NO_ECC.axi_rdata_int_2"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/GEN_RDATA_NO_ECC.axi_rdata_int_1"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/GEN_RDATA_NO_ECC.axi_rdata_int_0"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/bram_addr_int_9"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/bram_addr_int_8"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/bram_addr_int_7"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/bram_addr_int_6"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/bram_addr_int_5"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_bid_int_9"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/bram_addr_int_4"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_bid_int_8"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/bram_addr_int_3"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_bid_int_7"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_bid_int_6"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/bram_addr_int_2"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_bid_int_5"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_bid_int_4"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_bid_int_3"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_bid_int_2"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_bid_int_1"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_bid_int_0"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rvalid_int_1"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/bram_addr_int_29"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/bram_addr_int_28"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/bram_addr_int_27"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/bram_addr_int_31"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/bram_addr_int_26"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/bram_addr_int_25"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/bram_addr_int_30"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/bram_addr_int_24"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/bram_addr_int_19"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/bram_addr_int_23"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/bram_addr_int_18"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/bram_addr_int_22"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/bram_addr_int_17"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/bram_addr_int_21"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/bram_addr_int_16"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/bram_addr_int_20"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/bram_addr_int_15"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/bram_addr_int_14"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/bram_addr_int_13"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/bram_addr_int_12"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/bram_addr_int_11"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/bram_addr_int_10"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/delay_aw_active_clr"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_aresetn_re_reg"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rid_temp_full"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_early_arready_int"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/rddata_mux_sel"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/clr_bram_we"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rvalid_clr_ok"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rid_int_9"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rid_int_8"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rid_int_7"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rid_int_6"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rid_int_5"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rid_int_4"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rid_int_3"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rid_int_2"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rid_int_1"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rid_int_0"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_addr_int_9"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_addr_int_8"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_addr_int_7"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_addr_int_6"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_addr_int_5"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_addr_int_4"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_addr_int_3"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_addr_int_2"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_arsize_pipe_1"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/I_WRAP_BRST/wrap_burst_total_2"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_bvalid_int"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/I_WRAP_BRST/wrap_burst_total_1"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_araddr_pipe_9"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/I_WRAP_BRST/wrap_burst_total_0"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_araddr_pipe_8"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_araddr_pipe_7"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_araddr_pipe_6"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_araddr_pipe_5"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_araddr_pipe_4"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_araddr_pipe_3"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_araddr_pipe_2"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/brst_cnt_max_d1"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/act_rd_burst_two"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awsize_pipe_1"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/wr_data_sm_cs_FSM_FFd1_1"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/BID_FIFO/FIFO_RAM[0].SRL16E_I"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awaddr_pipe_9"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awaddr_pipe_8"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rid_temp2_11"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awaddr_pipe_7"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rid_temp2_10"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awaddr_pipe_6"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awaddr_pipe_5"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awaddr_pipe_4"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/curr_wrap_burst_reg"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awaddr_pipe_3"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awaddr_pipe_2"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_wrdata_int_29"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_wrdata_int_28"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_wrdata_int_27"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_wrdata_int_31"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_wrdata_int_26"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/brst_cnt_7"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_wrdata_int_30"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_wrdata_int_25"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/brst_cnt_6"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_wrdata_int_24"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_wrdata_int_19"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/brst_cnt_5"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_b2b_brst"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_wrdata_int_23"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_wrdata_int_18"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/brst_cnt_4"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_wrdata_int_22"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_wrdata_int_17"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/brst_cnt_3"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_wrdata_int_21"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_wrdata_int_16"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/brst_cnt_2"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_wrdata_int_20"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_wrdata_int_15"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/brst_cnt_1"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_wrdata_int_14"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/brst_cnt_0"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_wrdata_int_13"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_wrdata_int_12"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_wrdata_int_11"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/BID_FIFO/FIFO_RAM[1].SRL16E_I"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_wrdata_int_10"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/rd_skid_buf_9"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/rd_skid_buf_8"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/rd_skid_buf_7"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/rd_skid_buf_6"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/rd_skid_buf_5"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/rd_skid_buf_4"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/rd_skid_buf_3"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/rd_skid_buf_2"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/rd_skid_buf_1"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/rd_skid_buf_0"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/BID_FIFO/FIFO_RAM[2].SRL16E_I"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/last_data_ack_mod"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/BID_FIFO/FIFO_RAM[3].SRL16E_I"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/end_brst_rd_clr"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/BID_FIFO/FIFO_RAM[4].SRL16E_I"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_wdata_full_reg"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rlast_int"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rid_temp_11"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rid_temp_10"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/BID_FIFO/FIFO_RAM[5].SRL16E_I"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_arready_int"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/GEN_RDATA_NO_ECC.axi_rdata_int_29"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_arsize_pipe_max"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/GEN_RDATA_NO_ECC.axi_rdata_int_28"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/GEN_RDATA_NO_ECC.axi_rdata_int_27"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/GEN_RDATA_NO_ECC.axi_rdata_int_26"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/GEN_RDATA_NO_ECC.axi_rdata_int_31"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/GEN_RDATA_NO_ECC.axi_rdata_int_30"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/GEN_RDATA_NO_ECC.axi_rdata_int_25"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/GEN_RDATA_NO_ECC.axi_rdata_int_24"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/GEN_RDATA_NO_ECC.axi_rdata_int_19"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/GEN_RDATA_NO_ECC.axi_rdata_int_18"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/GEN_RDATA_NO_ECC.axi_rdata_int_23"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/GEN_RDATA_NO_ECC.axi_rdata_int_17"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/GEN_RDATA_NO_ECC.axi_rdata_int_22"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/GEN_RDATA_NO_ECC.axi_rdata_int_21"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/GEN_RDATA_NO_ECC.axi_rdata_int_16"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/GEN_RDATA_NO_ECC.axi_rdata_int_20"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/GEN_RDATA_NO_ECC.axi_rdata_int_15"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/GEN_RDATA_NO_ECC.axi_rdata_int_14"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/BID_FIFO/FIFO_RAM[6].SRL16E_I"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/GEN_RDATA_NO_ECC.axi_rdata_int_13"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/GEN_RDATA_NO_ECC.axi_rdata_int_12"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/GEN_RDATA_NO_ECC.axi_rdata_int_11"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/GEN_RDATA_NO_ECC.axi_rdata_int_10"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_arid_pipe_11"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_arid_pipe_10"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_araddr_full"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rd_burst"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/BID_FIFO/FIFO_RAM[7].SRL16E_I"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_29"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_28"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awid_pipe_11"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awid_pipe_10"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_27"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_31"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_26"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_30"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_25"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_19"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_24"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_18"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_23"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_17"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_22"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_16"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_21"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_15"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_20"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_14"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_13"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_12"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_11"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_10"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_wready_int_mod"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/BID_FIFO/FIFO_RAM[8].SRL16E_I"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bid_gets_fifo_load_d1"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rvalid_set"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/BID_FIFO/FIFO_RAM[9].SRL16E_I"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/ar_active"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awaddr_pipe_29"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awaddr_pipe_28"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awaddr_pipe_27"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awaddr_pipe_31"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awaddr_pipe_26"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awaddr_pipe_25"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awaddr_pipe_30"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awaddr_pipe_24"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awaddr_pipe_19"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awaddr_pipe_18"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awaddr_pipe_23"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awaddr_pipe_17"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awaddr_pipe_22"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awaddr_pipe_21"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awaddr_pipe_16"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_29"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awaddr_pipe_15"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awaddr_pipe_20"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awaddr_pipe_14"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_28"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awaddr_pipe_13"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_27"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_26"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awaddr_pipe_12"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_31"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_25"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awaddr_pipe_11"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_30"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_19"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_24"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awaddr_pipe_10"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_18"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_23"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_17"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_22"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_16"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_21"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_15"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_20"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_14"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_13"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_12"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_11"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_10"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/BID_FIFO/Addr_Counters[3].FDRE_I"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/no_ar_ack"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/wr_addr_sm_cs"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_araddr_pipe_29"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_araddr_pipe_28"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_araddr_pipe_27"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_araddr_pipe_26"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_araddr_pipe_31"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_araddr_pipe_25"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_araddr_pipe_30"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_araddr_pipe_24"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_araddr_pipe_19"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_araddr_pipe_23"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_araddr_pipe_18"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_araddr_pipe_22"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_araddr_pipe_17"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_araddr_pipe_21"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_araddr_pipe_16"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_araddr_pipe_15"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_araddr_pipe_20"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/curr_fixed_burst_reg"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_araddr_pipe_14"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_araddr_pipe_13"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_araddr_pipe_12"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_araddr_pipe_11"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_araddr_pipe_10"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/BID_FIFO/FIFO_RAM[10].SRL16E_I"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/BID_FIFO/FIFO_RAM[11].SRL16E_I"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awburst_pipe_1"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awburst_pipe_0"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/brst_cnt_max"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awid_pipe_9"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awid_pipe_8"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/rlast_sm_cs_FSM_FFd5"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/rlast_sm_cs_FSM_FFd4"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awid_pipe_7"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/rlast_sm_cs_FSM_FFd3"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awid_pipe_6"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/rlast_sm_cs_FSM_FFd2"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awid_pipe_5"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/rlast_sm_cs_FSM_FFd1"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awid_pipe_4"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awid_pipe_3"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awid_pipe_2"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awid_pipe_1"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awid_pipe_0"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/brst_zero"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rvalid_int"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_arburst_pipe_1"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_arburst_pipe_0"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/rd_addr_sm_cs"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_bid_int_11"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_bid_int_10"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/BID_FIFO/Addr_Counters[2].FDRE_I"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/rd_skid_buf_29"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/rd_skid_buf_28"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/rd_skid_buf_27"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/rd_skid_buf_31"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/rd_skid_buf_26"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/rd_skid_buf_30"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/rd_skid_buf_25"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/rd_skid_buf_24"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/rd_skid_buf_19"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/rd_skid_buf_23"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_wr_burst"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/rd_skid_buf_18"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/rd_skid_buf_22"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/rd_skid_buf_17"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/rd_skid_buf_21"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/rd_skid_buf_16"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/rd_skid_buf_20"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/rd_skid_buf_15"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/rd_skid_buf_14"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/rd_skid_buf_13"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/rd_skid_buf_12"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/rd_skid_buf_11"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/rd_skid_buf_10"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/disable_b2b_brst"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/I_WRAP_BRST/wrap_burst_total_2"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/I_WRAP_BRST/wrap_burst_total_1"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/I_WRAP_BRST/wrap_burst_total_0"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bvalid_cnt_2_2"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bvalid_cnt_2_1"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rd_burst_two"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/rd_skid_buf_ld_reg"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_we_int_3"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_we_int_2"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_we_int_1"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_we_int_0"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bvalid_cnt_0_2"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_9"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bvalid_cnt_0_1"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_8"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_7"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_6"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_5"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_4"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_3"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/I_WRAP_BRST/save_init_bram_addr_ld_2"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_arlen_pipe_3"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_arlen_pipe_2"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_arlen_pipe_1"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_arlen_pipe_0"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awlen_pipe_3"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awlen_pipe_2"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awlen_pipe_1"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awlen_pipe_0"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/curr_fixed_burst_reg"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/aw_active"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/brst_one"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/curr_wrap_burst_reg"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/BID_FIFO/Addr_Counters[1].FDRE_I"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_en_int"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/rd_data_sm_cs_FSM_FFd4"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/rd_data_sm_cs_FSM_FFd3"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/rd_data_sm_cs_FSM_FFd2"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/rd_data_sm_cs_FSM_FFd1"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_wrdata_int_9"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_wrdata_int_8"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_wrdata_int_7"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_wrdata_int_6"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/bram_en_int"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_wrdata_int_5"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_wrdata_int_4"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_wrdata_int_3"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_wrdata_int_2"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_wrdata_int_1"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bram_wrdata_int_0"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bvalid_cnt_2"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bvalid_cnt_1"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bvalid_cnt_0"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rid_temp2_full"
+        BEL
+        "system_i/axi_bram_ctrl_0/axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awready_int"
+        PIN
+        "system_i/processing_system7_0/processing_system7_0/PS7_i_pins<522>";
+PIN system_i/processing_system7_0/processing_system7_0/PS7_i_pins<359> = BEL
+        "system_i/processing_system7_0/processing_system7_0/PS7_i" PINNAME
+        MAXIGP0ACLK;
+TIMEGRP clk_fpga_0 = BEL "system_i/dip/dip/gpio_core_1/Mshreg_gpio_Data_In_7"
+        BEL "system_i/dip/dip/gpio_core_1/Mshreg_gpio_Data_In_6" BEL
+        "system_i/dip/dip/gpio_core_1/gpio_Data_In_5" BEL
+        "system_i/dip/dip/gpio_core_1/Mshreg_gpio_Data_In_5" BEL
+        "system_i/dip/dip/gpio_core_1/gpio_Data_In_4" BEL
+        "system_i/dip/dip/gpio_core_1/Mshreg_gpio_Data_In_4" BEL
+        "system_i/dip/dip/gpio_core_1/gpio_Data_In_3" BEL
+        "system_i/dip/dip/gpio_core_1/Mshreg_gpio_Data_In_3" BEL
+        "system_i/dip/dip/gpio_core_1/gpio_Data_In_2" BEL
+        "system_i/dip/dip/gpio_core_1/Mshreg_gpio_Data_In_2" BEL
+        "system_i/dip/dip/gpio_core_1/gpio_Data_In_1" BEL
+        "system_i/dip/dip/gpio_core_1/Mshreg_gpio_Data_In_1" BEL
+        "system_i/dip/dip/gpio_core_1/gpio_Data_In_0" BEL
+        "system_i/dip/dip/gpio_core_1/Mshreg_gpio_Data_In_0" BEL
+        "system_i/dip/dip/gpio_core_1/GPIO_DBus_i_25" BEL
+        "system_i/dip/dip/gpio_core_1/gpio_Data_In_7" BEL
+        "system_i/dip/dip/gpio_core_1/GPIO_DBus_i_24" BEL
+        "system_i/dip/dip/gpio_core_1/GPIO_DBus_i_26" BEL
+        "system_i/dip/dip/gpio_core_1/GPIO_DBus_i_27" BEL
+        "system_i/dip/dip/gpio_core_1/GPIO_DBus_i_30" BEL
+        "system_i/dip/dip/gpio_core_1/GPIO_DBus_i_28" BEL
+        "system_i/dip/dip/gpio_core_1/GPIO_DBus_i_29" BEL
+        "system_i/dip/dip/gpio_core_1/GPIO_DBus_i_31" BEL
+        "system_i/dip/dip/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_0"
+        BEL
+        "system_i/dip/dip/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_1"
+        BEL
+        "system_i/dip/dip/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_2"
+        BEL
+        "system_i/dip/dip/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_3"
+        BEL "system_i/dip/dip/bus2ip_reset" BEL
+        "system_i/dip/dip/ip2bus_rdack_i_D1" BEL
+        "system_i/dip/dip/ip2bus_wrack_i_D1" BEL
+        "system_i/dip/dip/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rvalid_i"
+        BEL
+        "system_i/dip/dip/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_bvalid_i"
+        BEL "system_i/dip/dip/gpio_core_1/iGPIO_xferAck" BEL
+        "system_i/dip/dip/gpio_core_1/gpio_OE_7" BEL
+        "system_i/dip/dip/gpio_core_1/gpio_OE_6" BEL
+        "system_i/dip/dip/gpio_core_1/gpio_OE_5" BEL
+        "system_i/dip/dip/gpio_core_1/gpio_OE_4" BEL
+        "system_i/dip/dip/gpio_core_1/gpio_OE_3" BEL
+        "system_i/dip/dip/gpio_core_1/gpio_OE_2" BEL
+        "system_i/dip/dip/gpio_core_1/gpio_OE_1" BEL
+        "system_i/dip/dip/gpio_core_1/gpio_OE_0" BEL
+        "system_i/dip/dip/gpio_core_1/gpio_xferAck_Reg" BEL
+        "system_i/dip/dip/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/state_FSM_FFd2"
+        BEL
+        "system_i/dip/dip/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/cs_out_i_0"
+        BEL
+        "system_i/dip/dip/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_0"
+        BEL
+        "system_i/dip/dip/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_1"
+        BEL
+        "system_i/dip/dip/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_2"
+        BEL
+        "system_i/dip/dip/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_3"
+        BEL
+        "system_i/dip/dip/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_4"
+        BEL
+        "system_i/dip/dip/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_5"
+        BEL
+        "system_i/dip/dip/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_6"
+        BEL
+        "system_i/dip/dip/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_7"
+        BEL
+        "system_i/dip/dip/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/state_FSM_FFd1"
+        BEL "system_i/dip/dip/ip2bus_data_i_D1_31" BEL
+        "system_i/dip/dip/ip2bus_data_i_D1_30" BEL
+        "system_i/dip/dip/ip2bus_data_i_D1_29" BEL
+        "system_i/dip/dip/ip2bus_data_i_D1_28" BEL
+        "system_i/dip/dip/ip2bus_data_i_D1_27" BEL
+        "system_i/dip/dip/ip2bus_data_i_D1_26" BEL
+        "system_i/dip/dip/ip2bus_data_i_D1_25" BEL
+        "system_i/dip/dip/ip2bus_data_i_D1_24" BEL
+        "system_i/dip/dip/gpio_core_1/gpio_Data_In_6" BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/write_active"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_9"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_8"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_7"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_6"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_5"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_4"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_3"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_2"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_1"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_0"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/read_active"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_2"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_1"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_0"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.gen_decerr.decerr_slave_inst/read_cs_0"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.gen_decerr.decerr_slave_inst/s_axi_rlast_i"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/areset_d_1"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/mi_register_slice_bank/gen_reg_slot[0].register_slice_inst/reset"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/mi_protocol_conv_bank/gen_protocol_slot[1].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/busy"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_53"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_52"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_47"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_46"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_45"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_44"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/s_ready_i_0"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_39"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_43"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_38"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_42"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_37"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_41"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_36"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_40"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_35"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_34"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_29"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_33"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_28"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_32"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_31"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_30"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_20"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_15"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_14"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_11"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_10"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/mi_protocol_conv_bank/gen_protocol_slot[1].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/write_active"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/mi_converter_bank/gen_conv_slot[1].clock_conv_inst/m_axi_reset_out_n_i"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_pipe_2"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_pipe_1"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_pipe_0"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/m_atarget_hot_2"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/m_atarget_hot_1"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/m_atarget_hot_0"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/mi_protocol_conv_bank/gen_protocol_slot[1].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/read_active"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/reset"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.splitter_aw/m_ready_d_2"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.splitter_aw/m_ready_d_1"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.splitter_aw/m_ready_d_0"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/m_atarget_enc_1"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/m_atarget_enc_0"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_grant_hot_i_0"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.gen_decerr.decerr_slave_inst/read_cnt_3"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.gen_decerr.decerr_slave_inst/read_cnt_2"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.gen_decerr.decerr_slave_inst/read_cnt_1"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.gen_decerr.decerr_slave_inst/read_cnt_0"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/grant_rnw"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/mi_register_slice_bank/gen_reg_slot[1].register_slice_inst/reset"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/busy"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.gen_decerr.decerr_slave_inst/write_cs_FSM_FFd2"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.gen_decerr.decerr_slave_inst/write_cs_FSM_FFd1"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/grant_rnw_1"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_valid_i"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_valid_i_1"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.gen_decerr.decerr_slave_inst/s_axi_arready_i"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/s_awvalid_reg_0"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.gen_decerr.decerr_slave_inst/s_axi_awready_i"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/s_arvalid_reg_0"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.splitter_ar/m_ready_d_1"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.splitter_ar/m_ready_d_0"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/mi_protocol_conv_bank/gen_protocol_slot[1].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/areset_d_1"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/mi_converter_bank/gen_conv_slot[0].clock_conv_inst/m_axi_reset_out_n_i"
+        BEL "system_i/led/led/gpio_core_1/Mshreg_gpio_Data_In_7" BEL
+        "system_i/led/led/gpio_core_1/Mshreg_gpio_Data_In_6" BEL
+        "system_i/led/led/gpio_core_1/gpio_Data_In_5" BEL
+        "system_i/led/led/gpio_core_1/Mshreg_gpio_Data_In_5" BEL
+        "system_i/led/led/gpio_core_1/gpio_Data_In_4" BEL
+        "system_i/led/led/gpio_core_1/Mshreg_gpio_Data_In_4" BEL
+        "system_i/led/led/gpio_core_1/gpio_Data_In_3" BEL
+        "system_i/led/led/gpio_core_1/Mshreg_gpio_Data_In_3" BEL
+        "system_i/led/led/gpio_core_1/gpio_Data_In_2" BEL
+        "system_i/led/led/gpio_core_1/Mshreg_gpio_Data_In_2" BEL
+        "system_i/led/led/gpio_core_1/gpio_Data_In_1" BEL
+        "system_i/led/led/gpio_core_1/Mshreg_gpio_Data_In_1" BEL
+        "system_i/led/led/gpio_core_1/gpio_Data_In_0" BEL
+        "system_i/led/led/gpio_core_1/Mshreg_gpio_Data_In_0" BEL
+        "system_i/led/led/gpio_core_1/GPIO_DBus_i_25" BEL
+        "system_i/led/led/gpio_core_1/gpio_Data_In_7" BEL
+        "system_i/led/led/gpio_core_1/GPIO_DBus_i_24" BEL
+        "system_i/led/led/gpio_core_1/GPIO_DBus_i_26" BEL
+        "system_i/led/led/gpio_core_1/GPIO_DBus_i_27" BEL
+        "system_i/led/led/gpio_core_1/GPIO_DBus_i_30" BEL
+        "system_i/led/led/gpio_core_1/GPIO_DBus_i_28" BEL
+        "system_i/led/led/gpio_core_1/GPIO_DBus_i_29" BEL
+        "system_i/led/led/gpio_core_1/GPIO_DBus_i_31" BEL
+        "system_i/led/led/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_0"
+        BEL
+        "system_i/led/led/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_1"
+        BEL
+        "system_i/led/led/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_2"
+        BEL
+        "system_i/led/led/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_3"
+        BEL "system_i/led/led/bus2ip_reset" BEL
+        "system_i/led/led/ip2bus_rdack_i_D1" BEL
+        "system_i/led/led/ip2bus_wrack_i_D1" BEL
+        "system_i/led/led/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rvalid_i"
+        BEL
+        "system_i/led/led/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_bvalid_i"
+        BEL "system_i/led/led/gpio_core_1/iGPIO_xferAck" BEL
+        "system_i/led/led/gpio_core_1/gpio_Data_Out_7" BEL
+        "system_i/led/led/gpio_core_1/gpio_Data_Out_6" BEL
+        "system_i/led/led/gpio_core_1/gpio_Data_Out_5" BEL
+        "system_i/led/led/gpio_core_1/gpio_Data_Out_4" BEL
+        "system_i/led/led/gpio_core_1/gpio_Data_Out_3" BEL
+        "system_i/led/led/gpio_core_1/gpio_Data_Out_2" BEL
+        "system_i/led/led/gpio_core_1/gpio_Data_Out_1" BEL
+        "system_i/led/led/gpio_core_1/gpio_Data_Out_0" BEL
+        "system_i/led/led/gpio_core_1/gpio_OE_7" BEL
+        "system_i/led/led/gpio_core_1/gpio_OE_6" BEL
+        "system_i/led/led/gpio_core_1/gpio_OE_5" BEL
+        "system_i/led/led/gpio_core_1/gpio_OE_4" BEL
+        "system_i/led/led/gpio_core_1/gpio_OE_3" BEL
+        "system_i/led/led/gpio_core_1/gpio_OE_2" BEL
+        "system_i/led/led/gpio_core_1/gpio_OE_1" BEL
+        "system_i/led/led/gpio_core_1/gpio_OE_0" BEL
+        "system_i/led/led/gpio_core_1/gpio_xferAck_Reg" BEL
+        "system_i/led/led/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/state_FSM_FFd2"
+        BEL
+        "system_i/led/led/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/cs_out_i_0"
+        BEL
+        "system_i/led/led/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_0"
+        BEL
+        "system_i/led/led/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_1"
+        BEL
+        "system_i/led/led/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_2"
+        BEL
+        "system_i/led/led/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_3"
+        BEL
+        "system_i/led/led/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_4"
+        BEL
+        "system_i/led/led/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_5"
+        BEL
+        "system_i/led/led/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_6"
+        BEL
+        "system_i/led/led/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_7"
+        BEL
+        "system_i/led/led/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/state_FSM_FFd1"
+        BEL "system_i/led/led/ip2bus_data_i_D1_31" BEL
+        "system_i/led/led/ip2bus_data_i_D1_30" BEL
+        "system_i/led/led/ip2bus_data_i_D1_29" BEL
+        "system_i/led/led/ip2bus_data_i_D1_28" BEL
+        "system_i/led/led/ip2bus_data_i_D1_27" BEL
+        "system_i/led/led/ip2bus_data_i_D1_26" BEL
+        "system_i/led/led/ip2bus_data_i_D1_25" BEL
+        "system_i/led/led/ip2bus_data_i_D1_24" BEL
+        "system_i/led/led/gpio_core_1/gpio_Data_In_6" PIN
+        "system_i/processing_system7_0/processing_system7_0/PS7_i_pins<359>";
+TIMEGRP axi_interconnect_1_reset_resync = BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_2"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_1"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_0";
+TIMEGRP axi_interconnect_2_reset_resync = BEL
+        "system_i/axi_interconnect_2/axi_interconnect_2/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_0"
+        BEL
+        "system_i/axi_interconnect_2/axi_interconnect_2/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_1"
+        BEL
+        "system_i/axi_interconnect_2/axi_interconnect_2/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_2";
+TIMEGRP axi_interconnect_1_reset_source = FFS(*) PADS(*);
+TIMEGRP axi_interconnect_2_reset_source = FFS(*) PADS(*);
+TS_clk_fpga_1 = PERIOD TIMEGRP "clk_fpga_1" 160 MHz HIGH 50%;
+TS_clk_fpga_0 = PERIOD TIMEGRP "clk_fpga_0" 100 MHz HIGH 50%;
+PATH TS_axi_interconnect_1_reset_resync_path = FROM TIMEGRP
+        "axi_interconnect_1_reset_source" TO TIMEGRP
+        "axi_interconnect_1_reset_resync";
+PATH "TS_axi_interconnect_1_reset_resync_path" TIG;
+PATH TS_axi_interconnect_2_reset_resync_path = FROM TIMEGRP
+        "axi_interconnect_2_reset_source" TO TIMEGRP
+        "axi_interconnect_2_reset_resync";
+PATH "TS_axi_interconnect_2_reset_resync_path" TIG;
+SCHEMATIC END;
+

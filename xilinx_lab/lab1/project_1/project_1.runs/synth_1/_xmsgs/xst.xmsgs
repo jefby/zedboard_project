@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1499" delta="new" >"E:/Project/openhw/xilinx_lab/project_1/project_1.srcs/sources_1/edk/system/hdl/system.v" Line 5: Empty module &lt;<arg fmt="%s" index="1">system</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="Xst" num="528" delta="new" >Multi-source in Unit &lt;<arg fmt="%s" index="1">processing_system7_0</arg>&gt; on signal &lt;<arg fmt="%s" index="2">PS_SRSTB</arg>&gt;; this signal is connected to multiple drivers.
+</msg>
+
+<msg type="warning" file="Xst" num="528" delta="new" >Multi-source in Unit &lt;<arg fmt="%s" index="1">processing_system7_0</arg>&gt; on signal &lt;<arg fmt="%s" index="2">PS_CLK</arg>&gt;; this signal is connected to multiple drivers.
+</msg>
+
+<msg type="warning" file="Xst" num="528" delta="new" >Multi-source in Unit &lt;<arg fmt="%s" index="1">processing_system7_0</arg>&gt; on signal &lt;<arg fmt="%s" index="2">PS_PORB</arg>&gt;; this signal is connected to multiple drivers.
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/grant_rnw</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">axi_interconnect_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/grant_rnw_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_valid_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">axi_interconnect_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_valid_i_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/grant_rnw</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">axi_interconnect_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/grant_rnw_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_valid_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">axi_interconnect_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_valid_i_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/grant_rnw</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">axi_interconnect_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/grant_rnw_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_valid_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">axi_interconnect_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_valid_i_1&gt; </arg>
+</msg>
+
+</messages>
+

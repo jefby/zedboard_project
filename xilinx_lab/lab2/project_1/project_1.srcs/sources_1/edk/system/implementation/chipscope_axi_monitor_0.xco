@@ -1,0 +1,187 @@
+################################################################################
+#
+# Xilinx Core Generator version 12.2
+# Date: Tue Jun  8 16:45:23 2010
+#
+################################################################################
+#
+#  This file contains the customisation parameters for a
+#  Xilinx CORE Generator IP GUI. It is strongly recommended
+#  that you do not manually alter this file as it may cause
+#  unexpected and unsupported behavior.
+#
+################################################################################
+##
+## Copyright(C) 2010 - 2011 Xilinx, Inc. All rights reserved.
+##
+## This file contains confidential and proprietary information
+## of Xilinx, Inc. and is protected under U.S. and
+## international copyright and other intellectual property
+## laws.
+##
+## DISCLAIMER
+## This disclaimer is not a license and does not grant any
+## rights to the materials distributed herewith. Except as
+## otherwise provided in a valid license issued to you by
+## Xilinx, and to the maximum extent permitted by applicable
+## law: (1) THESE MATERIALS ARE MADE AVAILABLE "AS IS" AND
+## WITH ALL FAULTS, AND XILINX HEREBY DISCLAIMS ALL WARRANTIES
+## AND CONDITIONS, EXPRESS, IMPLIED, OR STATUTORY, INCLUDING
+## BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, NON-
+## INFRINGEMENT, OR FITNESS FOR ANY PARTICULAR PURPOSE; and
+## (2) Xilinx shall not be liable (whether in contract or tort,
+## including negligence, or under any other theory of
+## liability) for any loss or damage of any kind or nature
+## related to, arising under or in connection with these
+## materials, including for any direct, or any indirect,
+## special, incidental, or consequential loss or damage
+## (including loss of data, profits, goodwill, or any type of
+## loss or damage suffered as a result of any action brought
+## by a third party) even if such damage or loss was
+## reasonably foreseeable or Xilinx had been advised of the
+## possibility of the same.
+##
+## CRITICAL APPLICATIONS
+## Xilinx products are not designed or intended to be fail-
+## safe, or for use in any application requiring fail-safe
+## performance, such as life-support or safety devices or
+## systems, Class III medical devices, nuclear facilities,
+## applications related to the deployment of airbags, or any
+## other applications that could lead to death, personal
+## injury, or severe property or environmental damage
+## (individually and collectively, "Critical
+## Applications"). Customer assumes the sole risk and
+## liability of any use of Xilinx products in Critical
+## Applications, subject only to applicable laws and
+## regulations governing limitations on product liability.
+##
+## THIS COPYRIGHT NOTICE AND DISCLAIMER MUST BE RETAINED AS
+## PART OF THIS FILE AT ALL TIMES. 
+##
+################################################################################
+##
+## XCO file
+##
+################################################################################
+
+NEWPROJECT .
+SETPROJECT .
+#
+# BEGIN Project Options
+SET addpads = false
+SET asysymbol = true
+SET busformat = BusFormatAngleBracketNotRipped
+SET createndf = false
+SET designentry = VHDL
+SET device = 7z020 
+SET devicefamily = zynq 
+SET flowvendor = Other
+SET formalverification = false
+SET foundationsym = false
+SET implementationfiletype = Ngc
+SET package = clg484 
+SET removerpms = false
+SET simulationfiles = Structural
+SET speedgrade = -1 
+SET verilogsim = false
+SET vhdlsim = true
+# END Project Options
+# BEGIN Select
+SELECT ILA_(ChipScope_Pro_-_Integrated_Logic_Analyzer) family Xilinx,_Inc. 1.05.a
+# END Select
+# BEGIN Parameters
+CSET sample_on=Rising
+CSET use_rpms=false
+CSET component_name=chipscope_axi_monitor_0 
+CSET sample_data_depth=1024 
+CSET max_sequence_levels=2 
+CSET enable_storage_qualification=true
+CSET enable_trigger_output_port=true
+CSET number_of_trigger_ports=10 
+CSET data_same_as_trigger=false
+CSET constraint_type=external
+CSET example_design=false
+CSET data_port_width=153 
+CSET exclude_from_data_storage_1=false
+CSET exclude_from_data_storage_2=false
+CSET exclude_from_data_storage_3=false
+CSET exclude_from_data_storage_4=false
+CSET exclude_from_data_storage_5=false
+CSET exclude_from_data_storage_6=false
+CSET exclude_from_data_storage_7=false
+CSET exclude_from_data_storage_8=false
+CSET exclude_from_data_storage_9=false
+CSET exclude_from_data_storage_10=false
+CSET exclude_from_data_storage_11=false
+CSET exclude_from_data_storage_12=false
+CSET exclude_from_data_storage_13=false
+CSET exclude_from_data_storage_14=false
+CSET exclude_from_data_storage_15=false
+CSET exclude_from_data_storage_16=false
+CSET counter_width_1=1 
+CSET counter_width_2=1 
+CSET counter_width_3=1 
+CSET counter_width_4=1 
+CSET counter_width_5=1 
+CSET counter_width_6=1 
+CSET counter_width_7=1 
+CSET counter_width_8=1 
+CSET counter_width_9=1 
+CSET counter_width_10=1 
+CSET counter_width_11=1 
+CSET counter_width_12=1 
+CSET counter_width_13=1 
+CSET counter_width_14=1 
+CSET counter_width_15=1 
+CSET counter_width_16=1 
+CSET match_type_1=range_with_edges 
+CSET match_type_2=basic_with_edges 
+CSET match_type_3=range_with_edges 
+CSET match_type_4=basic_with_edges 
+CSET match_type_5=basic_with_edges 
+CSET match_type_6=basic_with_edges 
+CSET match_type_7=extended_with_edges 
+CSET match_type_8=basic_with_edges 
+CSET match_type_9=extended_with_edges 
+CSET match_type_10=basic_with_edges 
+CSET match_type_11=basic_with_edges 
+CSET match_type_12=basic_with_edges 
+CSET match_type_13=basic_with_edges 
+CSET match_type_14=basic_with_edges 
+CSET match_type_15=basic_with_edges 
+CSET match_type_16=basic_with_edges 
+CSET match_units_1=1  
+CSET match_units_2=1 
+CSET match_units_3=1 
+CSET match_units_4=1 
+CSET match_units_5=1 
+CSET match_units_6=1 
+CSET match_units_7=1 
+CSET match_units_8=1 
+CSET match_units_9=1 
+CSET match_units_10=1 
+CSET match_units_11=1 
+CSET match_units_12=1 
+CSET match_units_13=1 
+CSET match_units_14=1 
+CSET match_units_15=1 
+CSET match_units_16=1 
+CSET trigger_port_width_1=32 
+CSET trigger_port_width_2=5 
+CSET trigger_port_width_3=32 
+CSET trigger_port_width_4=5 
+CSET trigger_port_width_5=4 
+CSET trigger_port_width_6=1 
+CSET trigger_port_width_7=32 
+CSET trigger_port_width_8=4 
+CSET trigger_port_width_9=32 
+CSET trigger_port_width_10=6 
+CSET trigger_port_width_11=1 
+CSET trigger_port_width_12=1 
+CSET trigger_port_width_13=1 
+CSET trigger_port_width_14=1 
+CSET trigger_port_width_15=1 
+CSET trigger_port_width_16=1 
+# END Parameters
+GENERATE
+# CRC: 4d8136f1

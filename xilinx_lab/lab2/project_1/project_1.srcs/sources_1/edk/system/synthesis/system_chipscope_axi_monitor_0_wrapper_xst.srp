@@ -1,0 +1,506 @@
+Release 14.4 - xst P.49d (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to E:\Project\openhw\xilinx_lab\lab2\project_1\project_1.srcs\sources_1\edk\system\synthesis\xst_temp_dir\
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> 
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input Format                       : MIXED
+Input File Name                    : "system_chipscope_axi_monitor_0_wrapper_xst.prj"
+Verilog Include Directory          : {"E:\Project\openhw\xilinx_lab\lab2\project_1\project_1.srcs\sources_1\edk\system\pcores\" "C:\Xilinx\14.4\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "C:\Xilinx\14.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
+
+---- Target Parameters
+Target Device                      : xc7z020clg484-1
+Output File Name                   : "../implementation/system_chipscope_axi_monitor_0_wrapper.ngc"
+
+---- Source Options
+Top Module Name                    : system_chipscope_axi_monitor_0_wrapper
+
+---- Target Options
+Add IO Buffers                     : NO
+
+---- General Options
+Optimization Goal                  : speed
+Netlist Hierarchy                  : as_optimized
+Optimization Effort                : 1
+Hierarchy Separator                : /
+
+---- Other Options
+Cores Search Directories           : {../implementation}
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/chipscope_axi_monitor_v3_05_a/hdl/verilog/axi_protocol_checker_core.v" into library chipscope_axi_monitor_v3_05_a
+Parsing module <axi_protocol_checker_core>.
+Analyzing Verilog file "C:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/chipscope_axi_monitor_v3_05_a/hdl/verilog/axi_protocol_checker_axi4litepc_asr_inline.v" into library chipscope_axi_monitor_v3_05_a
+Parsing module <axi_protocol_checker_axi4litepc_asr_inline>.
+Analyzing Verilog file "C:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/chipscope_axi_monitor_v3_05_a/hdl/verilog/axi_protocol_checker_axi4pc_asr_inline.v" into library chipscope_axi_monitor_v3_05_a
+Parsing module <axi_protocol_checker_axi4pc_asr_inline>.
+Analyzing Verilog file "C:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/chipscope_axi_monitor_v3_05_a/hdl/verilog/axi_protocol_checker_syn_fifo.v" into library chipscope_axi_monitor_v3_05_a
+Parsing module <axi_protocol_checker_syn_fifo>.
+Analyzing Verilog file "C:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/chipscope_axi_monitor_v3_05_a/hdl/verilog/axi_protocol_checker_top.v" into library chipscope_axi_monitor_v3_05_a
+Parsing module <axi_protocol_checker_top>.
+Parsing VHDL file "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" into library chipscope_axi_monitor_0_v3_05_a
+Parsing entity <chipscope_axi_monitor>.
+Parsing architecture <STRUCTURE> of entity <chipscope_axi_monitor>.
+Parsing VHDL file "E:\Project\openhw\xilinx_lab\lab2\project_1\project_1.srcs\sources_1\edk\system\hdl\system_chipscope_axi_monitor_0_wrapper.vhd" into library work
+Parsing entity <system_chipscope_axi_monitor_0_wrapper>.
+Parsing architecture <STRUCTURE> of entity <system_chipscope_axi_monitor_0_wrapper>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <system_chipscope_axi_monitor_0_wrapper> (architecture <STRUCTURE>) from library <work>.
+
+Elaborating entity <chipscope_axi_monitor> (architecture <STRUCTURE>) with generics from library <chipscope_axi_monitor_0_v3_05_a>.
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 389: Assignment to axi4_errm_awaddr_stable ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 390: Assignment to axi4_errm_awburst_stable ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 391: Assignment to axi4_errm_awcache_stable ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 392: Assignment to axi4_errm_awid_stable ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 393: Assignment to axi4_errm_awlen_stable ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 394: Assignment to axi4_errm_awlock_stable ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 395: Assignment to axi4_errm_awprot_stable ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 396: Assignment to axi4_errm_awsize_stable ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 397: Assignment to axi4_errm_awqos_stable ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 398: Assignment to axi4_errm_awregion_stable ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 399: Assignment to axi4_errm_awvalid_stable ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 400: Assignment to axi4_errm_wdata_stable ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 401: Assignment to axi4_errm_wlast_stable ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 402: Assignment to axi4_errm_wstrb_stable ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 403: Assignment to axi4_errm_wvalid_stable ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 404: Assignment to axi4_errs_bid_stable ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 405: Assignment to axi4_errs_bresp_stable ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 406: Assignment to axi4_errs_bvalid_stable ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 407: Assignment to axi4_errm_araddr_stable ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 408: Assignment to axi4_errm_arburst_stable ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 409: Assignment to axi4_errm_arcache_stable ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 410: Assignment to axi4_errm_arid_stable ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 411: Assignment to axi4_errm_arlen_stable ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 412: Assignment to axi4_errm_arlock_stable ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 413: Assignment to axi4_errm_arprot_stable ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 414: Assignment to axi4_errm_arsize_stable ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 415: Assignment to axi4_errm_arqos_stable ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 416: Assignment to axi4_errm_arregion_stable ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 417: Assignment to axi4_errm_arvalid_stable ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 418: Assignment to axi4_errs_rdata_stable ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 419: Assignment to axi4_errs_rid_stable ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 420: Assignment to axi4_errs_rlast_stable ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 421: Assignment to axi4_errs_rresp_stable ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 422: Assignment to axi4_errs_rvalid_stable ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 423: Assignment to axi4_errm_awuser_stable ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 424: Assignment to axi4_errm_wuser_stable ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 425: Assignment to axi4_errs_buser_stable ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 426: Assignment to axi4_errm_aruser_stable ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 427: Assignment to axi4_errs_ruser_stable ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 429: Assignment to axi4_errm_wdata_num ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 430: Assignment to axi4_errs_bresp_wlast ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 431: Assignment to axi4_errs_bresp_aw ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 432: Assignment to axi4_errs_rdata_num ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 433: Assignment to axi4_errs_rid ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 435: Assignment to axi4_errm_awlen_lock ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 436: Assignment to axi4_errs_bresp_exokay ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 437: Assignment to axi4_errm_arlen_lock ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 438: Assignment to axi4_errs_rresp_exokay ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 439: Assignment to axi4_errm_excl_align ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 440: Assignment to axi4_errm_excl_len ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 441: Assignment to axi4_recm_excl_match ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 442: Assignment to axi4_errm_excl_max ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 443: Assignment to axi4_recm_excl_pair ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 445: Assignment to axi4_recs_awready_max_wait ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 446: Assignment to axi4_recs_wready_max_wait ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 447: Assignment to axi4_recm_bready_max_wait ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 448: Assignment to axi4_recs_arready_max_wait ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 449: Assignment to axi4_recm_rready_max_wait ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 450: Assignment to axi4_errm_awuser_tieoff ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 451: Assignment to axi4_errm_wuser_tieoff ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 452: Assignment to axi4_errs_buser_tieoff ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 453: Assignment to axi4_errm_aruser_tieoff ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 454: Assignment to axi4_errs_ruser_tieoff ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 455: Assignment to axi4_errm_awid_tieoff ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 456: Assignment to axi4_errs_bid_tieoff ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 457: Assignment to axi4_errm_arid_tieoff ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 458: Assignment to axi4_errs_rid_tieoff ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 459: Assignment to axi4lite_auxm_data_width ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 461: Assignment to axi4_errm_awaddr_boundary ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 462: Assignment to axi4_errm_awaddr_wrap_align ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 463: Assignment to axi4_errm_awburst ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 464: Assignment to axi4_errm_awcache ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 465: Assignment to axi4_errm_awlen_fixed ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 466: Assignment to axi4_errm_awlen_wrap ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 467: Assignment to axi4_errm_awsize ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 468: Assignment to axi4_errm_wstrb ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 469: Assignment to axi4_errm_araddr_boundary ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 470: Assignment to axi4_errm_araddr_wrap_align ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 471: Assignment to axi4_errm_arburst ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 472: Assignment to axi4_errm_arlen_wrap ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 473: Assignment to axi4_errm_arsize ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 474: Assignment to axi4_errm_arcache ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 475: Assignment to axi4_errm_arlen_fixed ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 476: Assignment to axi4lite_errs_bresp_exokay ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 477: Assignment to axi4lite_errs_rresp_exokay ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 479: Assignment to axi4_errm_awvalid_reset ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 480: Assignment to axi4_errm_wvalid_reset ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 481: Assignment to axi4_errs_bvalid_reset ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 482: Assignment to axi4_errm_arvalid_reset ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 483: Assignment to axi4_errs_rvalid_reset ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 485: Assignment to axi4_auxm_rcam_overflow ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 486: Assignment to axi4_auxm_rcam_underflow ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 487: Assignment to axi4_auxm_wcam_overflow ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 488: Assignment to axi4_auxm_wcam_underflow ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 489: Assignment to axi4_auxm_excl_overflow ignored, since the identifier is never used
+WARNING:HDLCompiler:89 - "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd" Line 243: <chipscope_axi_monitor_0> remains a black-box since it has no binding entity.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <system_chipscope_axi_monitor_0_wrapper>.
+    Related source file is "E:\Project\openhw\xilinx_lab\lab2\project_1\project_1.srcs\sources_1\edk\system\hdl\system_chipscope_axi_monitor_0_wrapper.vhd".
+    Summary:
+	no macro.
+Unit <system_chipscope_axi_monitor_0_wrapper> synthesized.
+
+Synthesizing Unit <chipscope_axi_monitor>.
+    Related source file is "E:/Project/openhw/xilinx_lab/lab2/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/chipscope_axi_monitor_0_v3_05_a/synhdl/vhdl/chipscope_axi_monitor_0.vhd".
+        BUSIF = "math_0.S_AXI"
+        C_DEVICE = "7z020"
+        C_FAMILY = "zynq"
+        C_MAX_SEQUENCER_LEVELS = 2
+        C_MON_AXI_ADDR_WIDTH = 32
+        C_MON_AXI_ARADDRCONTROL_MATCH_TYPE = "basic with edges"
+        C_MON_AXI_ARADDRCONTROL_NUM_OF_MATCH = 1
+        C_MON_AXI_ARADDRCONTROL_TRACE = "1"
+        C_MON_AXI_ARADDRCONTROL_TRIG_COUNT_WIDTH = 1
+        C_MON_AXI_ARADDR_MATCH_TYPE = "range with edges"
+        C_MON_AXI_ARADDR_NUM_OF_MATCH = 1
+        C_MON_AXI_ARADDR_TRACE = "1"
+        C_MON_AXI_ARADDR_TRIG_COUNT_WIDTH = 1
+        C_MON_AXI_ARUSER_MATCH_TYPE = "basic with edges"
+        C_MON_AXI_ARUSER_NUM_OF_MATCH = 0
+        C_MON_AXI_ARUSER_TRACE = "1"
+        C_MON_AXI_ARUSER_TRIG_COUNT_WIDTH = 1
+        C_MON_AXI_ARUSER_WIDTH = 1
+        C_MON_AXI_AWADDRCONTROL_MATCH_TYPE = "basic with edges"
+        C_MON_AXI_AWADDRCONTROL_NUM_OF_MATCH = 1
+        C_MON_AXI_AWADDRCONTROL_TRACE = "1"
+        C_MON_AXI_AWADDRCONTROL_TRIG_COUNT_WIDTH = 1
+        C_MON_AXI_AWADDR_MATCH_TYPE = "range with edges"
+        C_MON_AXI_AWADDR_NUM_OF_MATCH = 1
+        C_MON_AXI_AWADDR_TRACE = "1"
+        C_MON_AXI_AWADDR_TRIG_COUNT_WIDTH = 1
+        C_MON_AXI_AWUSER_MATCH_TYPE = "basic with edges"
+        C_MON_AXI_AWUSER_NUM_OF_MATCH = 0
+        C_MON_AXI_AWUSER_TRACE = "1"
+        C_MON_AXI_AWUSER_TRIG_COUNT_WIDTH = 1
+        C_MON_AXI_AWUSER_WIDTH = 1
+        C_MON_AXI_BRESP_MATCH_TYPE = "basic with edges"
+        C_MON_AXI_BRESP_NUM_OF_MATCH = 1
+        C_MON_AXI_BRESP_TRACE = "1"
+        C_MON_AXI_BRESP_TRIG_COUNT_WIDTH = 1
+        C_MON_AXI_BURST_LENGTH = 8
+        C_MON_AXI_BUSER_MATCH_TYPE = "basic with edges"
+        C_MON_AXI_BUSER_NUM_OF_MATCH = 0
+        C_MON_AXI_BUSER_TRACE = "1"
+        C_MON_AXI_BUSER_TRIG_COUNT_WIDTH = 1
+        C_MON_AXI_BUSER_WIDTH = 1
+        C_MON_AXI_DATA_WIDTH = 32
+        C_MON_AXI_EN_ARM_REC_ONLY_CHECKS = 0
+        C_MON_AXI_EN_ARM_REC_WAIT_CHECKS = 0
+        C_MON_AXI_EN_AUX_CHECKS = 0
+        C_MON_AXI_EN_COMPLEX_CHECKS = 0
+        C_MON_AXI_EN_EXCLUSIVE_CHECKS = 0
+        C_MON_AXI_EN_HANDSHAKE_CHECKS = 0
+        C_MON_AXI_EN_IGNORE_CHECKS = 0
+        C_MON_AXI_EN_ILLEGAL_VALUE_CHECKS = 0
+        C_MON_AXI_EN_RESET_CHECKS = 0
+        C_MON_AXI_GLOBAL_MATCH_TYPE = "basic with edges"
+        C_MON_AXI_GLOBAL_NUM_OF_MATCH = 1
+        C_MON_AXI_GLOBAL_TRACE = "1"
+        C_MON_AXI_GLOBAL_TRIG_COUNT_WIDTH = 1
+        C_MON_AXI_ID_WIDTH = 1
+        C_MON_AXI_LOCK_LENGTH = 1
+        C_MON_AXI_PC_ERROR_COUNT = 95
+        C_MON_AXI_PC_EXMON_WIDTH = 1
+        C_MON_AXI_PC_MATCH_TYPE = "basic"
+        C_MON_AXI_PC_MAXRBURST = 2
+        C_MON_AXI_PC_MAXWBURST = 2
+        C_MON_AXI_PC_NUM_OF_MATCH = 0
+        C_MON_AXI_PC_TRACE = "1"
+        C_MON_AXI_PC_TRIG_COUNT_WIDTH = 1
+        C_MON_AXI_PROTOCOL = "AXI4LITE"
+        C_MON_AXI_RDATACONTROL_MATCH_TYPE = "basic with edges"
+        C_MON_AXI_RDATACONTROL_NUM_OF_MATCH = 1
+        C_MON_AXI_RDATACONTROL_TRACE = "1"
+        C_MON_AXI_RDATACONTROL_TRIG_COUNT_WIDTH = 1
+        C_MON_AXI_RDATA_MATCH_TYPE = "extended with edges"
+        C_MON_AXI_RDATA_NUM_OF_MATCH = 1
+        C_MON_AXI_RDATA_TRACE = "1"
+        C_MON_AXI_RDATA_TRIG_COUNT_WIDTH = 1
+        C_MON_AXI_RUSER_MATCH_TYPE = "basic with edges"
+        C_MON_AXI_RUSER_NUM_OF_MATCH = 0
+        C_MON_AXI_RUSER_TRACE = "1"
+        C_MON_AXI_RUSER_TRIG_COUNT_WIDTH = 1
+        C_MON_AXI_RUSER_WIDTH = 1
+        C_MON_AXI_SUPPORTS_READ = 1
+        C_MON_AXI_SUPPORTS_THREADS = 1
+        C_MON_AXI_SUPPORTS_WRITE = 1
+        C_MON_AXI_S_PROTOCOL = "generic"
+        C_MON_AXI_S_TCONTROL_MATCH_TYPE = "range with edges"
+        C_MON_AXI_S_TCONTROL_NUM_OF_MATCH = 1
+        C_MON_AXI_S_TCONTROL_TRACE = "1"
+        C_MON_AXI_S_TCONTROL_TRIG_COUNT_WIDTH = 1
+        C_MON_AXI_S_TDATA_MATCH_TYPE = "extended with edges"
+        C_MON_AXI_S_TDATA_NUM_OF_MATCH = 1
+        C_MON_AXI_S_TDATA_TRACE = "1"
+        C_MON_AXI_S_TDATA_TRIG_COUNT_WIDTH = 1
+        C_MON_AXI_S_TDATA_WIDTH = 32
+        C_MON_AXI_S_TDEST_WIDTH = 1
+        C_MON_AXI_S_TID_WIDTH = 1
+        C_MON_AXI_S_TUSER_MATCH_TYPE = "basic with edges"
+        C_MON_AXI_S_TUSER_NUM_OF_MATCH = 1
+        C_MON_AXI_S_TUSER_TRACE = "1"
+        C_MON_AXI_S_TUSER_TRIG_COUNT_WIDTH = 1
+        C_MON_AXI_S_TUSER_WIDTH = 1
+        C_MON_AXI_WDATACONTROL_MATCH_TYPE = "basic with edges"
+        C_MON_AXI_WDATACONTROL_NUM_OF_MATCH = 1
+        C_MON_AXI_WDATACONTROL_TRACE = "1"
+        C_MON_AXI_WDATACONTROL_TRIG_COUNT_WIDTH = 1
+        C_MON_AXI_WDATA_MATCH_TYPE = "extended with edges"
+        C_MON_AXI_WDATA_NUM_OF_MATCH = 1
+        C_MON_AXI_WDATA_TRACE = "1"
+        C_MON_AXI_WDATA_TRIG_COUNT_WIDTH = 1
+        C_MON_AXI_WUSER_MATCH_TYPE = "basic with edges"
+        C_MON_AXI_WUSER_NUM_OF_MATCH = 0
+        C_MON_AXI_WUSER_TRACE = "1"
+        C_MON_AXI_WUSER_TRIG_COUNT_WIDTH = 1
+        C_MON_AXI_WUSER_WIDTH = 1
+        C_NUM_DATA_SAMPLES = 1024
+        C_PACKAGE = "clg484"
+        C_SPEEDGRADE = "-1"
+        C_TRIG_IN_WIDTH = 1
+        C_USE_INTERFACE = "0"
+        C_USE_TRIG_IN = 0
+        INSTANCE = "chipscope_axi_monitor_0"
+WARNING:Xst:647 - Input <MON_AXI_ARBURST> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <MON_AXI_ARCACHE> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <MON_AXI_ARID> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <MON_AXI_ARLEN> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <MON_AXI_ARLOCK> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <MON_AXI_ARQOS> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <MON_AXI_ARREGION> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <MON_AXI_ARSIZE> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <MON_AXI_ARUSER> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <MON_AXI_AWBURST> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <MON_AXI_AWCACHE> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <MON_AXI_AWID> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <MON_AXI_AWLEN> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <MON_AXI_AWLOCK> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <MON_AXI_AWQOS> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <MON_AXI_AWREGION> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <MON_AXI_AWSIZE> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <MON_AXI_AWUSER> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <MON_AXI_BID> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <MON_AXI_BUSER> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <MON_AXI_RID> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <MON_AXI_RUSER> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <MON_AXI_S_TDATA> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <MON_AXI_S_TDEST> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <MON_AXI_S_TID> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <MON_AXI_S_TKEEP> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <MON_AXI_S_TUSER> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <MON_AXI_TRIG_IN> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <MON_AXI_WID> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <MON_AXI_WUSER> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <MON_AXI_RLAST> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <MON_AXI_S_TLAST> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <MON_AXI_S_TREADY> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <MON_AXI_S_TVALID> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <MON_AXI_WLAST> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <RESET> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	no macro.
+Unit <chipscope_axi_monitor> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <system_chipscope_axi_monitor_0_wrapper> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 0) on block system_chipscope_axi_monitor_0_wrapper, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : system_chipscope_axi_monitor_0_wrapper.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# Others                           : 1
+#      chipscope_axi_monitor_0     : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7z020clg484-1 
+
+
+Slice Logic Utilization: 
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:      0
+   Number with an unused Flip Flop:       0  out of      0         
+   Number with an unused LUT:             0  out of      0         
+   Number of fully used LUT-FF pairs:     0  out of      0         
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                         299
+ Number of bonded IOBs:                   0  out of    200     0%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 0.000ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 344 / 344
+-------------------------------------------------------------------------
+Delay:               0.000ns (Levels of Logic = 0)
+  Source:            chipscope_axi_monitor_0/U_ILA:TRIG_OUT (PAD)
+  Destination:       MON_AXI_TRIG_OUT (PAD)
+
+  Data Path: chipscope_axi_monitor_0/U_ILA:TRIG_OUT to MON_AXI_TRIG_OUT
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    chipscope_axi_monitor_0:TRIG_OUT    0   0.000   0.000  chipscope_axi_monitor_0/U_ILA (MON_AXI_TRIG_OUT)
+    ----------------------------------------
+    Total                      0.000ns (0.000ns logic, 0.000ns route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 9.77 secs
+ 
+--> 
+
+Total memory usage is 344176 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  132 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

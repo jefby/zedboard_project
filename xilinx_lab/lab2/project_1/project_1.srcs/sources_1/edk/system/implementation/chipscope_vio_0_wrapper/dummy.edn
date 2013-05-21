@@ -1,0 +1,11 @@
+
+
+### Dummy File 
+
+## The Real netlist is created Chipscope Core Generator and is wrapped (appropriate port mapping) by the EDK Chipscope Tcl script which also synthesizes the wrapper
+## the intermediate files can be found at 
+##        <proj>/hdl/cs_edk_port_mapper/
+##        <proj>/synthesis/cs_edk_port_mapper*
+##        <proj>/implementation/cs_edk_port_mapper*
+##        etc
+

@@ -1,0 +1,17 @@
+# Output products list for <chipscope_axi_monitor_0>
+chipscope_axi_monitor_0.asy
+chipscope_axi_monitor_0.cdc
+chipscope_axi_monitor_0.constraints\chipscope_axi_monitor_0.ucf
+chipscope_axi_monitor_0.constraints\chipscope_axi_monitor_0.xdc
+chipscope_axi_monitor_0.gise
+chipscope_axi_monitor_0.ncf
+chipscope_axi_monitor_0.ngc
+chipscope_axi_monitor_0.ucf
+chipscope_axi_monitor_0.vhd
+chipscope_axi_monitor_0.vho
+chipscope_axi_monitor_0.xco
+chipscope_axi_monitor_0.xdc
+chipscope_axi_monitor_0.xise
+chipscope_axi_monitor_0_flist.txt
+chipscope_axi_monitor_0_readme.txt
+chipscope_axi_monitor_0_xmdf.tcl

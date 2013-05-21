@@ -1,0 +1,8 @@
+INTSTYLE=pa
+INFILE=E:\Project\openhw\xilinx_lab\lab2\project_1\project_1.runs\impl_1\system_stub_routed.ncd
+OUTFILE=E:\Project\openhw\xilinx_lab\lab2\project_1\project_1.runs\impl_1\system_stub.bit
+FAMILY=Zynq
+PART=xc7z020-1clg484
+WORKINGDIR=E:\Project\openhw\xilinx_lab\lab2\project_1\project_1.runs\impl_1
+LICENSE=WebPack
+USER_INFO=_

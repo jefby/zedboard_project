@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<BillOfMaterials Version="1" Minor="2">
+  <IPInstance name="ila_led">
+    <FileSets>
+      <FileSet generator="apply_current_project_options_generator">
+        <File name="./apply_current_project_options_generator.xlog" type="ignore" timestamp="Fri Mar 01 00:03:25 GMT 2013" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="model_parameter_resolution_generator">
+        <File name="./model_parameter_resolution_generator.xlog" type="ignore" timestamp="Fri Mar 01 00:03:25 GMT 2013" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="ip_xco_generator">
+        <File name="./ila_led.xco" type="xco" timestamp="Fri Mar 01 00:00:48 GMT 2013" checksum="0x0FAB1673"></File>
+      </FileSet>
+      <FileSet generator="ngc_netlist_generator">
+        <File name="./ila_led.cdc" type="unknown" timestamp="Fri Mar 01 00:03:20 GMT 2013" checksum="0x22AC49E2"></File>
+        <File name="./ila_led.constraints/ila_led.ucf" type="ignore" timestamp="Fri Mar 01 00:03:20 GMT 2013" checksum="0x845AE808"></File>
+        <File name="./ila_led.constraints/ila_led.xdc" type="xdc" timestamp="Fri Mar 01 00:03:20 GMT 2013" checksum="0x5F4D4543"></File>
+        <File name="./ila_led.ncf" type="ignore" timestamp="Fri Mar 01 00:03:20 GMT 2013" checksum="0x241A9D00"></File>
+        <File name="./ila_led.ngc" type="ngc" timestamp="Fri Mar 01 00:03:18 GMT 2013" checksum="0xA26A8E31"></File>
+        <File name="./ila_led.ucf" type="ignore" timestamp="Fri Mar 01 00:03:20 GMT 2013" checksum="0x845AE808"></File>
+        <File name="./ila_led.vhd" type="vhdl" timestamp="Fri Mar 01 00:03:20 GMT 2013" checksum="0x35D345D5"></File>
+        <File name="./ila_led.vho" type="vho" timestamp="Fri Mar 01 00:03:20 GMT 2013" checksum="0x23D82855"></File>
+        <File name="./ila_led.xdc" type="ignore" timestamp="Fri Mar 01 00:03:20 GMT 2013" checksum="0x5F4D4543"></File>
+        <File name="./ila_led_xmdf.tcl" type="tcl" timestamp="Fri Mar 01 00:00:49 GMT 2013" checksum="0xF6257BA1"></File>
+      </FileSet>
+      <FileSet generator="instantiation_template_generator">
+        <File name="./instantiation_template_generator.xlog" type="ignore" timestamp="Fri Mar 01 00:03:25 GMT 2013" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="asy_generator">
+        <File name="./ila_led.asy" type="asy" timestamp="Fri Mar 01 00:03:20 GMT 2013" checksum="0x383C82B1"></File>
+      </FileSet>
+      <FileSet generator="xmdf_generator">
+        <File name="./xmdf_generator.xlog" type="ignore" timestamp="Fri Mar 01 00:03:25 GMT 2013" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="ise_generator">
+        <File name="./ila_led.gise" type="ignore" timestamp="Fri Mar 01 00:03:25 GMT 2013" checksum="0x55D3176E"></File>
+        <File name="./ila_led.xise" type="ignore" timestamp="Fri Mar 01 00:03:24 GMT 2013" checksum="0x6FBB8A7A"></File>
+      </FileSet>
+      <FileSet generator="deliver_readme_generator">
+        <File name="./ila_led_readme.txt" type="ignore" timestamp="Fri Mar 01 00:03:25 GMT 2013" checksum="0x75A8EEE9"></File>
+      </FileSet>
+      <FileSet generator="flist_generator">
+        <File name="./ila_led_flist.txt" type="ignore" timestamp="Fri Mar 01 00:03:25 GMT 2013" checksum="0x6EADC2C4"></File>
+      </FileSet>
+    </FileSets>
+  </IPInstance>
+</BillOfMaterials>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="528" delta="new" >Multi-source in Unit &lt;<arg fmt="%s" index="1">processing_system7_0</arg>&gt; on signal &lt;<arg fmt="%s" index="2">PS_SRSTB</arg>&gt;; this signal is connected to multiple drivers.
+</msg>
+
+<msg type="warning" file="Xst" num="528" delta="new" >Multi-source in Unit &lt;<arg fmt="%s" index="1">processing_system7_0</arg>&gt; on signal &lt;<arg fmt="%s" index="2">PS_CLK</arg>&gt;; this signal is connected to multiple drivers.
+</msg>
+
+<msg type="warning" file="Xst" num="528" delta="new" >Multi-source in Unit &lt;<arg fmt="%s" index="1">processing_system7_0</arg>&gt; on signal &lt;<arg fmt="%s" index="2">PS_PORB</arg>&gt;; this signal is connected to multiple drivers.
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/grant_rnw</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">axi_interconnect_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/grant_rnw_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_valid_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">axi_interconnect_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_valid_i_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rvalid_int</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">axi_bram_ctrl_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rvalid_int_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awaddr_full</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">axi_bram_ctrl_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awaddr_full_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bvalid_cnt_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">axi_bram_ctrl_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bvalid_cnt_0_1&gt; &lt;axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bvalid_cnt_0_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/wr_data_sm_cs_FSM_FFd1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">axi_bram_ctrl_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/wr_data_sm_cs_FSM_FFd1_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bvalid_cnt_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">axi_bram_ctrl_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bvalid_cnt_2_1&gt; &lt;axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bvalid_cnt_2_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/grant_rnw</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">axi_interconnect_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/grant_rnw_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_valid_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">axi_interconnect_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_valid_i_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rvalid_int</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">axi_bram_ctrl_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rvalid_int_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awaddr_full</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">axi_bram_ctrl_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awaddr_full_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bvalid_cnt_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">axi_bram_ctrl_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bvalid_cnt_0_1&gt; &lt;axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bvalid_cnt_0_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/wr_data_sm_cs_FSM_FFd1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">axi_bram_ctrl_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/wr_data_sm_cs_FSM_FFd1_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bvalid_cnt_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">axi_bram_ctrl_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bvalid_cnt_2_1&gt; &lt;axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bvalid_cnt_2_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/grant_rnw</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">axi_interconnect_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/grant_rnw_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_valid_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">axi_interconnect_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_valid_i_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rvalid_int</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">axi_bram_ctrl_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_RD_CHNL/axi_rvalid_int_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awaddr_full</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">axi_bram_ctrl_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/axi_awaddr_full_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bvalid_cnt_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">axi_bram_ctrl_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bvalid_cnt_0_1&gt; &lt;axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bvalid_cnt_0_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/wr_data_sm_cs_FSM_FFd1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">axi_bram_ctrl_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/wr_data_sm_cs_FSM_FFd1_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bvalid_cnt_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">axi_bram_ctrl_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bvalid_cnt_2_1&gt; &lt;axi_bram_ctrl_0/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/bvalid_cnt_2_2&gt; </arg>
+</msg>
+
+</messages>
+

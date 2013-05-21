@@ -1,0 +1,14 @@
+# Output products list for <chipscope_vio_0>
+chipscope_vio_0.asy
+chipscope_vio_0.cdc
+chipscope_vio_0.constraints\chipscope_vio_0.ucf
+chipscope_vio_0.constraints\chipscope_vio_0.xdc
+chipscope_vio_0.gise
+chipscope_vio_0.ngc
+chipscope_vio_0.ucf
+chipscope_vio_0.xco
+chipscope_vio_0.xdc
+chipscope_vio_0.xise
+chipscope_vio_0_flist.txt
+chipscope_vio_0_readme.txt
+chipscope_vio_0_xmdf.tcl

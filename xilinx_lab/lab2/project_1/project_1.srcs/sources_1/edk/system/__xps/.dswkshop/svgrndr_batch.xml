@@ -1,0 +1,22 @@
+
+<RENDERBATCH>
+
+  <RENDERIMG RASNAME="E:\Project\openhw\xilinx_lab\lab2\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\processing_system7_0.jpg" SVGNAME="E:\Project\openhw\xilinx_lab\lab2\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\processing_system7_0.svg" TMPSVGFN="E:\Project\openhw\xilinx_lab\lab2\project_1\project_1.srcs\sources_1\edk\system\__xps\.dswkshop\processing_system7_0.svg"/>
+
+  <RENDERIMG RASNAME="E:\Project\openhw\xilinx_lab\lab2\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\dip.jpg" SVGNAME="E:\Project\openhw\xilinx_lab\lab2\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\dip.svg" TMPSVGFN="E:\Project\openhw\xilinx_lab\lab2\project_1\project_1.srcs\sources_1\edk\system\__xps\.dswkshop\dip.svg"/>
+
+  <RENDERIMG RASNAME="E:\Project\openhw\xilinx_lab\lab2\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\axi_interconnect_1.jpg" SVGNAME="E:\Project\openhw\xilinx_lab\lab2\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\axi_interconnect_1.svg" TMPSVGFN="E:\Project\openhw\xilinx_lab\lab2\project_1\project_1.srcs\sources_1\edk\system\__xps\.dswkshop\axi_interconnect_1.svg"/>
+
+  <RENDERIMG RASNAME="E:\Project\openhw\xilinx_lab\lab2\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\led.jpg" SVGNAME="E:\Project\openhw\xilinx_lab\lab2\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\led.svg" TMPSVGFN="E:\Project\openhw\xilinx_lab\lab2\project_1\project_1.srcs\sources_1\edk\system\__xps\.dswkshop\led.svg"/>
+
+  <RENDERIMG RASNAME="E:\Project\openhw\xilinx_lab\lab2\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\math_0.jpg" SVGNAME="E:\Project\openhw\xilinx_lab\lab2\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\math_0.svg" TMPSVGFN="E:\Project\openhw\xilinx_lab\lab2\project_1\project_1.srcs\sources_1\edk\system\__xps\.dswkshop\math_0.svg"/>
+
+  <RENDERIMG RASNAME="E:\Project\openhw\xilinx_lab\lab2\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\chipscope_axi_monitor_0.jpg" SVGNAME="E:\Project\openhw\xilinx_lab\lab2\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\chipscope_axi_monitor_0.svg" TMPSVGFN="E:\Project\openhw\xilinx_lab\lab2\project_1\project_1.srcs\sources_1\edk\system\__xps\.dswkshop\chipscope_axi_monitor_0.svg"/>
+
+  <RENDERIMG RASNAME="E:\Project\openhw\xilinx_lab\lab2\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\chipscope_icon_0.jpg" SVGNAME="E:\Project\openhw\xilinx_lab\lab2\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\chipscope_icon_0.svg" TMPSVGFN="E:\Project\openhw\xilinx_lab\lab2\project_1\project_1.srcs\sources_1\edk\system\__xps\.dswkshop\chipscope_icon_0.svg"/>
+
+  <RENDERIMG RASNAME="E:\Project\openhw\xilinx_lab\lab2\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\chipscope_vio_0.jpg" SVGNAME="E:\Project\openhw\xilinx_lab\lab2\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\chipscope_vio_0.svg" TMPSVGFN="E:\Project\openhw\xilinx_lab\lab2\project_1\project_1.srcs\sources_1\edk\system\__xps\.dswkshop\chipscope_vio_0.svg"/>
+
+  <RENDERIMG RASNAME="E:\Project\openhw\xilinx_lab\lab2\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\system_blkd.jpg" SVGNAME="E:\Project\openhw\xilinx_lab\lab2\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\system_blkd.svg" TMPSVGFN="E:\Project\openhw\xilinx_lab\lab2\project_1\project_1.srcs\sources_1\edk\system\__xps\.dswkshop\system_blkd.svg"/>
+
+</RENDERBATCH>

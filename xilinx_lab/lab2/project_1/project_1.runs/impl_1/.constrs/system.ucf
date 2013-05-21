@@ -1,0 +1,54 @@
+
+#config the sw
+# "SW0"
+NET "dip_GPIO_IO_I_pin[0]" LOC = F22;
+NET "dip_GPIO_IO_I_pin[0]" IOSTANDARD = LVCMOS18;
+# "SW1"
+NET "dip_GPIO_IO_I_pin[1]" LOC = G22;
+NET "dip_GPIO_IO_I_pin[1]" IOSTANDARD = LVCMOS18;
+# "SW2"
+NET "dip_GPIO_IO_I_pin[2]" LOC = H22;
+NET "dip_GPIO_IO_I_pin[2]" IOSTANDARD = LVCMOS18;
+# "SW3"
+NET "dip_GPIO_IO_I_pin[3]" LOC = F21;
+NET "dip_GPIO_IO_I_pin[3]" IOSTANDARD = LVCMOS18;
+# "SW4"
+NET "dip_GPIO_IO_I_pin[4]" LOC = H19;
+NET "dip_GPIO_IO_I_pin[4]" IOSTANDARD = LVCMOS18;
+# "SW5"
+NET "dip_GPIO_IO_I_pin[5]" LOC = H18;
+NET "dip_GPIO_IO_I_pin[5]" IOSTANDARD = LVCMOS18;
+# "SW6"
+NET "dip_GPIO_IO_I_pin[6]" LOC = H17;
+NET "dip_GPIO_IO_I_pin[6]" IOSTANDARD = LVCMOS18;
+# "SW7"
+NET "dip_GPIO_IO_I_pin[7]" LOC = M15;
+NET "dip_GPIO_IO_I_pin[7]" IOSTANDARD = LVCMOS18;
+#config the led
+# "LD0"
+NET "led_GPIO_IO_O_pin[0]" LOC = T22;
+NET "led_GPIO_IO_O_pin[0]" IOSTANDARD = LVCMOS33;
+# "LD1"
+NET "led_GPIO_IO_O_pin[1]" LOC = T21;
+NET "led_GPIO_IO_O_pin[1]" IOSTANDARD = LVCMOS33;
+# "LD2"
+NET "led_GPIO_IO_O_pin[2]" LOC = U22;
+NET "led_GPIO_IO_O_pin[2]" IOSTANDARD = LVCMOS33;
+# "LD3"
+NET "led_GPIO_IO_O_pin[3]" LOC = U21;
+NET "led_GPIO_IO_O_pin[3]" IOSTANDARD = LVCMOS33;
+# "LD4"
+NET "led_GPIO_IO_O_pin[4]" LOC = V22;
+NET "led_GPIO_IO_O_pin[4]" IOSTANDARD = LVCMOS33;
+# "LD5"
+NET "led_GPIO_IO_O_pin[5]" LOC = W22;
+NET "led_GPIO_IO_O_pin[5]" IOSTANDARD = LVCMOS33;
+# "LD6"
+NET "led_GPIO_IO_O_pin[6]" LOC = U19;
+NET "led_GPIO_IO_O_pin[6]" IOSTANDARD = LVCMOS33;
+# "LD7"
+NET "led_GPIO_IO_O_pin[7]" LOC = U14;
+NET "led_GPIO_IO_O_pin[7]" IOSTANDARD = LVCMOS33;
+    
+NET "processing_system7_0_GPIO_I_pin[0]" LOC = R18;
+NET "processing_system7_0_GPIO_I_pin[0]" IOSTANDARD = LVCMOS18;

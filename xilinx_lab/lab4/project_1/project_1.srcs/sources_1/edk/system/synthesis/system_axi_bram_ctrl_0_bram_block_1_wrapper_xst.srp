@@ -1,0 +1,440 @@
+Release 14.4 - xst P.49d (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to H:\github\linux_zedboard\xilinx_lab\lab3\project_1\project_1.srcs\sources_1\edk\system\synthesis\xst_temp_dir\
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> 
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input Format                       : MIXED
+Input File Name                    : "system_axi_bram_ctrl_0_bram_block_1_wrapper_xst.prj"
+Verilog Include Directory          : {"H:\github\linux_zedboard\xilinx_lab\lab3\project_1\project_1.srcs\sources_1\edk\system\pcores\" "C:\Xilinx\14.4\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "C:\Xilinx\14.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
+
+---- Target Parameters
+Target Device                      : xc7z020clg484-1
+Output File Name                   : "../implementation/system_axi_bram_ctrl_0_bram_block_1_wrapper.ngc"
+
+---- Source Options
+Top Module Name                    : system_axi_bram_ctrl_0_bram_block_1_wrapper
+
+---- Target Options
+Add IO Buffers                     : NO
+
+---- General Options
+Optimization Goal                  : speed
+Netlist Hierarchy                  : as_optimized
+Optimization Effort                : 1
+Hierarchy Separator                : /
+
+---- Other Options
+Cores Search Directories           : {../implementation}
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" into library axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a
+Parsing entity <axi_bram_ctrl_0_bram_block_1_elaborate>.
+Parsing architecture <STRUCTURE> of entity <axi_bram_ctrl_0_bram_block_1_elaborate>.
+Parsing VHDL file "H:\github\linux_zedboard\xilinx_lab\lab3\project_1\project_1.srcs\sources_1\edk\system\hdl\system_axi_bram_ctrl_0_bram_block_1_wrapper.vhd" into library work
+Parsing entity <system_axi_bram_ctrl_0_bram_block_1_wrapper>.
+Parsing architecture <STRUCTURE> of entity <system_axi_bram_ctrl_0_bram_block_1_wrapper>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <system_axi_bram_ctrl_0_bram_block_1_wrapper> (architecture <STRUCTURE>) from library <work>.
+
+Elaborating entity <axi_bram_ctrl_0_bram_block_1_elaborate> (architecture <STRUCTURE>) with generics from library <axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a>.
+WARNING:HDLCompiler:89 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" Line 42: <ramb36e1> remains a black-box since it has no binding entity.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <system_axi_bram_ctrl_0_bram_block_1_wrapper>.
+    Related source file is "H:\github\linux_zedboard\xilinx_lab\lab3\project_1\project_1.srcs\sources_1\edk\system\hdl\system_axi_bram_ctrl_0_bram_block_1_wrapper.vhd".
+    Set property "KEEP_HIERARCHY = YES".
+    Summary:
+	no macro.
+Unit <system_axi_bram_ctrl_0_bram_block_1_wrapper> synthesized.
+
+Synthesizing Unit <axi_bram_ctrl_0_bram_block_1_elaborate>.
+    Related source file is "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd".
+        C_MEMSIZE = 65536
+        C_PORT_DWIDTH = 32
+        C_PORT_AWIDTH = 32
+        C_NUM_WE = 4
+        C_FAMILY = "zynq"
+    Set property "KEEP_HIERARCHY = YES".
+    Set property "BMM_INFO =  " for instance <ramb36e1_0>.
+    Set property "BMM_INFO =  " for instance <ramb36e1_1>.
+    Set property "BMM_INFO =  " for instance <ramb36e1_2>.
+    Set property "BMM_INFO =  " for instance <ramb36e1_3>.
+    Set property "BMM_INFO =  " for instance <ramb36e1_4>.
+    Set property "BMM_INFO =  " for instance <ramb36e1_5>.
+    Set property "BMM_INFO =  " for instance <ramb36e1_6>.
+    Set property "BMM_INFO =  " for instance <ramb36e1_7>.
+    Set property "BMM_INFO =  " for instance <ramb36e1_8>.
+    Set property "BMM_INFO =  " for instance <ramb36e1_9>.
+    Set property "BMM_INFO =  " for instance <ramb36e1_10>.
+    Set property "BMM_INFO =  " for instance <ramb36e1_11>.
+    Set property "BMM_INFO =  " for instance <ramb36e1_12>.
+    Set property "BMM_INFO =  " for instance <ramb36e1_13>.
+    Set property "BMM_INFO =  " for instance <ramb36e1_14>.
+    Set property "BMM_INFO =  " for instance <ramb36e1_15>.
+WARNING:Xst:647 - Input <BRAM_Addr_A<0:15>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <BRAM_Addr_A<30:31>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <BRAM_Addr_B<0:15>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <BRAM_Addr_B<30:31>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 592: Output port <ECCPARITY> of the instance <ramb36e1_0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 592: Output port <RDADDRECC> of the instance <ramb36e1_0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 592: Output port <DOPADOP> of the instance <ramb36e1_0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 592: Output port <DOPBDOP> of the instance <ramb36e1_0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 592: Output port <DBITERR> of the instance <ramb36e1_0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 592: Output port <SBITERR> of the instance <ramb36e1_0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 592: Output port <CASCADEOUTA> of the instance <ramb36e1_0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 592: Output port <CASCADEOUTB> of the instance <ramb36e1_0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 639: Output port <ECCPARITY> of the instance <ramb36e1_1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 639: Output port <RDADDRECC> of the instance <ramb36e1_1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 639: Output port <DOPADOP> of the instance <ramb36e1_1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 639: Output port <DOPBDOP> of the instance <ramb36e1_1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 639: Output port <DBITERR> of the instance <ramb36e1_1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 639: Output port <SBITERR> of the instance <ramb36e1_1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 639: Output port <CASCADEOUTA> of the instance <ramb36e1_1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 639: Output port <CASCADEOUTB> of the instance <ramb36e1_1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 686: Output port <ECCPARITY> of the instance <ramb36e1_2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 686: Output port <RDADDRECC> of the instance <ramb36e1_2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 686: Output port <DOPADOP> of the instance <ramb36e1_2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 686: Output port <DOPBDOP> of the instance <ramb36e1_2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 686: Output port <DBITERR> of the instance <ramb36e1_2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 686: Output port <SBITERR> of the instance <ramb36e1_2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 686: Output port <CASCADEOUTA> of the instance <ramb36e1_2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 686: Output port <CASCADEOUTB> of the instance <ramb36e1_2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 733: Output port <ECCPARITY> of the instance <ramb36e1_3> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 733: Output port <RDADDRECC> of the instance <ramb36e1_3> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 733: Output port <DOPADOP> of the instance <ramb36e1_3> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 733: Output port <DOPBDOP> of the instance <ramb36e1_3> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 733: Output port <DBITERR> of the instance <ramb36e1_3> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 733: Output port <SBITERR> of the instance <ramb36e1_3> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 733: Output port <CASCADEOUTA> of the instance <ramb36e1_3> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 733: Output port <CASCADEOUTB> of the instance <ramb36e1_3> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 780: Output port <ECCPARITY> of the instance <ramb36e1_4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 780: Output port <RDADDRECC> of the instance <ramb36e1_4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 780: Output port <DOPADOP> of the instance <ramb36e1_4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 780: Output port <DOPBDOP> of the instance <ramb36e1_4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 780: Output port <DBITERR> of the instance <ramb36e1_4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 780: Output port <SBITERR> of the instance <ramb36e1_4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 780: Output port <CASCADEOUTA> of the instance <ramb36e1_4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 780: Output port <CASCADEOUTB> of the instance <ramb36e1_4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 827: Output port <ECCPARITY> of the instance <ramb36e1_5> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 827: Output port <RDADDRECC> of the instance <ramb36e1_5> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 827: Output port <DOPADOP> of the instance <ramb36e1_5> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 827: Output port <DOPBDOP> of the instance <ramb36e1_5> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 827: Output port <DBITERR> of the instance <ramb36e1_5> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 827: Output port <SBITERR> of the instance <ramb36e1_5> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 827: Output port <CASCADEOUTA> of the instance <ramb36e1_5> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 827: Output port <CASCADEOUTB> of the instance <ramb36e1_5> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 874: Output port <ECCPARITY> of the instance <ramb36e1_6> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 874: Output port <RDADDRECC> of the instance <ramb36e1_6> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 874: Output port <DOPADOP> of the instance <ramb36e1_6> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 874: Output port <DOPBDOP> of the instance <ramb36e1_6> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 874: Output port <DBITERR> of the instance <ramb36e1_6> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 874: Output port <SBITERR> of the instance <ramb36e1_6> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 874: Output port <CASCADEOUTA> of the instance <ramb36e1_6> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 874: Output port <CASCADEOUTB> of the instance <ramb36e1_6> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 921: Output port <ECCPARITY> of the instance <ramb36e1_7> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 921: Output port <RDADDRECC> of the instance <ramb36e1_7> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 921: Output port <DOPADOP> of the instance <ramb36e1_7> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 921: Output port <DOPBDOP> of the instance <ramb36e1_7> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 921: Output port <DBITERR> of the instance <ramb36e1_7> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 921: Output port <SBITERR> of the instance <ramb36e1_7> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 921: Output port <CASCADEOUTA> of the instance <ramb36e1_7> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 921: Output port <CASCADEOUTB> of the instance <ramb36e1_7> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 968: Output port <ECCPARITY> of the instance <ramb36e1_8> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 968: Output port <RDADDRECC> of the instance <ramb36e1_8> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 968: Output port <DOPADOP> of the instance <ramb36e1_8> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 968: Output port <DOPBDOP> of the instance <ramb36e1_8> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 968: Output port <DBITERR> of the instance <ramb36e1_8> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 968: Output port <SBITERR> of the instance <ramb36e1_8> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 968: Output port <CASCADEOUTA> of the instance <ramb36e1_8> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 968: Output port <CASCADEOUTB> of the instance <ramb36e1_8> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1015: Output port <ECCPARITY> of the instance <ramb36e1_9> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1015: Output port <RDADDRECC> of the instance <ramb36e1_9> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1015: Output port <DOPADOP> of the instance <ramb36e1_9> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1015: Output port <DOPBDOP> of the instance <ramb36e1_9> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1015: Output port <DBITERR> of the instance <ramb36e1_9> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1015: Output port <SBITERR> of the instance <ramb36e1_9> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1015: Output port <CASCADEOUTA> of the instance <ramb36e1_9> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1015: Output port <CASCADEOUTB> of the instance <ramb36e1_9> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1062: Output port <ECCPARITY> of the instance <ramb36e1_10> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1062: Output port <RDADDRECC> of the instance <ramb36e1_10> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1062: Output port <DOPADOP> of the instance <ramb36e1_10> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1062: Output port <DOPBDOP> of the instance <ramb36e1_10> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1062: Output port <DBITERR> of the instance <ramb36e1_10> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1062: Output port <SBITERR> of the instance <ramb36e1_10> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1062: Output port <CASCADEOUTA> of the instance <ramb36e1_10> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1062: Output port <CASCADEOUTB> of the instance <ramb36e1_10> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1109: Output port <ECCPARITY> of the instance <ramb36e1_11> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1109: Output port <RDADDRECC> of the instance <ramb36e1_11> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1109: Output port <DOPADOP> of the instance <ramb36e1_11> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1109: Output port <DOPBDOP> of the instance <ramb36e1_11> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1109: Output port <DBITERR> of the instance <ramb36e1_11> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1109: Output port <SBITERR> of the instance <ramb36e1_11> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1109: Output port <CASCADEOUTA> of the instance <ramb36e1_11> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1109: Output port <CASCADEOUTB> of the instance <ramb36e1_11> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1156: Output port <ECCPARITY> of the instance <ramb36e1_12> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1156: Output port <RDADDRECC> of the instance <ramb36e1_12> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1156: Output port <DOPADOP> of the instance <ramb36e1_12> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1156: Output port <DOPBDOP> of the instance <ramb36e1_12> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1156: Output port <DBITERR> of the instance <ramb36e1_12> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1156: Output port <SBITERR> of the instance <ramb36e1_12> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1156: Output port <CASCADEOUTA> of the instance <ramb36e1_12> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1156: Output port <CASCADEOUTB> of the instance <ramb36e1_12> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1203: Output port <ECCPARITY> of the instance <ramb36e1_13> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1203: Output port <RDADDRECC> of the instance <ramb36e1_13> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1203: Output port <DOPADOP> of the instance <ramb36e1_13> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1203: Output port <DOPBDOP> of the instance <ramb36e1_13> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1203: Output port <DBITERR> of the instance <ramb36e1_13> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1203: Output port <SBITERR> of the instance <ramb36e1_13> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1203: Output port <CASCADEOUTA> of the instance <ramb36e1_13> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1203: Output port <CASCADEOUTB> of the instance <ramb36e1_13> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1250: Output port <ECCPARITY> of the instance <ramb36e1_14> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1250: Output port <RDADDRECC> of the instance <ramb36e1_14> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1250: Output port <DOPADOP> of the instance <ramb36e1_14> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1250: Output port <DOPBDOP> of the instance <ramb36e1_14> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1250: Output port <DBITERR> of the instance <ramb36e1_14> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1250: Output port <SBITERR> of the instance <ramb36e1_14> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1250: Output port <CASCADEOUTA> of the instance <ramb36e1_14> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1250: Output port <CASCADEOUTB> of the instance <ramb36e1_14> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1297: Output port <ECCPARITY> of the instance <ramb36e1_15> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1297: Output port <RDADDRECC> of the instance <ramb36e1_15> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1297: Output port <DOPADOP> of the instance <ramb36e1_15> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1297: Output port <DOPBDOP> of the instance <ramb36e1_15> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1297: Output port <DBITERR> of the instance <ramb36e1_15> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1297: Output port <SBITERR> of the instance <ramb36e1_15> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1297: Output port <CASCADEOUTA> of the instance <ramb36e1_15> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "H:/github/linux_zedboard/xilinx_lab/lab3/project_1/project_1.srcs/sources_1/edk/system/hdl/elaborate/axi_bram_ctrl_0_bram_block_1_elaborate_v1_00_a/hdl/vhdl/axi_bram_ctrl_0_bram_block_1_elaborate.vhd" line 1297: Output port <CASCADEOUTB> of the instance <ramb36e1_15> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <axi_bram_ctrl_0_bram_block_1_elaborate> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <system_axi_bram_ctrl_0_bram_block_1_wrapper> ...
+
+Optimizing unit <axi_bram_ctrl_0_bram_block_1_elaborate> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 0) on block system_axi_bram_ctrl_0_bram_block_1_wrapper, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : system_axi_bram_ctrl_0_bram_block_1_wrapper.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 2
+#      GND                         : 1
+#      VCC                         : 1
+# RAMS                             : 16
+#      RAMB36E1                    : 16
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7z020clg484-1 
+
+
+Slice Logic Utilization: 
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:      0
+   Number with an unused Flip Flop:       0  out of      0         
+   Number with an unused LUT:             0  out of      0         
+   Number of fully used LUT-FF pairs:     0  out of      0         
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                         206
+ Number of bonded IOBs:                   0  out of    200     0%  
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:               16  out of    140    11%  
+    Number using Block RAM only:         16
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+----------------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                        | Load  |
+-----------------------------------+----------------------------------------------+-------+
+BRAM_Clk_B                         | NONE(axi_bram_ctrl_0_bram_block_1/ramb36e1_0)| 16    |
+BRAM_Clk_A                         | NONE(axi_bram_ctrl_0_bram_block_1/ramb36e1_0)| 16    |
+-----------------------------------+----------------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------------------------------------------------+----------------------------------------------+-------+
+Control Signal                                                               | Buffer(FF name)                              | Load  |
+-----------------------------------------------------------------------------+----------------------------------------------+-------+
+axi_bram_ctrl_0_bram_block_1/net_gnd0(axi_bram_ctrl_0_bram_block_1/XST_GND:G)| NONE(axi_bram_ctrl_0_bram_block_1/ramb36e1_3)| 64    |
+-----------------------------------------------------------------------------+----------------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: 0.737ns
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'BRAM_Clk_A'
+  Total number of paths / destination ports: 32 / 32
+-------------------------------------------------------------------------
+Offset:              0.737ns (Levels of Logic = 1)
+  Source:            BRAM_Dout_A<0> (PAD)
+  Destination:       axi_bram_ctrl_0_bram_block_1/ramb36e1_0 (RAM)
+  Destination Clock: BRAM_Clk_A rising
+
+  Data Path: BRAM_Dout_A<0> to axi_bram_ctrl_0_bram_block_1/ramb36e1_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     begin scope: 'axi_bram_ctrl_0_bram_block_1:BRAM_Dout_A<0>'
+     RAMB36E1:DIADI1           0.737          ramb36e1_0
+    ----------------------------------------
+    Total                      0.737ns (0.737ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'BRAM_Clk_B'
+  Total number of paths / destination ports: 32 / 32
+-------------------------------------------------------------------------
+Offset:              0.737ns (Levels of Logic = 1)
+  Source:            BRAM_Dout_B<0> (PAD)
+  Destination:       axi_bram_ctrl_0_bram_block_1/ramb36e1_0 (RAM)
+  Destination Clock: BRAM_Clk_B rising
+
+  Data Path: BRAM_Dout_B<0> to axi_bram_ctrl_0_bram_block_1/ramb36e1_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     begin scope: 'axi_bram_ctrl_0_bram_block_1:BRAM_Dout_B<0>'
+     RAMB36E1:DIBDI1           0.737          ramb36e1_0
+    ----------------------------------------
+    Total                      0.737ns (0.737ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 18.00 secs
+Total CPU time to Xst completion: 18.30 secs
+ 
+--> 
+
+Total memory usage is 348200 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    5 (   0 filtered)
+Number of infos    :  129 (   0 filtered)
+
