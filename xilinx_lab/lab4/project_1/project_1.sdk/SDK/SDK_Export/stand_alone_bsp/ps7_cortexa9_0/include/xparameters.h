@@ -58,20 +58,49 @@
 
 /******************************************************************/
 
+/* Definitions for driver AXICDMA */
+#define XPAR_XAXICDMA_NUM_INSTANCES 1
+
+/* Definitions for peripheral AXI_CDMA_0 */
+#define XPAR_AXI_CDMA_0_DEVICE_ID 0
+#define XPAR_AXI_CDMA_0_BASEADDR 0x40200000
+#define XPAR_AXI_CDMA_0_HIGHADDR 0x4020FFFF
+#define XPAR_AXI_CDMA_0_INCLUDE_DRE 0
+#define XPAR_AXI_CDMA_0_USE_DATAMOVER_LITE 0
+#define XPAR_AXI_CDMA_0_M_AXI_DATA_WIDTH 32
+#define XPAR_AXI_CDMA_0_INCLUDE_SG 0
+#define XPAR_AXI_CDMA_0_M_AXI_MAX_BURST_LEN 16
+
+
+/******************************************************************/
+
+/* Canonical definitions for peripheral AXI_CDMA_0 */
+#define XPAR_AXICDMA_0_DEVICE_ID XPAR_AXI_CDMA_0_DEVICE_ID
+#define XPAR_AXICDMA_0_BASEADDR 0x40200000
+#define XPAR_AXICDMA_0_HIGHADDR 0x4020FFFF
+#define XPAR_AXICDMA_0_INCLUDE_DRE 0
+#define XPAR_AXICDMA_0_USE_DATAMOVER_LITE 0
+#define XPAR_AXICDMA_0_M_AXI_DATA_WIDTH 32
+#define XPAR_AXICDMA_0_INCLUDE_SG 0
+#define XPAR_AXICDMA_0_M_AXI_MAX_BURST_LEN 16
+
+
+/******************************************************************/
+
 /* Definitions for driver GPIO */
 #define XPAR_XGPIO_NUM_INSTANCES 2
 
 /* Definitions for peripheral DIP */
-#define XPAR_DIP_BASEADDR 0x41200000
-#define XPAR_DIP_HIGHADDR 0x4120FFFF
+#define XPAR_DIP_BASEADDR 0x41220000
+#define XPAR_DIP_HIGHADDR 0x4122FFFF
 #define XPAR_DIP_DEVICE_ID 0
 #define XPAR_DIP_INTERRUPT_PRESENT 0
 #define XPAR_DIP_IS_DUAL 0
 
 
 /* Definitions for peripheral LED */
-#define XPAR_LED_BASEADDR 0x41240000
-#define XPAR_LED_HIGHADDR 0x4124FFFF
+#define XPAR_LED_BASEADDR 0x41200000
+#define XPAR_LED_HIGHADDR 0x4120FFFF
 #define XPAR_LED_DEVICE_ID 1
 #define XPAR_LED_INTERRUPT_PRESENT 0
 #define XPAR_LED_IS_DUAL 0
@@ -225,10 +254,12 @@
 /******************************************************************/
 
 /* Definitions for Fabric interrupts connected to ps7_scugic_0 */
+#define XPAR_FABRIC_AXI_CDMA_0_CDMA_INTROUT_INTR 91
 
 /******************************************************************/
 
 /* Canonical definitions for Fabric interrupts connected to ps7_scugic_0 */
+#define XPAR_FABRIC_AXICDMA_0_VEC_ID XPAR_FABRIC_AXI_CDMA_0_CDMA_INTROUT_INTR
 
 /******************************************************************/
 

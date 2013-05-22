@@ -1,20 +1,26 @@
 
 <RENDERBATCH>
 
-  <RENDERIMG RASNAME="H:\github\project\xilinx_lab\lab3\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\processing_system7_0.jpg" SVGNAME="H:\github\project\xilinx_lab\lab3\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\processing_system7_0.svg" TMPSVGFN="H:\github\project\xilinx_lab\lab3\project_1\project_1.srcs\sources_1\edk\system\__xps\.dswkshop\processing_system7_0.svg"/>
+  <RENDERIMG RASNAME="H:\github\project\xilinx_lab\lab4\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\processing_system7_0.jpg" SVGNAME="H:\github\project\xilinx_lab\lab4\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\processing_system7_0.svg" TMPSVGFN="H:\github\project\xilinx_lab\lab4\project_1\project_1.srcs\sources_1\edk\system\__xps\.dswkshop\processing_system7_0.svg"/>
 
-  <RENDERIMG RASNAME="H:\github\project\xilinx_lab\lab3\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\dip.jpg" SVGNAME="H:\github\project\xilinx_lab\lab3\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\dip.svg" TMPSVGFN="H:\github\project\xilinx_lab\lab3\project_1\project_1.srcs\sources_1\edk\system\__xps\.dswkshop\dip.svg"/>
+  <RENDERIMG RASNAME="H:\github\project\xilinx_lab\lab4\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\dip.jpg" SVGNAME="H:\github\project\xilinx_lab\lab4\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\dip.svg" TMPSVGFN="H:\github\project\xilinx_lab\lab4\project_1\project_1.srcs\sources_1\edk\system\__xps\.dswkshop\dip.svg"/>
 
-  <RENDERIMG RASNAME="H:\github\project\xilinx_lab\lab3\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\axi_interconnect_1.jpg" SVGNAME="H:\github\project\xilinx_lab\lab3\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\axi_interconnect_1.svg" TMPSVGFN="H:\github\project\xilinx_lab\lab3\project_1\project_1.srcs\sources_1\edk\system\__xps\.dswkshop\axi_interconnect_1.svg"/>
+  <RENDERIMG RASNAME="H:\github\project\xilinx_lab\lab4\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\axi_GP0.jpg" SVGNAME="H:\github\project\xilinx_lab\lab4\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\axi_GP0.svg" TMPSVGFN="H:\github\project\xilinx_lab\lab4\project_1\project_1.srcs\sources_1\edk\system\__xps\.dswkshop\axi_GP0.svg"/>
 
-  <RENDERIMG RASNAME="H:\github\project\xilinx_lab\lab3\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\led.jpg" SVGNAME="H:\github\project\xilinx_lab\lab3\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\led.svg" TMPSVGFN="H:\github\project\xilinx_lab\lab3\project_1\project_1.srcs\sources_1\edk\system\__xps\.dswkshop\led.svg"/>
+  <RENDERIMG RASNAME="H:\github\project\xilinx_lab\lab4\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\led.jpg" SVGNAME="H:\github\project\xilinx_lab\lab4\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\led.svg" TMPSVGFN="H:\github\project\xilinx_lab\lab4\project_1\project_1.srcs\sources_1\edk\system\__xps\.dswkshop\led.svg"/>
 
-  <RENDERIMG RASNAME="H:\github\project\xilinx_lab\lab3\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\axi_bram_ctrl_0.jpg" SVGNAME="H:\github\project\xilinx_lab\lab3\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\axi_bram_ctrl_0.svg" TMPSVGFN="H:\github\project\xilinx_lab\lab3\project_1\project_1.srcs\sources_1\edk\system\__xps\.dswkshop\axi_bram_ctrl_0.svg"/>
+  <RENDERIMG RASNAME="H:\github\project\xilinx_lab\lab4\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\axi_bram_ctrl_0.jpg" SVGNAME="H:\github\project\xilinx_lab\lab4\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\axi_bram_ctrl_0.svg" TMPSVGFN="H:\github\project\xilinx_lab\lab4\project_1\project_1.srcs\sources_1\edk\system\__xps\.dswkshop\axi_bram_ctrl_0.svg"/>
 
-  <RENDERIMG RASNAME="H:\github\project\xilinx_lab\lab3\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\axi_interconnect_2.jpg" SVGNAME="H:\github\project\xilinx_lab\lab3\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\axi_interconnect_2.svg" TMPSVGFN="H:\github\project\xilinx_lab\lab3\project_1\project_1.srcs\sources_1\edk\system\__xps\.dswkshop\axi_interconnect_2.svg"/>
+  <RENDERIMG RASNAME="H:\github\project\xilinx_lab\lab4\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\axi_GP1.jpg" SVGNAME="H:\github\project\xilinx_lab\lab4\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\axi_GP1.svg" TMPSVGFN="H:\github\project\xilinx_lab\lab4\project_1\project_1.srcs\sources_1\edk\system\__xps\.dswkshop\axi_GP1.svg"/>
 
-  <RENDERIMG RASNAME="H:\github\project\xilinx_lab\lab3\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\axi_bram_ctrl_0_bram_block_1.jpg" SVGNAME="H:\github\project\xilinx_lab\lab3\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\axi_bram_ctrl_0_bram_block_1.svg" TMPSVGFN="H:\github\project\xilinx_lab\lab3\project_1\project_1.srcs\sources_1\edk\system\__xps\.dswkshop\axi_bram_ctrl_0_bram_block_1.svg"/>
+  <RENDERIMG RASNAME="H:\github\project\xilinx_lab\lab4\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\axi_bram_ctrl_0_bram_block_1.jpg" SVGNAME="H:\github\project\xilinx_lab\lab4\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\axi_bram_ctrl_0_bram_block_1.svg" TMPSVGFN="H:\github\project\xilinx_lab\lab4\project_1\project_1.srcs\sources_1\edk\system\__xps\.dswkshop\axi_bram_ctrl_0_bram_block_1.svg"/>
 
-  <RENDERIMG RASNAME="H:\github\project\xilinx_lab\lab3\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\system_blkd.jpg" SVGNAME="H:\github\project\xilinx_lab\lab3\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\system_blkd.svg" TMPSVGFN="H:\github\project\xilinx_lab\lab3\project_1\project_1.srcs\sources_1\edk\system\__xps\.dswkshop\system_blkd.svg"/>
+  <RENDERIMG RASNAME="H:\github\project\xilinx_lab\lab4\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\axi_cdma_0.jpg" SVGNAME="H:\github\project\xilinx_lab\lab4\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\axi_cdma_0.svg" TMPSVGFN="H:\github\project\xilinx_lab\lab4\project_1\project_1.srcs\sources_1\edk\system\__xps\.dswkshop\axi_cdma_0.svg"/>
+
+  <RENDERIMG RASNAME="H:\github\project\xilinx_lab\lab4\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\axi_HP0.jpg" SVGNAME="H:\github\project\xilinx_lab\lab4\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\axi_HP0.svg" TMPSVGFN="H:\github\project\xilinx_lab\lab4\project_1\project_1.srcs\sources_1\edk\system\__xps\.dswkshop\axi_HP0.svg"/>
+
+  <RENDERIMG RASNAME="H:\github\project\xilinx_lab\lab4\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\axi_bram_ctrl_1.jpg" SVGNAME="H:\github\project\xilinx_lab\lab4\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\axi_bram_ctrl_1.svg" TMPSVGFN="H:\github\project\xilinx_lab\lab4\project_1\project_1.srcs\sources_1\edk\system\__xps\.dswkshop\axi_bram_ctrl_1.svg"/>
+
+  <RENDERIMG RASNAME="H:\github\project\xilinx_lab\lab4\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\system_blkd.jpg" SVGNAME="H:\github\project\xilinx_lab\lab4\project_1\project_1.sdk\SDK\SDK_Export\hw\imgs\system_blkd.svg" TMPSVGFN="H:\github\project\xilinx_lab\lab4\project_1\project_1.srcs\sources_1\edk\system\__xps\.dswkshop\system_blkd.svg"/>
 
 </RENDERBATCH>

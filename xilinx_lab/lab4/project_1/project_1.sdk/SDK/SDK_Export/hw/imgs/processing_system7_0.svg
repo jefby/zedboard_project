@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/SVG/DTD/svg10.dtd">
-<svg width="280" height="660">
+<svg width="280" height="708">
   <defs>
     <g id="AXI_BifLabel">
       <rect x="0" y="0" rx="3" ry="3" width="32" height="16" style="fill:#0084AB; stroke:black; stroke-width:1"/>
@@ -66,8 +66,8 @@
       <line x1="0" y1="0" x2="32" y2="0" style="stroke:#F0F0F0;stroke-width:3"/>
     </g>
     <g id="IPD_StandardBody">
-      <rect x="0" y="0" width="276" height="656" style="fill:#F0F0F0;fill-opacity: 1.0; stroke:#000000; stroke-width:1"/>
-      <rect x="48" y="16" width="180" height="624" style="fill:#FFFFFF; fill-opacity: 1.0; stroke:#000000; stroke-width:1.5"/>
+      <rect x="0" y="0" width="276" height="704" style="fill:#F0F0F0;fill-opacity: 1.0; stroke:#000000; stroke-width:1"/>
+      <rect x="48" y="16" width="180" height="672" style="fill:#FFFFFF; fill-opacity: 1.0; stroke:#000000; stroke-width:1.5"/>
       <use xmlns:xlink="http://www.w3.org/1999/xlink" x="122" y="16" xlink:href="#HCurve"/>
     </g>
     <g id="IPD_PORT">
@@ -82,8 +82,8 @@
     </g>
   </defs>
   <use xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" xlink:href="#IPD_StandardBody"/>
-  <text x="138" y="332" fill="#AA0017" stroke="none" font-size="8pt" font-style="italic" font-weight="bold" text-anchor="middle" font-family="Verdana Arial Helvetica san-serif">processing_system7</text>
-  <text x="138" y="344" fill="#000000" stroke="none" font-size="8pt" font-style="italic" font-weight="bold" text-anchor="middle" font-family="Courier Arial Helvetica san-serif">processing_system7_0</text>
+  <text x="138" y="356" fill="#AA0017" stroke="none" font-size="8pt" font-style="italic" font-weight="bold" text-anchor="middle" font-family="Verdana Arial Helvetica san-serif">processing_system7</text>
+  <text x="138" y="368" fill="#000000" stroke="none" font-size="8pt" font-style="italic" font-weight="bold" text-anchor="middle" font-family="Courier Arial Helvetica san-serif">processing_system7_0</text>
   <use xmlns:xlink="http://www.w3.org/1999/xlink" x="40" y="24" xlink:href="#IPD_SPort"/>
   <text x="60" y="30" fill="#000000" stroke="none" font-size="8pt" font-style="normal" font-weight="bold" text-anchor="middle" font-family="Verdana Arial Helvetica san-serif">0</text>
   <use xmlns:xlink="http://www.w3.org/1999/xlink" x="40" y="48" xlink:href="#IPD_SPort"/>
@@ -135,6 +135,11 @@
   <use xmlns:xlink="http://www.w3.org/1999/xlink" x="40" y="552" xlink:href="#IPD_SPort"/>
   <use xmlns:xlink="http://www.w3.org/1999/xlink" x="48" y="550" xlink:href="#IPD_PortClk"/>
   <text x="60" y="558" fill="#000000" stroke="none" font-size="8pt" font-style="normal" font-weight="bold" text-anchor="middle" font-family="Verdana Arial Helvetica san-serif">25</text>
+  <use xmlns:xlink="http://www.w3.org/1999/xlink" x="40" y="576" xlink:href="#IPD_SPort"/>
+  <use xmlns:xlink="http://www.w3.org/1999/xlink" x="48" y="574" xlink:href="#IPD_PortClk"/>
+  <text x="60" y="582" fill="#000000" stroke="none" font-size="8pt" font-style="normal" font-weight="bold" text-anchor="middle" font-family="Verdana Arial Helvetica san-serif">28</text>
+  <use xmlns:xlink="http://www.w3.org/1999/xlink" x="40" y="600" xlink:href="#IPD_SPort"/>
+  <text x="60" y="606" fill="#000000" stroke="none" font-size="8pt" font-style="normal" font-weight="bold" text-anchor="middle" font-family="Verdana Arial Helvetica san-serif">29</text>
   <use xmlns:xlink="http://www.w3.org/1999/xlink" x="228" y="24" xlink:href="#IPD_SPort"/>
   <text x="216" y="30" fill="#000000" stroke="none" font-size="8pt" font-style="normal" font-weight="bold" text-anchor="middle" font-family="Verdana Arial Helvetica san-serif">10</text>
   <use xmlns:xlink="http://www.w3.org/1999/xlink" x="228" y="48" xlink:href="#IPD_SPort"/>
@@ -145,8 +150,10 @@
   <text x="216" y="102" fill="#000000" stroke="none" font-size="8pt" font-style="normal" font-weight="bold" text-anchor="middle" font-family="Verdana Arial Helvetica san-serif">26</text>
   <use xmlns:xlink="http://www.w3.org/1999/xlink" x="228" y="120" xlink:href="#IPD_SPort"/>
   <text x="216" y="126" fill="#000000" stroke="none" font-size="8pt" font-style="normal" font-weight="bold" text-anchor="middle" font-family="Verdana Arial Helvetica san-serif">27</text>
-  <use xmlns:xlink="http://www.w3.org/1999/xlink" x="228" y="584" xlink:href="#AXI_busconn_MASTER"/>
-  <text x="154" y="598" fill="#000000" stroke="none" font-size="8pt" font-style="normal" font-weight="bold" font-family="Verdana Arial Helvetica san-serif">M_AXI_GP0</text>
-  <use xmlns:xlink="http://www.w3.org/1999/xlink" x="228" y="616" xlink:href="#AXI_busconn_MASTER"/>
-  <text x="154" y="630" fill="#000000" stroke="none" font-size="8pt" font-style="normal" font-weight="bold" font-family="Verdana Arial Helvetica san-serif">M_AXI_GP1</text>
+  <use xmlns:xlink="http://www.w3.org/1999/xlink" x="24" y="632" xlink:href="#AXI_busconn_SLAVE"/>
+  <text x="60" y="646" fill="#000000" stroke="none" font-size="8pt" font-style="normal" font-weight="bold" font-family="Verdana Arial Helvetica san-serif">S_AXI_HP0</text>
+  <use xmlns:xlink="http://www.w3.org/1999/xlink" x="228" y="632" xlink:href="#AXI_busconn_MASTER"/>
+  <text x="154" y="646" fill="#000000" stroke="none" font-size="8pt" font-style="normal" font-weight="bold" font-family="Verdana Arial Helvetica san-serif">M_AXI_GP0</text>
+  <use xmlns:xlink="http://www.w3.org/1999/xlink" x="228" y="664" xlink:href="#AXI_busconn_MASTER"/>
+  <text x="154" y="678" fill="#000000" stroke="none" font-size="8pt" font-style="normal" font-weight="bold" font-family="Verdana Arial Helvetica san-serif">M_AXI_GP1</text>
 </svg>
