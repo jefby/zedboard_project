@@ -1,0 +1,106 @@
+Release 14.4 par P.49d (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+JEFBY-PC::  Wed May 22 23:23:01 2013
+
+par -intstyle pa -w system_stub.ncd system_stub_routed.ncd 
+
+
+Constraints file: system_stub.pcf.
+Loading device for application Rf_Device from file '7z020.nph' in environment C:\Xilinx\14.4\ISE_DS\ISE\.
+   "system_stub" is an NCD, version 3.2, device xc7z020, package clg484, speed -1
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 0.950 Volts. (default - Range: 0.950 to 1.050 Volts)
+
+INFO:Par:282 - No user timing constraints were detected or you have set the option to ignore timing constraints ("par
+   -x"). Place and Route will run in "Performance Evaluation Mode" to automatically improve the performance of all
+   internal clocks in this design. Because there are not defined timing requirements, a timing score will not be
+   reported in the PAR report in this mode. The PAR timing summary will list the performance achieved for each clock.
+   Note: For the fastest runtime, set the effort level to "std".  For best performance, set the effort level to "high".
+
+Device speed data version:  "ADVANCED 1.04 2012-12-04".
+
+
+
+Device Utilization Summary:
+
+   Number of External IOPADs               130 out of 130   100%
+      Number of LOCed IOPADs               127 out of 130    97%
+
+   Number of PS7s                            1 out of 1     100%
+   Number of Slices                          0 out of 13300   0%
+   Number of Slice Registers                 0 out of 106400  0%
+      Number used as Flip Flops              0
+      Number used as Latches                 0
+      Number used as LatchThrus              0
+
+   Number of Slice LUTS                      0 out of 53200   0%
+   Number of Slice LUT-Flip Flop pairs       0 out of 53200   0%
+
+
+Overall effort level (-ol):   Standard 
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 21 secs 
+Finished initial Timing Analysis.  REAL time: 21 secs 
+
+Starting Router
+
+
+Phase  1  : 1774 unrouted;      REAL time: 23 secs 
+
+Phase  2  : 3 unrouted;      REAL time: 23 secs 
+
+Phase  3  : 0 unrouted;      REAL time: 25 secs 
+
+Phase  4  : 0 unrouted; (Par is working to improve performance)     REAL time: 29 secs 
+
+Updating file: system_stub_routed.ncd with current fully routed design.
+
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 30 secs 
+
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 30 secs 
+
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 30 secs 
+
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 30 secs 
+
+Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 30 secs 
+Total REAL time to Router completion: 30 secs 
+Total CPU time to Router completion: 29 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+Timing Score: 0 (Setup: 0, Hold: 0)
+
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 31 secs 
+Total CPU time to PAR completion: 30 secs 
+
+Peak Memory Usage:  462 MB
+
+Placer: Placement generated during map.
+Routing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 1
+
+Writing design to file system_stub_routed.ncd
+
+
+
+PAR done!

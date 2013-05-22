@@ -1,0 +1,3 @@
+PROCESSOR=ps7_cortexa9_0
+REPOSITORIES=-lp H:/github/zedboard_project/xilinx_lab/lab5/repo
+HWSPEC=../system_hw_platform/system.xml

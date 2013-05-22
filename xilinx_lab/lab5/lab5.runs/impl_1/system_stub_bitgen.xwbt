@@ -1,0 +1,8 @@
+INTSTYLE=pa
+INFILE=H:\github\zedboard_project\xilinx_lab\lab5\lab5.runs\impl_1\system_stub_routed.ncd
+OUTFILE=H:\github\zedboard_project\xilinx_lab\lab5\lab5.runs\impl_1\system_stub.bit
+FAMILY=Zynq
+PART=xc7z020-1clg484
+WORKINGDIR=H:\github\zedboard_project\xilinx_lab\lab5\lab5.runs\impl_1
+LICENSE=WebPack
+USER_INFO=_

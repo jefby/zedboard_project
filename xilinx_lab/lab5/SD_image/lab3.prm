@@ -1,0 +1,14 @@
+PROMGEN: Xilinx Prom Generator P.49d
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+promgen -b -w -p bin -data_width 32 -u 0 ./SD_image/system_lab3.bit -o ./SD_image/lab3.bin 
+
+PROM .\SD_image\lab3.prm map: Wed May 22 22:11:05 2013
+
+Format        Bin
+Size          4096K
+PROM start    00000000
+PROM end      003fffff
+
+        Addr1        Addr2                     Date File(s)
+     00000000     003dbafb     May 21 21:12:52 2013 ./SD_image/system_lab3.bit
