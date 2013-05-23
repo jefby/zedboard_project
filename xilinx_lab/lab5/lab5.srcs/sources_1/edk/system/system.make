@@ -127,7 +127,22 @@ $(POSTSYN_NETLIST): $(WRAPPER_NGC_FILES)
 	@echo "Running synthesis..."
 	cd synthesis & synthesis.cmd
 
-$(SYSTEM_BIT): 
+__xps/$(SYSTEM)_routed: $(FPGA_IMP_DEPENDENCY)
+	@echo "*********************************************"
+	@echo "Running Xilinx Implementation tools.."
+	@echo "*********************************************"
+	@cp -f $(UCF_FILE) implementation/$(SYSTEM).ucf
+	@cp -f etc/fast_runtime.opt implementation/xflow.opt
+	xflow -wd implementation -p $(DEVICE) -implement xflow.opt $(SYSTEM).ngc
+	touch __xps/$(SYSTEM)_routed
+
+$(SYSTEM_BIT): __xps/$(SYSTEM)_routed $(BITGEN_UT_FILE)
+	xilperl $(XILINX_EDK_DIR)/data/fpga_impl/observe_par.pl $(OBSERVE_PAR_OPTIONS) implementation/$(SYSTEM).par
+	@echo "*********************************************"
+	@echo "Running Bitgen.."
+	@echo "*********************************************"
+	@cp -f $(BITGEN_UT_FILE) implementation/bitgen.ut
+	cd implementation & bitgen -w -f bitgen.ut $(SYSTEM) & cd ..
 
 $(DOWNLOAD_BIT): $(SYSTEM_BIT) $(BRAMINIT_ELF_IMP_FILES) __xps/bitinit.opt
 	@echo "*********************************************"

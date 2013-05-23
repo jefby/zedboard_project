@@ -1,0 +1,5 @@
+the_ROM_image:
+{
+	[bootloader]/github/project/xilinx_lab/lab5/lab5.sdk/SDK/SDK_Export/zynq_fsbl_0/Debug/zynq_fsbl_0.elf
+	/github/project/xilinx_lab/lab5/lab5.sdk/SDK/SDK_Export/lab5_qspi/Debug/lab5_qspi.elf
+}

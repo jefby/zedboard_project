@@ -5,14 +5,14 @@
 ######################################################
 
 proc _main_ {} {
-  cd "H:/github/zedboard_project/xilinx_lab/lab5.srcs/sources_1/edk/system"
+  cd "H:/github/zedboard_project/xilinx_lab/lab5/lab5.srcs/sources_1/edk/system"
   if { [ catch {xload xmp system.xmp} result ] } {
     exit 10
   }
   # Set the export bmm/bit 0
   xset sdk_export_bmm_bit 0
   # Set the export dir
-  xset sdk_export_dir H:/github/zedboard_project/xilinx_lab/lab5.sdk/SDK/SDK_Export
+  xset sdk_export_dir H:/github/zedboard_project/xilinx_lab/lab5/lab5.sdk/SDK/SDK_Export
   if { [catch {run exporttosdk} result] } {
     return -1
   }
