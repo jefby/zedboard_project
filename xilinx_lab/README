@@ -12,6 +12,8 @@
     d. in windows explore, copy the zynq_fsbl_0 to the XMD workplace (2 described)
     e. dow zynq_fsbl_0.elf
     f. others please refer the lab5 doc which xilinx provided 
+4.  lab5b is the project for from qspi boot and run the bin file.
+5.  lab5 is the project for from sd.
 
 
 Author: jefby
