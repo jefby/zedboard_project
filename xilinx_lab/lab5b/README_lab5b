@@ -1,0 +1,3 @@
+1. the QSPI_image stores the bin and mcs file.
+2. lab5_qspi.mcs is the file which could be write to flash
+3. lab5_obj contains other bin file which  the qspi boot and execute 
