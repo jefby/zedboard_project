@@ -1,0 +1,16 @@
+1.  Lab is based on xilinx provided for zedboard
+2.  Maybe lab5 exists some error,first i followed the instruction in lab5,but when i do the step 9,it always
+    tells me that AP is can't read,i closed the project and recreated a project ,but not correct it,so i 
+    copy the zynq_fsbl_0.elf and the other bin or elf to the workplace of XMD,in my computer is the 
+    c:/users/jefby/AppData/Roming/Xilinx/PlanAhead,and it be ok.
+3.  Maybe when you have written the Flash,you could close the project and power off the board,and follow my methods:
+    a. open the xmd console
+    b. connect arm hw
+    c. ls
+    d. in windows explore, copy the zynq_fsbl_0 to the XMD workplace (2 described)
+    e. dow zynq_fsbl_0.elf
+    f. others please refer the lab5 doc which xilinx provided 
+
+
+Author: jefby
+Date: 2013/5/23
