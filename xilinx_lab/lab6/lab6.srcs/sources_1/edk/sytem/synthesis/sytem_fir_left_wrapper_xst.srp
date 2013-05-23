@@ -1,0 +1,757 @@
+Release 14.4 - xst P.49d (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to H:\github\zedboard_project\xilinx_lab\lab6\lab6.srcs\sources_1\edk\sytem\synthesis\xst_temp_dir\
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> 
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input Format                       : MIXED
+Input File Name                    : "sytem_fir_left_wrapper_xst.prj"
+Verilog Include Directory          : {"H:\github\zedboard_project\xilinx_lab\lab6\lab6.srcs\sources_1\edk\sytem\pcores\" "C:\Xilinx\14.4\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "C:\Xilinx\14.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
+
+---- Target Parameters
+Target Device                      : xc7z020clg484-1
+Output File Name                   : "../implementation/sytem_fir_left_wrapper.ngc"
+
+---- Source Options
+Top Module Name                    : sytem_fir_left_wrapper
+
+---- Target Options
+Add IO Buffers                     : NO
+
+---- General Options
+Optimization Goal                  : speed
+Netlist Hierarchy                  : as_optimized
+Optimization Effort                : 1
+Hierarchy Separator                : /
+
+---- Other Options
+Cores Search Directories           : {../implementation}
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "H:/github/zedboard_project/xilinx_lab/lab6/lab6.srcs/sources_1/edk/sytem/pcores/fir_top_v1_00_a/synhdl/verilog/fir_c.v" into library fir_top_v1_00_a
+Parsing module <fir_c_rom>.
+Parsing module <fir_c>.
+Analyzing Verilog file "H:/github/zedboard_project/xilinx_lab/lab6/lab6.srcs/sources_1/edk/sytem/pcores/fir_top_v1_00_a/synhdl/verilog/fir_shift_reg.v" into library fir_top_v1_00_a
+Parsing module <fir_shift_reg_ram>.
+Parsing module <fir_shift_reg>.
+Analyzing Verilog file "H:/github/zedboard_project/xilinx_lab/lab6/lab6.srcs/sources_1/edk/sytem/pcores/fir_top_v1_00_a/synhdl/verilog/fir.v" into library fir_top_v1_00_a
+Parsing module <fir>.
+Analyzing Verilog file "H:/github/zedboard_project/xilinx_lab/lab6/lab6.srcs/sources_1/edk/sytem/pcores/fir_top_v1_00_a/synhdl/verilog/fir_ap_rst_if.v" into library fir_top_v1_00_a
+Parsing module <fir_ap_rst_if>.
+Analyzing Verilog file "H:/github/zedboard_project/xilinx_lab/lab6/lab6.srcs/sources_1/edk/sytem/pcores/fir_top_v1_00_a/synhdl/verilog/fir_io_if.v" into library fir_top_v1_00_a
+Parsing module <fir_io_if>.
+Analyzing Verilog file "H:/github/zedboard_project/xilinx_lab/lab6/lab6.srcs/sources_1/edk/sytem/pcores/fir_top_v1_00_a/synhdl/verilog/fir_top.v" into library fir_top_v1_00_a
+Parsing module <fir_top>.
+Analyzing Verilog file "H:\github\zedboard_project\xilinx_lab\lab6\lab6.srcs\sources_1\edk\sytem\hdl\sytem_fir_left_wrapper.v" into library work
+Parsing module <sytem_fir_left_wrapper>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <sytem_fir_left_wrapper>.
+
+Elaborating module <fir_top(C_S_AXI_FIR_IO_ADDR_WIDTH=32,C_S_AXI_FIR_IO_DATA_WIDTH=32)>.
+
+Elaborating module <fir>.
+
+Elaborating module <fir_shift_reg(DataWidth=16,AddressRange=50,AddressWidth=6)>.
+
+Elaborating module <fir_shift_reg_ram>.
+Reading initialization file \":\github\zedboard_project\xilinx_lab\lab6\lab6.srcs\sources_1\edk\sytem\pcores\fir_top_v1_00_a\synhdl\verilog\/./fir_shift_reg_ram.dat\".
+
+Elaborating module <fir_c(DataWidth=16,AddressRange=51,AddressWidth=6)>.
+
+Elaborating module <fir_c_rom>.
+Reading initialization file \":\github\zedboard_project\xilinx_lab\lab6\lab6.srcs\sources_1\edk\sytem\pcores\fir_top_v1_00_a\synhdl\verilog\/./fir_c_rom.dat\".
+WARNING:HDLCompiler:413 - "H:/github/zedboard_project/xilinx_lab/lab6/lab6.srcs/sources_1/edk/sytem/pcores/fir_top_v1_00_a/synhdl/verilog/fir.v" Line 332: Result of 32-bit expression is truncated to fit in 6-bit target.
+WARNING:HDLCompiler:413 - "H:/github/zedboard_project/xilinx_lab/lab6/lab6.srcs/sources_1/edk/sytem/pcores/fir_top_v1_00_a/synhdl/verilog/fir.v" Line 398: Result of 32-bit expression is truncated to fit in 6-bit target.
+WARNING:HDLCompiler:413 - "H:/github/zedboard_project/xilinx_lab/lab6/lab6.srcs/sources_1/edk/sytem/pcores/fir_top_v1_00_a/synhdl/verilog/fir.v" Line 408: Result of 32-bit expression is truncated to fit in 6-bit target.
+
+Elaborating module <fir_io_if(C_ADDR_WIDTH=32,C_DATA_WIDTH=32)>.
+WARNING:HDLCompiler:413 - "H:/github/zedboard_project/xilinx_lab/lab6/lab6.srcs/sources_1/edk/sytem/pcores/fir_top_v1_00_a/synhdl/verilog/fir_io_if.v" Line 331: Result of 32-bit expression is truncated to fit in 16-bit target.
+
+Elaborating module <fir_ap_rst_if(RESET_ACTIVE_LOW=1)>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <sytem_fir_left_wrapper>.
+    Related source file is "H:\github\zedboard_project\xilinx_lab\lab6\lab6.srcs\sources_1\edk\sytem\hdl\sytem_fir_left_wrapper.v".
+    Summary:
+	no macro.
+Unit <sytem_fir_left_wrapper> synthesized.
+
+Synthesizing Unit <fir_top>.
+    Related source file is "H:/github/zedboard_project/xilinx_lab/lab6/lab6.srcs/sources_1/edk/sytem/pcores/fir_top_v1_00_a/synhdl/verilog/fir_top.v".
+        C_S_AXI_FIR_IO_ADDR_WIDTH = 32
+        C_S_AXI_FIR_IO_DATA_WIDTH = 32
+        RESET_ACTIVE_LOW = 1
+    Summary:
+	no macro.
+Unit <fir_top> synthesized.
+
+Synthesizing Unit <fir>.
+    Related source file is "H:/github/zedboard_project/xilinx_lab/lab6/lab6.srcs/sources_1/edk/sytem/pcores/fir_top_v1_00_a/synhdl/verilog/fir.v".
+        ap_const_logic_1 = 1'b1
+        ap_const_logic_0 = 1'b0
+        ap_ST_st1_fsm_0 = 2'b00
+        ap_ST_st2_fsm_1 = 2'b01
+        ap_ST_pp0_stg0_fsm_2 = 2'b10
+        ap_ST_st6_fsm_3 = 2'b11
+        ap_const_lv1_0 = 1'b0
+        ap_const_lv6_0 = 6'b000000
+        ap_const_lv6_31 = 6'b110001
+        ap_const_lv25_9 = 25'b0000000000000000000001001
+        ap_const_lv22_6 = 22'b0000000000000000000110
+        ap_const_lv6_32 = 6'b110010
+        ap_const_lv6_1 = 6'b000001
+        ap_const_lv7_30 = 7'b0110000
+        ap_const_lv32_F = 32'b00000000000000000000000000001111
+        ap_const_lv32_1E = 32'b00000000000000000000000000011110
+        ap_true = 1'b1
+    Found 1-bit register for signal <ap_reg_ppiten_pp0_it0>.
+    Found 1-bit register for signal <ap_reg_ppiten_pp0_it1>.
+    Found 1-bit register for signal <ap_reg_ppiten_pp0_it2>.
+    Found 1-bit register for signal <acc_1_cast8_reg_334<36>>.
+    Found 1-bit register for signal <acc_1_cast8_reg_334<35>>.
+    Found 1-bit register for signal <acc_1_cast8_reg_334<34>>.
+    Found 1-bit register for signal <acc_1_cast8_reg_334<33>>.
+    Found 1-bit register for signal <acc_1_cast8_reg_334<32>>.
+    Found 1-bit register for signal <acc_1_cast8_reg_334<31>>.
+    Found 1-bit register for signal <acc_1_cast8_reg_334<30>>.
+    Found 1-bit register for signal <acc_1_cast8_reg_334<29>>.
+    Found 1-bit register for signal <acc_1_cast8_reg_334<28>>.
+    Found 1-bit register for signal <acc_1_cast8_reg_334<27>>.
+    Found 1-bit register for signal <acc_1_cast8_reg_334<26>>.
+    Found 1-bit register for signal <acc_1_cast8_reg_334<25>>.
+    Found 1-bit register for signal <acc_1_cast8_reg_334<24>>.
+    Found 1-bit register for signal <acc_1_cast8_reg_334<23>>.
+    Found 1-bit register for signal <acc_1_cast8_reg_334<22>>.
+    Found 1-bit register for signal <acc_1_cast8_reg_334<21>>.
+    Found 1-bit register for signal <acc_1_cast8_reg_334<20>>.
+    Found 1-bit register for signal <acc_1_cast8_reg_334<19>>.
+    Found 1-bit register for signal <acc_1_cast8_reg_334<18>>.
+    Found 1-bit register for signal <acc_1_cast8_reg_334<17>>.
+    Found 1-bit register for signal <acc_1_cast8_reg_334<16>>.
+    Found 1-bit register for signal <acc_1_cast8_reg_334<15>>.
+    Found 1-bit register for signal <acc_1_cast8_reg_334<14>>.
+    Found 1-bit register for signal <acc_1_cast8_reg_334<13>>.
+    Found 1-bit register for signal <acc_1_cast8_reg_334<12>>.
+    Found 1-bit register for signal <acc_1_cast8_reg_334<11>>.
+    Found 1-bit register for signal <acc_1_cast8_reg_334<10>>.
+    Found 1-bit register for signal <acc_1_cast8_reg_334<9>>.
+    Found 1-bit register for signal <acc_1_cast8_reg_334<8>>.
+    Found 1-bit register for signal <acc_1_cast8_reg_334<7>>.
+    Found 1-bit register for signal <acc_1_cast8_reg_334<6>>.
+    Found 1-bit register for signal <acc_1_cast8_reg_334<5>>.
+    Found 1-bit register for signal <acc_1_cast8_reg_334<4>>.
+    Found 1-bit register for signal <acc_1_cast8_reg_334<3>>.
+    Found 1-bit register for signal <acc_1_cast8_reg_334<2>>.
+    Found 1-bit register for signal <acc_1_cast8_reg_334<1>>.
+    Found 1-bit register for signal <acc_1_cast8_reg_334<0>>.
+    Found 37-bit register for signal <acc_1_cast8_fu_210_p1<36:0>>.
+    Found 1-bit register for signal <ap_reg_ppstg_exitcond2_reg_300_pp0_it1>.
+    Found 16-bit register for signal <c_load_reg_329>.
+    Found 1-bit register for signal <exitcond2_reg_300>.
+    Found 1-bit register for signal <i_cast_reg_309<5>>.
+    Found 1-bit register for signal <i_cast_reg_309<4>>.
+    Found 1-bit register for signal <i_cast_reg_309<3>>.
+    Found 1-bit register for signal <i_cast_reg_309<2>>.
+    Found 1-bit register for signal <i_cast_reg_309<1>>.
+    Found 1-bit register for signal <i_cast_reg_309<0>>.
+    Found 6-bit register for signal <indvar_reg_113>.
+    Found 16-bit register for signal <shift_reg_load_1_reg_324>.
+    Found 2-bit register for signal <ap_CS_fsm>.
+    Found finite state machine <FSM_0> for signal <ap_CS_fsm>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 7                                              |
+    | Inputs             | 3                                              |
+    | Outputs            | 6                                              |
+    | Clock              | ap_clk (rising_edge)                           |
+    | Reset              | ap_rst (positive)                              |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 00                                             |
+    | Power Up State     | 00                                             |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 26-bit subtractor for signal <acc_fu_162_p2> created at line 397.
+    Found 6-bit subtractor for signal <i_cast_fu_205_p1<5:0>> created at line 401.
+    Found 7-bit subtractor for signal <tmp1_fu_188_p2> created at line 412.
+    Found 26-bit subtractor for signal <tmp_3_fu_262_p2> created at line 417.
+    Found 38-bit adder for signal <acc_2_fu_272_p2> created at line 391.
+    Found 37-bit adder for signal <acc_3_fu_230_p2> created at line 393.
+    Found 6-bit adder for signal <indvar_next_fu_178_p2> created at line 403.
+    Found 16x16-bit multiplier for signal <tmp_s_fu_220_p2> created at line 422.
+    WARNING:Xst:2404 -  FFs/Latches <acc_1_cast8_reg_334<37><0:0>> (without init value) have a constant value of 0 in block <fir>.
+    Summary:
+	inferred   1 Multiplier(s).
+	inferred   7 Adder/Subtractor(s).
+	inferred 123 D-type flip-flop(s).
+	inferred   5 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <fir> synthesized.
+
+Synthesizing Unit <fir_shift_reg>.
+    Related source file is "H:/github/zedboard_project/xilinx_lab/lab6/lab6.srcs/sources_1/edk/sytem/pcores/fir_top_v1_00_a/synhdl/verilog/fir_shift_reg.v".
+        DataWidth = 16
+        AddressRange = 50
+        AddressWidth = 6
+WARNING:Xst:647 - Input <reset> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	no macro.
+Unit <fir_shift_reg> synthesized.
+
+Synthesizing Unit <fir_shift_reg_ram>.
+    Related source file is "H:/github/zedboard_project/xilinx_lab/lab6/lab6.srcs/sources_1/edk/sytem/pcores/fir_top_v1_00_a/synhdl/verilog/fir_shift_reg.v".
+        DWIDTH = 16
+        AWIDTH = 6
+        MEM_SIZE = 50
+    Set property "ram_style = block" for signal <ram>.
+WARNING:Xst:3035 - Index value(s) does not match array range for signal <ram>, simulation mismatch.
+    Found 50x16-bit dual-port RAM <Mram_ram> for signal <ram>.
+    Found 16-bit register for signal <q0>.
+    Summary:
+	inferred   1 RAM(s).
+	inferred  16 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <fir_shift_reg_ram> synthesized.
+
+Synthesizing Unit <fir_c>.
+    Related source file is "H:/github/zedboard_project/xilinx_lab/lab6/lab6.srcs/sources_1/edk/sytem/pcores/fir_top_v1_00_a/synhdl/verilog/fir_c.v".
+        DataWidth = 16
+        AddressRange = 51
+        AddressWidth = 6
+WARNING:Xst:647 - Input <reset> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	no macro.
+Unit <fir_c> synthesized.
+
+Synthesizing Unit <fir_c_rom>.
+    Related source file is "H:/github/zedboard_project/xilinx_lab/lab6/lab6.srcs/sources_1/edk/sytem/pcores/fir_top_v1_00_a/synhdl/verilog/fir_c.v".
+        DWIDTH = 16
+        AWIDTH = 6
+        MEM_SIZE = 51
+WARNING:Xst:2999 - Signal 'ram', unconnected in block 'fir_c_rom', is tied to its initial value.
+WARNING:Xst:3035 - Index value(s) does not match array range for signal <ram>, simulation mismatch.
+    Found 51x16-bit single-port Read Only RAM <Mram_ram> for signal <ram>.
+    Found 16-bit register for signal <q0>.
+    Summary:
+	inferred   1 RAM(s).
+	inferred  16 D-type flip-flop(s).
+Unit <fir_c_rom> synthesized.
+
+Synthesizing Unit <fir_io_if>.
+    Related source file is "H:/github/zedboard_project/xilinx_lab/lab6/lab6.srcs/sources_1/edk/sytem/pcores/fir_top_v1_00_a/synhdl/verilog/fir_io_if.v".
+        C_ADDR_WIDTH = 32
+        C_DATA_WIDTH = 32
+WARNING:Xst:647 - Input <AWADDR<31:5>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ARADDR<31:5>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 5-bit register for signal <waddr>.
+    Found 2-bit register for signal <rstate>.
+    Found 32-bit register for signal <rdata>.
+    Found 1-bit register for signal <ap_start>.
+    Found 1-bit register for signal <ap_done>.
+    Found 1-bit register for signal <auto_restart>.
+    Found 1-bit register for signal <gie>.
+    Found 2-bit register for signal <ier>.
+    Found 1-bit register for signal <isr<0>>.
+    Found 1-bit register for signal <isr<1>>.
+    Found 1-bit register for signal <_y_ap_vld>.
+    Found 16-bit register for signal <_x>.
+    Found 2-bit register for signal <wstate>.
+    Found finite state machine <FSM_1> for signal <rstate>.
+    -----------------------------------------------------------------------
+    | States             | 2                                              |
+    | Transitions        | 4                                              |
+    | Inputs             | 3                                              |
+    | Outputs            | 2                                              |
+    | Clock              | ACLK (rising_edge)                             |
+    | Reset              | ARESETN_INV_81_o (positive)                    |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 00                                             |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_2> for signal <wstate>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 6                                              |
+    | Inputs             | 3                                              |
+    | Outputs            | 3                                              |
+    | Clock              | ACLK (rising_edge)                             |
+    | Reset              | ARESETN_INV_81_o (positive)                    |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 00                                             |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 1-bit 8-to-1 multiplexer for signal <_n0221> created at line 215.
+    Found 1-bit 8-to-1 multiplexer for signal <_n0247> created at line 215.
+    Summary:
+	inferred  62 D-type flip-flop(s).
+	inferred   4 Multiplexer(s).
+	inferred   2 Finite State Machine(s).
+Unit <fir_io_if> synthesized.
+
+Synthesizing Unit <fir_ap_rst_if>.
+    Related source file is "H:/github/zedboard_project/xilinx_lab/lab6/lab6.srcs/sources_1/edk/sytem/pcores/fir_top_v1_00_a/synhdl/verilog/fir_ap_rst_if.v".
+        RESET_ACTIVE_LOW = 1
+    Summary:
+	no macro.
+Unit <fir_ap_rst_if> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 2
+ 50x16-bit dual-port RAM                               : 1
+ 51x16-bit single-port Read Only RAM                   : 1
+# Multipliers                                          : 1
+ 16x16-bit multiplier                                  : 1
+# Adders/Subtractors                                   : 7
+ 26-bit subtractor                                     : 2
+ 37-bit adder                                          : 1
+ 38-bit adder                                          : 1
+ 6-bit adder                                           : 1
+ 6-bit subtractor                                      : 1
+ 7-bit subtractor                                      : 1
+# Registers                                            : 60
+ 1-bit register                                        : 49
+ 16-bit register                                       : 5
+ 2-bit register                                        : 1
+ 32-bit register                                       : 1
+ 37-bit register                                       : 1
+ 5-bit register                                        : 1
+ 6-bit register                                        : 2
+# Multiplexers                                         : 10
+ 1-bit 2-to-1 multiplexer                              : 4
+ 1-bit 8-to-1 multiplexer                              : 2
+ 16-bit 2-to-1 multiplexer                             : 1
+ 37-bit 2-to-1 multiplexer                             : 1
+ 6-bit 2-to-1 multiplexer                              : 2
+# FSMs                                                 : 3
+# Xors                                                 : 2
+ 1-bit xor2                                            : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:2404 -  FFs/Latches <rdata<31:16>> (without init value) have a constant value of 0 in block <fir_io_if>.
+
+Synthesizing (advanced) Unit <fir>.
+The following registers are absorbed into accumulator <acc_1_reg_124>: 1 register on signal <acc_1_reg_124>.
+The following registers are absorbed into counter <indvar_reg_113>: 1 register on signal <indvar_reg_113>.
+INFO:Xst:3226 - The RAM <shift_reg_U/fir_shift_reg_ram_U/Mram_ram> will be implemented as a BLOCK RAM, absorbing the following register(s): <shift_reg_U/fir_shift_reg_ram_U/q0>
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 50-word x 16-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <ap_clk>        | rise     |
+    |     enA            | connected to signal <shift_reg_ce0> | high     |
+    |     weA            | connected to signal <ap_done>       | high     |
+    |     addrA          | connected to signal <shift_reg_address0> |          |
+    |     diA            | connected to signal <tmp_2_cast_fu_236_p1> |          |
+    |     doA            | connected to signal <tmp_cast_fu_134_p1> |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 50-word x 16-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkB           | connected to signal <ap_clk>        | rise     |
+    |     weB            | connected to signal <shift_reg_U/fir_shift_reg_ram_U/we1_0> | high     |
+    |     addrB          | connected to signal <i_cast_reg_309> |          |
+    |     diB            | connected to signal <tmp_cast_fu_134_p1> |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+Unit <fir> synthesized (advanced).
+
+Synthesizing (advanced) Unit <fir_c_rom>.
+INFO:Xst:3231 - The small RAM <Mram_ram> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 51-word x 16-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <addr0>         |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <fir_c_rom> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 2
+ 50x16-bit dual-port block RAM                         : 1
+ 51x16-bit single-port distributed Read Only RAM       : 1
+# Multipliers                                          : 1
+ 16x16-bit multiplier                                  : 1
+# Adders/Subtractors                                   : 5
+ 26-bit subtractor                                     : 2
+ 31-bit adder                                          : 1
+ 6-bit subtractor                                      : 2
+# Counters                                             : 1
+ 6-bit up counter                                      : 1
+# Accumulators                                         : 1
+ 37-bit up loadable accumulator                        : 1
+# Registers                                            : 136
+ Flip-Flops                                            : 136
+# Multiplexers                                         : 8
+ 1-bit 2-to-1 multiplexer                              : 4
+ 1-bit 8-to-1 multiplexer                              : 2
+ 6-bit 2-to-1 multiplexer                              : 2
+# FSMs                                                 : 3
+# Xors                                                 : 2
+ 1-bit xor2                                            : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <fir_left/fir_io_if_U/FSM_1> on signal <rstate[1:1]> with sequential encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 0
+ 01    | 1
+-------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <fir_left/fir_io_if_U/FSM_2> on signal <wstate[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 10
+-------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <fir_left/fir_U/FSM_0> on signal <ap_CS_fsm[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 11    | 11
+ 01    | 01
+ 10    | 10
+-------------------
+WARNING:Xst:2677 - Node <acc_1_cast8_reg_334_5> of sequential type is unconnected in block <fir>.
+WARNING:Xst:2677 - Node <acc_1_cast8_reg_334_4> of sequential type is unconnected in block <fir>.
+WARNING:Xst:2677 - Node <acc_1_cast8_reg_334_3> of sequential type is unconnected in block <fir>.
+WARNING:Xst:2677 - Node <acc_1_cast8_reg_334_2> of sequential type is unconnected in block <fir>.
+WARNING:Xst:2677 - Node <acc_1_cast8_reg_334_1> of sequential type is unconnected in block <fir>.
+WARNING:Xst:2677 - Node <acc_1_cast8_reg_334_0> of sequential type is unconnected in block <fir>.
+WARNING:Xst:2677 - Node <acc_1_reg_124_31> of sequential type is unconnected in block <fir>.
+WARNING:Xst:2677 - Node <acc_1_reg_124_32> of sequential type is unconnected in block <fir>.
+WARNING:Xst:2677 - Node <acc_1_reg_124_33> of sequential type is unconnected in block <fir>.
+WARNING:Xst:2677 - Node <acc_1_reg_124_34> of sequential type is unconnected in block <fir>.
+WARNING:Xst:2677 - Node <acc_1_reg_124_35> of sequential type is unconnected in block <fir>.
+WARNING:Xst:2677 - Node <acc_1_reg_124_36> of sequential type is unconnected in block <fir>.
+INFO:Xst:2261 - The FF/Latch <q0_11> in Unit <fir_c_rom> is equivalent to the following FF/Latch, which will be removed : <q0_15> 
+INFO:Xst:2261 - The FF/Latch <q0_12> in Unit <fir_c_rom> is equivalent to the following 2 FFs/Latches, which will be removed : <q0_13> <q0_14> 
+
+Optimizing unit <sytem_fir_left_wrapper> ...
+
+Optimizing unit <fir_io_if> ...
+
+Optimizing unit <fir> ...
+
+Optimizing unit <fir_c_rom> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 0) on block sytem_fir_left_wrapper, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 137
+ Flip-Flops                                            : 137
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : sytem_fir_left_wrapper.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 400
+#      GND                         : 1
+#      INV                         : 3
+#      LUT2                        : 66
+#      LUT3                        : 29
+#      LUT4                        : 15
+#      LUT5                        : 81
+#      LUT6                        : 37
+#      MUXCY                       : 86
+#      VCC                         : 1
+#      XORCY                       : 81
+# FlipFlops/Latches                : 137
+#      FD                          : 3
+#      FDE                         : 112
+#      FDR                         : 12
+#      FDRE                        : 10
+# RAMS                             : 1
+#      RAMB18E1                    : 1
+# DSPs                             : 1
+#      DSP48E1                     : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7z020clg484-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             137  out of  106400     0%  
+ Number of Slice LUTs:                  231  out of  53200     0%  
+    Number used as Logic:               231  out of  53200     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    254
+   Number with an unused Flip Flop:     117  out of    254    46%  
+   Number with an unused LUT:            23  out of    254     9%  
+   Number of fully used LUT-FF pairs:   114  out of    254    44%  
+   Number of unique control sets:        11
+
+IO Utilization: 
+ Number of IOs:                         149
+ Number of bonded IOBs:                   0  out of    200     0%  
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:                1  out of    140     0%  
+    Number using Block RAM only:          1
+ Number of DSP48E1s:                      1  out of    220     0%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+-------------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                     | Load  |
+-----------------------------------+-------------------------------------------+-------+
+aclk                               | NONE(fir_left/fir_io_if_U/wstate_FSM_FFd1)| 139   |
+-----------------------------------+-------------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-------------------------------------------------------------+--------------------------------------------------------------+-------+
+Control Signal                                               | Buffer(FF name)                                              | Load  |
+-------------------------------------------------------------+--------------------------------------------------------------+-------+
+fir_left/sig_fir_ap_done(fir_left/fir_U/ap_CS_fsm_ap_done1:O)| NONE(fir_left/fir_U/shift_reg_U/fir_shift_reg_ram_U/Mram_ram)| 2     |
+-------------------------------------------------------------+--------------------------------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 5.532ns (Maximum Frequency: 180.767MHz)
+   Minimum input arrival time before clock: 1.655ns
+   Maximum output required time after clock: 0.951ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'aclk'
+  Clock period: 5.532ns (frequency: 180.767MHz)
+  Total number of paths / destination ports: 18077 / 354
+-------------------------------------------------------------------------
+Delay:               5.532ns (Levels of Logic = 32)
+  Source:            fir_left/fir_U/Mmult_tmp_s_fu_220_p2 (DSP)
+  Destination:       fir_left/fir_U/acc_1_reg_124_30 (FF)
+  Source Clock:      aclk rising
+  Destination Clock: aclk rising
+
+  Data Path: fir_left/fir_U/Mmult_tmp_s_fu_220_p2 to fir_left/fir_U/acc_1_reg_124_30
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     DSP48E1:CLK->P0       1   4.009   0.413  fir_left/fir_U/Mmult_tmp_s_fu_220_p2 (fir_left/fir_U/tmp_s_fu_220_p2<0>)
+     LUT6:I5->O            1   0.053   0.000  fir_left/fir_U/Maccum_acc_1_reg_124_lut<0> (fir_left/fir_U/Maccum_acc_1_reg_124_lut<0>)
+     MUXCY:S->O            1   0.291   0.000  fir_left/fir_U/Maccum_acc_1_reg_124_cy<0> (fir_left/fir_U/Maccum_acc_1_reg_124_cy<0>)
+     MUXCY:CI->O           1   0.015   0.000  fir_left/fir_U/Maccum_acc_1_reg_124_cy<1> (fir_left/fir_U/Maccum_acc_1_reg_124_cy<1>)
+     MUXCY:CI->O           1   0.015   0.000  fir_left/fir_U/Maccum_acc_1_reg_124_cy<2> (fir_left/fir_U/Maccum_acc_1_reg_124_cy<2>)
+     MUXCY:CI->O           1   0.015   0.000  fir_left/fir_U/Maccum_acc_1_reg_124_cy<3> (fir_left/fir_U/Maccum_acc_1_reg_124_cy<3>)
+     MUXCY:CI->O           1   0.015   0.000  fir_left/fir_U/Maccum_acc_1_reg_124_cy<4> (fir_left/fir_U/Maccum_acc_1_reg_124_cy<4>)
+     MUXCY:CI->O           1   0.015   0.000  fir_left/fir_U/Maccum_acc_1_reg_124_cy<5> (fir_left/fir_U/Maccum_acc_1_reg_124_cy<5>)
+     MUXCY:CI->O           1   0.015   0.000  fir_left/fir_U/Maccum_acc_1_reg_124_cy<6> (fir_left/fir_U/Maccum_acc_1_reg_124_cy<6>)
+     MUXCY:CI->O           1   0.015   0.000  fir_left/fir_U/Maccum_acc_1_reg_124_cy<7> (fir_left/fir_U/Maccum_acc_1_reg_124_cy<7>)
+     MUXCY:CI->O           1   0.015   0.000  fir_left/fir_U/Maccum_acc_1_reg_124_cy<8> (fir_left/fir_U/Maccum_acc_1_reg_124_cy<8>)
+     MUXCY:CI->O           1   0.015   0.000  fir_left/fir_U/Maccum_acc_1_reg_124_cy<9> (fir_left/fir_U/Maccum_acc_1_reg_124_cy<9>)
+     MUXCY:CI->O           1   0.015   0.000  fir_left/fir_U/Maccum_acc_1_reg_124_cy<10> (fir_left/fir_U/Maccum_acc_1_reg_124_cy<10>)
+     MUXCY:CI->O           1   0.015   0.000  fir_left/fir_U/Maccum_acc_1_reg_124_cy<11> (fir_left/fir_U/Maccum_acc_1_reg_124_cy<11>)
+     MUXCY:CI->O           1   0.015   0.000  fir_left/fir_U/Maccum_acc_1_reg_124_cy<12> (fir_left/fir_U/Maccum_acc_1_reg_124_cy<12>)
+     MUXCY:CI->O           1   0.015   0.000  fir_left/fir_U/Maccum_acc_1_reg_124_cy<13> (fir_left/fir_U/Maccum_acc_1_reg_124_cy<13>)
+     MUXCY:CI->O           1   0.015   0.000  fir_left/fir_U/Maccum_acc_1_reg_124_cy<14> (fir_left/fir_U/Maccum_acc_1_reg_124_cy<14>)
+     MUXCY:CI->O           1   0.015   0.000  fir_left/fir_U/Maccum_acc_1_reg_124_cy<15> (fir_left/fir_U/Maccum_acc_1_reg_124_cy<15>)
+     MUXCY:CI->O           1   0.015   0.000  fir_left/fir_U/Maccum_acc_1_reg_124_cy<16> (fir_left/fir_U/Maccum_acc_1_reg_124_cy<16>)
+     MUXCY:CI->O           1   0.015   0.000  fir_left/fir_U/Maccum_acc_1_reg_124_cy<17> (fir_left/fir_U/Maccum_acc_1_reg_124_cy<17>)
+     MUXCY:CI->O           1   0.015   0.000  fir_left/fir_U/Maccum_acc_1_reg_124_cy<18> (fir_left/fir_U/Maccum_acc_1_reg_124_cy<18>)
+     MUXCY:CI->O           1   0.015   0.000  fir_left/fir_U/Maccum_acc_1_reg_124_cy<19> (fir_left/fir_U/Maccum_acc_1_reg_124_cy<19>)
+     MUXCY:CI->O           1   0.015   0.000  fir_left/fir_U/Maccum_acc_1_reg_124_cy<20> (fir_left/fir_U/Maccum_acc_1_reg_124_cy<20>)
+     MUXCY:CI->O           1   0.015   0.000  fir_left/fir_U/Maccum_acc_1_reg_124_cy<21> (fir_left/fir_U/Maccum_acc_1_reg_124_cy<21>)
+     MUXCY:CI->O           1   0.015   0.000  fir_left/fir_U/Maccum_acc_1_reg_124_cy<22> (fir_left/fir_U/Maccum_acc_1_reg_124_cy<22>)
+     MUXCY:CI->O           1   0.015   0.000  fir_left/fir_U/Maccum_acc_1_reg_124_cy<23> (fir_left/fir_U/Maccum_acc_1_reg_124_cy<23>)
+     MUXCY:CI->O           1   0.015   0.000  fir_left/fir_U/Maccum_acc_1_reg_124_cy<24> (fir_left/fir_U/Maccum_acc_1_reg_124_cy<24>)
+     MUXCY:CI->O           1   0.015   0.000  fir_left/fir_U/Maccum_acc_1_reg_124_cy<25> (fir_left/fir_U/Maccum_acc_1_reg_124_cy<25>)
+     MUXCY:CI->O           1   0.015   0.000  fir_left/fir_U/Maccum_acc_1_reg_124_cy<26> (fir_left/fir_U/Maccum_acc_1_reg_124_cy<26>)
+     MUXCY:CI->O           1   0.015   0.000  fir_left/fir_U/Maccum_acc_1_reg_124_cy<27> (fir_left/fir_U/Maccum_acc_1_reg_124_cy<27>)
+     MUXCY:CI->O           1   0.015   0.000  fir_left/fir_U/Maccum_acc_1_reg_124_cy<28> (fir_left/fir_U/Maccum_acc_1_reg_124_cy<28>)
+     MUXCY:CI->O           0   0.015   0.000  fir_left/fir_U/Maccum_acc_1_reg_124_cy<29> (fir_left/fir_U/Maccum_acc_1_reg_124_cy<29>)
+     XORCY:CI->O           1   0.320   0.000  fir_left/fir_U/Maccum_acc_1_reg_124_xor<30> (fir_left/fir_U/Result<30>)
+     FDE:D                     0.011          fir_left/fir_U/acc_1_reg_124_30
+    ----------------------------------------
+    Total                      5.532ns (5.119ns logic, 0.413ns route)
+                                       (92.5% logic, 7.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'aclk'
+  Total number of paths / destination ports: 244 / 105
+-------------------------------------------------------------------------
+Offset:              1.655ns (Levels of Logic = 3)
+  Source:            s_axi_fir_io_ARADDR<4> (PAD)
+  Destination:       fir_left/fir_io_if_U/_y_ap_vld (FF)
+  Destination Clock: aclk rising
+
+  Data Path: s_axi_fir_io_ARADDR<4> to fir_left/fir_io_if_U/_y_ap_vld
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LUT3:I0->O           12   0.053   0.797  fir_left/fir_io_if_U/ar_hs_raddr[4]_AND_326_o11 (fir_left/fir_io_if_U/ar_hs_raddr[4]_AND_326_o1)
+     LUT5:I0->O            1   0.053   0.485  fir_left/fir_io_if_U/ar_hs_raddr[4]_AND_326_o1 (fir_left/fir_io_if_U/ar_hs_raddr[4]_AND_326_o)
+     LUT4:I2->O            1   0.053   0.000  fir_left/fir_io_if_U/_y_ap_vld_glue_set (fir_left/fir_io_if_U/_y_ap_vld_glue_set)
+     FDR:D                     0.011          fir_left/fir_io_if_U/_y_ap_vld
+    ----------------------------------------
+    Total                      1.655ns (0.373ns logic, 1.282ns route)
+                                       (22.5% logic, 77.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'aclk'
+  Total number of paths / destination ports: 25 / 22
+-------------------------------------------------------------------------
+Offset:              0.951ns (Levels of Logic = 1)
+  Source:            fir_left/fir_io_if_U/gie (FF)
+  Destination:       interrupt (PAD)
+  Source Clock:      aclk rising
+
+  Data Path: fir_left/fir_io_if_U/gie to interrupt
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              3   0.282   0.616  fir_left/fir_io_if_U/gie (fir_left/fir_io_if_U/gie)
+     LUT3:I0->O            0   0.053   0.000  fir_left/fir_io_if_U/interrupt1 (interrupt)
+    ----------------------------------------
+    Total                      0.951ns (0.335ns logic, 0.616ns route)
+                                       (35.2% logic, 64.8% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock aclk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+aclk           |    5.532|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 17.00 secs
+Total CPU time to Xst completion: 16.94 secs
+ 
+--> 
+
+Total memory usage is 272488 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   25 (   0 filtered)
+Number of infos    :    5 (   0 filtered)
+

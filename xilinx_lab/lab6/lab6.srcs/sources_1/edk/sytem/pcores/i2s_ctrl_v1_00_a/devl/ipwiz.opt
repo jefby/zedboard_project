@@ -1,0 +1,8 @@
+-batch 
+-create i2s_ctrl 
+-ver 1.00.a 
+-dir "C:\Sam_work\EDK_Projects\zed_i2s_rw_test" 
+-lang vhdl 
+-bus axi4lite s 
+-reg 5 
+-xps 

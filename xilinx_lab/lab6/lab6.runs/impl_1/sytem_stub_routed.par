@@ -1,0 +1,156 @@
+Release 14.4 par P.49d (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+JEFBY-PC::  Thu May 23 20:20:37 2013
+
+par -intstyle pa -w sytem_stub.ncd sytem_stub_routed.ncd 
+
+
+Constraints file: sytem_stub.pcf.
+Loading device for application Rf_Device from file '7z020.nph' in environment C:\Xilinx\14.4\ISE_DS\ISE\.
+   "sytem_stub" is an NCD, version 3.2, device xc7z020, package clg484, speed -1
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 0.950 Volts. (default - Range: 0.950 to 1.050 Volts)
+
+
+Device speed data version:  "ADVANCED 1.04 2012-12-04".
+
+
+
+Device Utilization Summary:
+
+   Number of BUFGs                           2 out of 32      6%
+   Number of DSP48E1s                        2 out of 220     1%
+   Number of External IOB33s                11 out of 200     5%
+      Number of LOCed IOB33s                11 out of 11    100%
+
+   Number of External IOPADs               130 out of 130   100%
+      Number of LOCed IOPADs               127 out of 130    97%
+
+   Number of OLOGICE2s                       2 out of 200     1%
+   Number of PS7s                            1 out of 1     100%
+   Number of RAMB18E1s                       2 out of 280     1%
+   Number of Slices                        316 out of 13300   2%
+   Number of Slice Registers               701 out of 106400  1%
+      Number used as Flip Flops            701
+      Number used as Latches                 0
+      Number used as LatchThrus              0
+
+   Number of Slice LUTS                    961 out of 53200   1%
+   Number of Slice LUT-Flip Flop pairs    1031 out of 53200   1%
+
+
+Overall effort level (-ol):   Standard 
+Router effort level (-rl):    High 
+
+INFO:Timing:3386 - Intersecting Constraints found and resolved.  For more information, see the TSI report.  Please consult the Xilinx
+   Command Line Tools User Guide for information on generating a TSI report.
+Starting initial Timing Analysis.  REAL time: 22 secs 
+Finished initial Timing Analysis.  REAL time: 22 secs 
+
+Starting Router
+
+
+Phase  1  : 7432 unrouted;      REAL time: 24 secs 
+
+Phase  2  : 4985 unrouted;      REAL time: 24 secs 
+
+Phase  3  : 1810 unrouted;      REAL time: 27 secs 
+
+Phase  4  : 1810 unrouted; (Setup:0, Hold:9985, Component Switching Limit:0)     REAL time: 31 secs 
+
+Updating file: sytem_stub_routed.ncd with current fully routed design.
+
+Phase  5  : 0 unrouted; (Setup:0, Hold:9249, Component Switching Limit:0)     REAL time: 34 secs 
+
+Phase  6  : 0 unrouted; (Setup:0, Hold:9249, Component Switching Limit:0)     REAL time: 34 secs 
+
+Phase  7  : 0 unrouted; (Setup:0, Hold:9249, Component Switching Limit:0)     REAL time: 34 secs 
+
+Phase  8  : 0 unrouted; (Setup:0, Hold:9249, Component Switching Limit:0)     REAL time: 34 secs 
+
+Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 35 secs 
+Total REAL time to Router completion: 35 secs 
+Total CPU time to Router completion: 34 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|sytem_i/processing_s |              |      |      |            |             |
+|  ystem7_0_FCLK_CLK0 |BUFGCTRL_X0Y30| No   |  242 |  0.302     |  1.934      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+* The fanout is the number of component pins not the individual BEL loads,
+for example SLICE loads not FF loads.
+
+Timing Score: 0 (Setup: 0, Hold: 0, Component Switching Limit: 0)
+
+Number of Timing Constraints that were not applied: 1
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+  TS_clk_fpga_0 = PERIOD TIMEGRP "clk_fpga_ | SETUP       |     2.711ns|     7.289ns|       0|           0
+  0" 100 MHz HIGH 50%                       | HOLD        |     0.047ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_clk_fpga_1 = PERIOD TIMEGRP "clk_fpga_ | N/A         |         N/A|         N/A|     N/A|         N/A
+  1" 10 MHz HIGH 50%                        |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  PATH "TS_axi_interconnect_1_reset_resync_ | SETUP       |         N/A|     1.099ns|     N/A|           0
+  path" TIG                                 |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+
+
+All constraints were met.
+INFO:Timing:2761 - N/A entries in the Constraints List may indicate that the 
+   constraint is not analyzed due to the following: No paths covered by this 
+   constraint; Other constraints intersect with this constraint; or This 
+   constraint was disabled by a Path Tracing Control. Please run the Timespec 
+   Interaction Report (TSI) via command line (trce tsi) or Timing Analyzer GUI.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 36 secs 
+Total CPU time to PAR completion: 36 secs 
+
+Peak Memory Usage:  487 MB
+
+Placer: Placement generated during map.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 1
+
+Writing design to file sytem_stub_routed.ncd
+
+
+
+PAR done!

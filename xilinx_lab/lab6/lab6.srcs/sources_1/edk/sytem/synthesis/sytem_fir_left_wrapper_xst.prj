@@ -1,0 +1,7 @@
+verilog fir_top_v1_00_a H:\github\zedboard_project\xilinx_lab\lab6\lab6.srcs\sources_1\edk\sytem\pcores\fir_top_v1_00_a/synhdl/verilog/fir_c.v
+verilog fir_top_v1_00_a H:\github\zedboard_project\xilinx_lab\lab6\lab6.srcs\sources_1\edk\sytem\pcores\fir_top_v1_00_a/synhdl/verilog/fir_shift_reg.v
+verilog fir_top_v1_00_a H:\github\zedboard_project\xilinx_lab\lab6\lab6.srcs\sources_1\edk\sytem\pcores\fir_top_v1_00_a/synhdl/verilog/fir.v
+verilog fir_top_v1_00_a H:\github\zedboard_project\xilinx_lab\lab6\lab6.srcs\sources_1\edk\sytem\pcores\fir_top_v1_00_a/synhdl/verilog/fir_ap_rst_if.v
+verilog fir_top_v1_00_a H:\github\zedboard_project\xilinx_lab\lab6\lab6.srcs\sources_1\edk\sytem\pcores\fir_top_v1_00_a/synhdl/verilog/fir_io_if.v
+verilog fir_top_v1_00_a H:\github\zedboard_project\xilinx_lab\lab6\lab6.srcs\sources_1\edk\sytem\pcores\fir_top_v1_00_a/synhdl/verilog/fir_top.v
+verilog work ../hdl/sytem_fir_left_wrapper.v

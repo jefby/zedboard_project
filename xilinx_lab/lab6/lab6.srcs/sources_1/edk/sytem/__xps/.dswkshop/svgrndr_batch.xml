@@ -1,0 +1,18 @@
+
+<RENDERBATCH>
+
+  <RENDERIMG RASNAME="H:\github\zedboard_project\xilinx_lab\lab6\lab6.sdk\SDK\SDK_Export\hw\imgs\processing_system7_0.jpg" SVGNAME="H:\github\zedboard_project\xilinx_lab\lab6\lab6.sdk\SDK\SDK_Export\hw\imgs\processing_system7_0.svg" TMPSVGFN="H:\github\zedboard_project\xilinx_lab\lab6\lab6.srcs\sources_1\edk\sytem\__xps\.dswkshop\processing_system7_0.svg"/>
+
+  <RENDERIMG RASNAME="H:\github\zedboard_project\xilinx_lab\lab6\lab6.sdk\SDK\SDK_Export\hw\imgs\fir_left.jpg" SVGNAME="H:\github\zedboard_project\xilinx_lab\lab6\lab6.sdk\SDK\SDK_Export\hw\imgs\fir_left.svg" TMPSVGFN="H:\github\zedboard_project\xilinx_lab\lab6\lab6.srcs\sources_1\edk\sytem\__xps\.dswkshop\fir_left.svg"/>
+
+  <RENDERIMG RASNAME="H:\github\zedboard_project\xilinx_lab\lab6\lab6.sdk\SDK\SDK_Export\hw\imgs\axi_interconnect_1.jpg" SVGNAME="H:\github\zedboard_project\xilinx_lab\lab6\lab6.sdk\SDK\SDK_Export\hw\imgs\axi_interconnect_1.svg" TMPSVGFN="H:\github\zedboard_project\xilinx_lab\lab6\lab6.srcs\sources_1\edk\sytem\__xps\.dswkshop\axi_interconnect_1.svg"/>
+
+  <RENDERIMG RASNAME="H:\github\zedboard_project\xilinx_lab\lab6\lab6.sdk\SDK\SDK_Export\hw\imgs\fir_right.jpg" SVGNAME="H:\github\zedboard_project\xilinx_lab\lab6\lab6.sdk\SDK\SDK_Export\hw\imgs\fir_right.svg" TMPSVGFN="H:\github\zedboard_project\xilinx_lab\lab6\lab6.srcs\sources_1\edk\sytem\__xps\.dswkshop\fir_right.svg"/>
+
+  <RENDERIMG RASNAME="H:\github\zedboard_project\xilinx_lab\lab6\lab6.sdk\SDK\SDK_Export\hw\imgs\i2s_ctrl_0.jpg" SVGNAME="H:\github\zedboard_project\xilinx_lab\lab6\lab6.sdk\SDK\SDK_Export\hw\imgs\i2s_ctrl_0.svg" TMPSVGFN="H:\github\zedboard_project\xilinx_lab\lab6\lab6.srcs\sources_1\edk\sytem\__xps\.dswkshop\i2s_ctrl_0.svg"/>
+
+  <RENDERIMG RASNAME="H:\github\zedboard_project\xilinx_lab\lab6\lab6.sdk\SDK\SDK_Export\hw\imgs\axi_gpio_0.jpg" SVGNAME="H:\github\zedboard_project\xilinx_lab\lab6\lab6.sdk\SDK\SDK_Export\hw\imgs\axi_gpio_0.svg" TMPSVGFN="H:\github\zedboard_project\xilinx_lab\lab6\lab6.srcs\sources_1\edk\sytem\__xps\.dswkshop\axi_gpio_0.svg"/>
+
+  <RENDERIMG RASNAME="H:\github\zedboard_project\xilinx_lab\lab6\lab6.sdk\SDK\SDK_Export\hw\imgs\sytem_blkd.jpg" SVGNAME="H:\github\zedboard_project\xilinx_lab\lab6\lab6.sdk\SDK\SDK_Export\hw\imgs\sytem_blkd.svg" TMPSVGFN="H:\github\zedboard_project\xilinx_lab\lab6\lab6.srcs\sources_1\edk\sytem\__xps\.dswkshop\sytem_blkd.svg"/>
+
+</RENDERBATCH>

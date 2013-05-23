@@ -1,0 +1,8 @@
+Release 14.4 Drc P.49d (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Thu May 23 20:22:39 2013
+
+drc -z sytem_stub_routed.ncd sytem_stub.pcf
+
+DRC detected 0 errors and 0 warnings.

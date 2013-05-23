@@ -1,0 +1,1156 @@
+//! **************************************************************************
+// Written by: Map P.49d on Thu May 23 20:20:22 2013
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "i2s_ctrl_0_SDATA_I_pin" LOCATE = SITE "AA7" LEVEL 1;
+COMP "processing_system7_0_DDR_ODT" LOCATE = SITE "P5" LEVEL 1;
+COMP "processing_system7_0_DDR_Addr[13]" LOCATE = SITE "F4" LEVEL 1;
+COMP "processing_system7_0_DDR_Addr[14]" LOCATE = SITE "G4" LEVEL 1;
+COMP "processing_system7_0_DDR_Addr[11]" LOCATE = SITE "G5" LEVEL 1;
+COMP "processing_system7_0_DDR_Addr[12]" LOCATE = SITE "H4" LEVEL 1;
+COMP "processing_system7_0_DDR_Addr[10]" LOCATE = SITE "J3" LEVEL 1;
+COMP "processing_system7_0_I2C0_SCL" LOCATE = SITE "AB4" LEVEL 1;
+COMP "processing_system7_0_I2C0_SDA" LOCATE = SITE "AB5" LEVEL 1;
+COMP "processing_system7_0_DDR_WEB_pin" LOCATE = SITE "R4" LEVEL 1;
+COMP "processing_system7_0_MIO[24]" LOCATE = SITE "B7" LEVEL 1;
+COMP "processing_system7_0_MIO[23]" LOCATE = SITE "E11" LEVEL 1;
+COMP "processing_system7_0_MIO[26]" LOCATE = SITE "A13" LEVEL 1;
+COMP "processing_system7_0_MIO[25]" LOCATE = SITE "F12" LEVEL 1;
+COMP "processing_system7_0_MIO[28]" LOCATE = SITE "A12" LEVEL 1;
+COMP "processing_system7_0_MIO[27]" LOCATE = SITE "D7" LEVEL 1;
+COMP "processing_system7_0_MIO[29]" LOCATE = SITE "E8" LEVEL 1;
+COMP "processing_system7_0_MIO[20]" LOCATE = SITE "A8" LEVEL 1;
+COMP "processing_system7_0_MIO[22]" LOCATE = SITE "A14" LEVEL 1;
+COMP "processing_system7_0_MIO[21]" LOCATE = SITE "F11" LEVEL 1;
+COMP "processing_system7_0_MIO[14]" LOCATE = SITE "B6" LEVEL 1;
+COMP "axi_gpio_0_GPIO2_IO_pin[0]" LOCATE = SITE "F22" LEVEL 1;
+COMP "processing_system7_0_MIO[13]" LOCATE = SITE "A6" LEVEL 1;
+COMP "processing_system7_0_MIO[16]" LOCATE = SITE "D6" LEVEL 1;
+COMP "processing_system7_0_MIO[15]" LOCATE = SITE "E6" LEVEL 1;
+COMP "axi_gpio_0_GPIO2_IO_pin[1]" LOCATE = SITE "G22" LEVEL 1;
+COMP "processing_system7_0_MIO[18]" LOCATE = SITE "A7" LEVEL 1;
+COMP "processing_system7_0_MIO[17]" LOCATE = SITE "E9" LEVEL 1;
+COMP "processing_system7_0_MIO[19]" LOCATE = SITE "E10" LEVEL 1;
+COMP "processing_system7_0_MIO[10]" LOCATE = SITE "G7" LEVEL 1;
+COMP "processing_system7_0_MIO[12]" LOCATE = SITE "C5" LEVEL 1;
+COMP "processing_system7_0_DDR_CAS_n" LOCATE = SITE "P3" LEVEL 1;
+COMP "processing_system7_0_MIO[11]" LOCATE = SITE "B4" LEVEL 1;
+COMP "processing_system7_0_MIO[44]" LOCATE = SITE "E13" LEVEL 1;
+COMP "processing_system7_0_MIO[43]" LOCATE = SITE "B11" LEVEL 1;
+COMP "processing_system7_0_MIO[46]" LOCATE = SITE "D12" LEVEL 1;
+COMP "processing_system7_0_MIO[45]" LOCATE = SITE "B9" LEVEL 1;
+COMP "processing_system7_0_MIO[48]" LOCATE = SITE "D11" LEVEL 1;
+COMP "processing_system7_0_MIO[47]" LOCATE = SITE "B10" LEVEL 1;
+COMP "processing_system7_0_MIO[49]" LOCATE = SITE "C14" LEVEL 1;
+COMP "processing_system7_0_MIO[40]" LOCATE = SITE "E14" LEVEL 1;
+COMP "processing_system7_0_DDR_BankAddr[0]" LOCATE = SITE "L7" LEVEL 1;
+COMP "processing_system7_0_MIO[42]" LOCATE = SITE "D8" LEVEL 1;
+COMP "processing_system7_0_DDR_BankAddr[1]" LOCATE = SITE "L6" LEVEL 1;
+COMP "processing_system7_0_MIO[41]" LOCATE = SITE "C8" LEVEL 1;
+COMP "processing_system7_0_DDR_BankAddr[2]" LOCATE = SITE "M6" LEVEL 1;
+COMP "processing_system7_0_MIO[34]" LOCATE = SITE "B12" LEVEL 1;
+COMP "processing_system7_0_MIO[33]" LOCATE = SITE "G13" LEVEL 1;
+COMP "processing_system7_0_MIO[36]" LOCATE = SITE "A9" LEVEL 1;
+COMP "processing_system7_0_MIO[35]" LOCATE = SITE "F14" LEVEL 1;
+COMP "processing_system7_0_MIO[38]" LOCATE = SITE "F13" LEVEL 1;
+COMP "processing_system7_0_MIO[37]" LOCATE = SITE "B14" LEVEL 1;
+COMP "processing_system7_0_MIO[39]" LOCATE = SITE "C13" LEVEL 1;
+COMP "processing_system7_0_MIO[30]" LOCATE = SITE "A11" LEVEL 1;
+COMP "processing_system7_0_MIO[32]" LOCATE = SITE "C7" LEVEL 1;
+COMP "processing_system7_0_MIO[31]" LOCATE = SITE "F9" LEVEL 1;
+COMP "processing_system7_0_DDR_RAS_n" LOCATE = SITE "R5" LEVEL 1;
+COMP "processing_system7_0_DDR_DQS_n[0]" LOCATE = SITE "D2" LEVEL 1;
+COMP "processing_system7_0_DDR_DQS_n[1]" LOCATE = SITE "J2" LEVEL 1;
+COMP "processing_system7_0_DDR_DQS_n[2]" LOCATE = SITE "P2" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[31]" LOCATE = SITE "Y1" LEVEL 1;
+COMP "processing_system7_0_DDR_DQS_n[3]" LOCATE = SITE "W2" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[30]" LOCATE = SITE "W3" LEVEL 1;
+COMP "i2s_ctrl_0_BCLK_pin" LOCATE = SITE "AA6" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[22]" LOCATE = SITE "M2" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[21]" LOCATE = SITE "T2" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[20]" LOCATE = SITE "R3" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[26]" LOCATE = SITE "AA1" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[25]" LOCATE = SITE "U1" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[2]" LOCATE = SITE "B2" LEVEL 1;
+COMP "processing_system7_0_DDR_Addr[9]" LOCATE = SITE "H5" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[24]" LOCATE = SITE "AA3" LEVEL 1;
+COMP "i2s_ctrl_0_SDATA_O_pin" LOCATE = SITE "Y8" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[1]" LOCATE = SITE "C3" LEVEL 1;
+COMP "processing_system7_0_DDR_Addr[8]" LOCATE = SITE "J5" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[23]" LOCATE = SITE "R1" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[0]" LOCATE = SITE "D1" LEVEL 1;
+COMP "processing_system7_0_DDR_Addr[7]" LOCATE = SITE "J6" LEVEL 1;
+COMP "processing_system7_0_DDR_Addr[6]" LOCATE = SITE "J7" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[29]" LOCATE = SITE "Y3" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[6]" LOCATE = SITE "F2" LEVEL 1;
+COMP "processing_system7_0_DDR_Addr[5]" LOCATE = SITE "K5" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[28]" LOCATE = SITE "W1" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[5]" LOCATE = SITE "E1" LEVEL 1;
+COMP "processing_system7_0_DDR_Addr[4]" LOCATE = SITE "K6" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[27]" LOCATE = SITE "U2" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[4]" LOCATE = SITE "E3" LEVEL 1;
+COMP "processing_system7_0_DDR_Addr[3]" LOCATE = SITE "L4" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[3]" LOCATE = SITE "D3" LEVEL 1;
+COMP "processing_system7_0_DDR_Addr[2]" LOCATE = SITE "K4" LEVEL 1;
+COMP "processing_system7_0_DDR_Addr[1]" LOCATE = SITE "M5" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[9]" LOCATE = SITE "G1" LEVEL 1;
+COMP "processing_system7_0_DDR_Addr[0]" LOCATE = SITE "M4" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[8]" LOCATE = SITE "G2" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[12]" LOCATE = SITE "L3" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[7]" LOCATE = SITE "F1" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[11]" LOCATE = SITE "L2" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[10]" LOCATE = SITE "L1" LEVEL 1;
+COMP "axi_gpio_0_GPIO_IO_pin[0]" LOCATE = SITE "AB1" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[16]" LOCATE = SITE "M1" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[15]" LOCATE = SITE "K3" LEVEL 1;
+COMP "axi_gpio_0_GPIO_IO_pin[1]" LOCATE = SITE "Y5" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[14]" LOCATE = SITE "J1" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[13]" LOCATE = SITE "K1" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[19]" LOCATE = SITE "T1" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[18]" LOCATE = SITE "N3" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ[17]" LOCATE = SITE "T3" LEVEL 1;
+COMP "processing_system7_0_DDR_Clk" LOCATE = SITE "N4" LEVEL 1;
+COMP "processing_system7_0_MIO[4]" LOCATE = SITE "E4" LEVEL 1;
+COMP "processing_system7_0_MIO[3]" LOCATE = SITE "F6" LEVEL 1;
+COMP "processing_system7_0_MIO[6]" LOCATE = SITE "A4" LEVEL 1;
+COMP "processing_system7_0_MIO[5]" LOCATE = SITE "A3" LEVEL 1;
+COMP "processing_system7_0_MIO[8]" LOCATE = SITE "E5" LEVEL 1;
+COMP "processing_system7_0_MIO[7]" LOCATE = SITE "D5" LEVEL 1;
+COMP "processing_system7_0_MIO[9]" LOCATE = SITE "C4" LEVEL 1;
+COMP "processing_system7_0_MIO[0]" LOCATE = SITE "G6" LEVEL 1;
+COMP "processing_system7_0_MIO[2]" LOCATE = SITE "A2" LEVEL 1;
+COMP "processing_system7_0_MIO[1]" LOCATE = SITE "A1" LEVEL 1;
+COMP "processing_system7_0_FCLK_CLK1_pin" LOCATE = SITE "AB2" LEVEL 1;
+COMP "processing_system7_0_DDR_VRN" LOCATE = SITE "M7" LEVEL 1;
+COMP "processing_system7_0_DDR_VRP" LOCATE = SITE "N7" LEVEL 1;
+COMP "processing_system7_0_DDR_Clk_n" LOCATE = SITE "N5" LEVEL 1;
+COMP "processing_system7_0_DDR_CS_n" LOCATE = SITE "P6" LEVEL 1;
+COMP "processing_system7_0_DDR_CKE" LOCATE = SITE "V3" LEVEL 1;
+COMP "processing_system7_0_DDR_DM[2]" LOCATE = SITE "P1" LEVEL 1;
+COMP "processing_system7_0_DDR_DM[1]" LOCATE = SITE "H3" LEVEL 1;
+COMP "processing_system7_0_DDR_DM[0]" LOCATE = SITE "B1" LEVEL 1;
+COMP "processing_system7_0_DDR_DM[3]" LOCATE = SITE "AA2" LEVEL 1;
+COMP "processing_system7_0_MIO[53]" LOCATE = SITE "C12" LEVEL 1;
+COMP "processing_system7_0_MIO[50]" LOCATE = SITE "D13" LEVEL 1;
+COMP "processing_system7_0_MIO[52]" LOCATE = SITE "D10" LEVEL 1;
+COMP "processing_system7_0_MIO[51]" LOCATE = SITE "C10" LEVEL 1;
+COMP "i2s_ctrl_0_LRCLK_pin" LOCATE = SITE "Y6" LEVEL 1;
+COMP "processing_system7_0_DDR_DRSTB" LOCATE = SITE "F3" LEVEL 1;
+COMP "processing_system7_0_DDR_DQS[2]" LOCATE = SITE "N2" LEVEL 1;
+COMP "processing_system7_0_DDR_DQS[1]" LOCATE = SITE "H2" LEVEL 1;
+COMP "processing_system7_0_DDR_DQS[0]" LOCATE = SITE "C2" LEVEL 1;
+COMP "processing_system7_0_DDR_DQS[3]" LOCATE = SITE "V2" LEVEL 1;
+PIN sytem_i/fir_left/fir_left/fir_U/Mmult_tmp_s_fu_220_p2_pins<117> = BEL
+        "sytem_i/fir_left/fir_left/fir_U/Mmult_tmp_s_fu_220_p2" PINNAME CLK;
+PIN sytem_i/fir_right/fir_right/fir_U/Mmult_tmp_s_fu_220_p2_pins<117> = BEL
+        "sytem_i/fir_right/fir_right/fir_U/Mmult_tmp_s_fu_220_p2" PINNAME CLK;
+PIN sytem_i/processing_system7_0/processing_system7_0/PS7_i_pins<362> = BEL
+        "sytem_i/processing_system7_0/processing_system7_0/PS7_i" PINNAME
+        MAXIGP0ACLK;
+PIN
+        sytem_i/fir_left/fir_left/fir_U/shift_reg_U/fir_shift_reg_ram_U/Mram_ram_pins<32>
+        = BEL
+        "sytem_i/fir_left/fir_left/fir_U/shift_reg_U/fir_shift_reg_ram_U/Mram_ram"
+        PINNAME CLKARDCLK;
+PIN
+        sytem_i/fir_left/fir_left/fir_U/shift_reg_U/fir_shift_reg_ram_U/Mram_ram_pins<33>
+        = BEL
+        "sytem_i/fir_left/fir_left/fir_U/shift_reg_U/fir_shift_reg_ram_U/Mram_ram"
+        PINNAME CLKBWRCLK;
+PIN
+        sytem_i/fir_right/fir_right/fir_U/shift_reg_U/fir_shift_reg_ram_U/Mram_ram_pins<32>
+        = BEL
+        "sytem_i/fir_right/fir_right/fir_U/shift_reg_U/fir_shift_reg_ram_U/Mram_ram"
+        PINNAME CLKARDCLK;
+PIN
+        sytem_i/fir_right/fir_right/fir_U/shift_reg_U/fir_shift_reg_ram_U/Mram_ram_pins<33>
+        = BEL
+        "sytem_i/fir_right/fir_right/fir_U/shift_reg_U/fir_shift_reg_ram_U/Mram_ram"
+        PINNAME CLKBWRCLK;
+TIMEGRP clk_fpga_0 = BEL
+        "sytem_i/axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_Data_In_0" BEL
+        "sytem_i/axi_gpio_0/axi_gpio_0/ip2bus_data_i_D1_30" BEL
+        "sytem_i/axi_gpio_0/axi_gpio_0/ip2bus_data_i_D1_31" BEL
+        "sytem_i/axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/state_FSM_FFd1"
+        BEL
+        "sytem_i/axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_1"
+        BEL
+        "sytem_i/axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_0"
+        BEL
+        "sytem_i/axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/cs_out_i_0"
+        BEL
+        "sytem_i/axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/state_FSM_FFd2"
+        BEL "sytem_i/axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_xferAck_Reg" BEL
+        "sytem_i/axi_gpio_0/axi_gpio_0/gpio_core_1/Dual.gpio2_OE_0" BEL
+        "sytem_i/axi_gpio_0/axi_gpio_0/gpio_core_1/Dual.gpio2_OE_1" BEL
+        "sytem_i/axi_gpio_0/axi_gpio_0/gpio_core_1/Dual.gpio2_Data_Out_0" BEL
+        "sytem_i/axi_gpio_0/axi_gpio_0/gpio_core_1/Dual.gpio2_Data_Out_1" BEL
+        "sytem_i/axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_Data_Out_0" BEL
+        "sytem_i/axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_Data_Out_1" BEL
+        "sytem_i/axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_OE_0" BEL
+        "sytem_i/axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_OE_1" BEL
+        "sytem_i/axi_gpio_0/axi_gpio_0/gpio_core_1/iGPIO_xferAck" BEL
+        "sytem_i/axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_bvalid_i"
+        BEL
+        "sytem_i/axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rvalid_i"
+        BEL "sytem_i/axi_gpio_0/axi_gpio_0/ip2bus_wrack_i_D1" BEL
+        "sytem_i/axi_gpio_0/axi_gpio_0/ip2bus_rdack_i_D1" BEL
+        "sytem_i/axi_gpio_0/axi_gpio_0/bus2ip_reset" BEL
+        "sytem_i/axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_3"
+        BEL
+        "sytem_i/axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_2"
+        BEL
+        "sytem_i/axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_1"
+        BEL
+        "sytem_i/axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_0"
+        BEL "sytem_i/axi_gpio_0/axi_gpio_0/gpio_core_1/Dual.GPIO2_DBus_i_31"
+        BEL "sytem_i/axi_gpio_0/axi_gpio_0/gpio_core_1/Dual.GPIO2_DBus_i_30"
+        BEL "sytem_i/axi_gpio_0/axi_gpio_0/gpio_core_1/GPIO_DBus_i_31" BEL
+        "sytem_i/axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_Data_In_1" BEL
+        "sytem_i/axi_gpio_0/axi_gpio_0/gpio_core_1/GPIO_DBus_i_30" BEL
+        "sytem_i/axi_gpio_0/axi_gpio_0/gpio_core_1/Mshreg_Dual.gpio2_Data_In_0"
+        BEL "sytem_i/axi_gpio_0/axi_gpio_0/gpio_core_1/Dual.gpio2_Data_In_0"
+        BEL
+        "sytem_i/axi_gpio_0/axi_gpio_0/gpio_core_1/Mshreg_Dual.gpio2_Data_In_1"
+        BEL "sytem_i/axi_gpio_0/axi_gpio_0/gpio_core_1/Dual.gpio2_Data_In_1"
+        BEL "sytem_i/axi_gpio_0/axi_gpio_0/gpio_core_1/Mshreg_gpio_Data_In_0"
+        BEL "sytem_i/axi_gpio_0/axi_gpio_0/gpio_core_1/Mshreg_gpio_Data_In_1"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_0"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_1"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_2"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_3"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/Bus_RNW_reg"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/iis_state_FSM_FFd1"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/iis_state_FSM_FFd2"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/iis_state_FSM_FFd3"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/ldata_reg_0"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/ldata_reg_1"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/ldata_reg_2"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/ldata_reg_3"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/ldata_reg_4"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/ldata_reg_5"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/ldata_reg_6"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/ldata_reg_7"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/ldata_reg_8"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/ldata_reg_9"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/ldata_reg_0"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/ldata_reg_1"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/ldata_reg_2"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/iis_state_FSM_FFd1"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/ldata_reg_3"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/ldata_reg_4"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/iis_state_FSM_FFd2"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/ldata_reg_5"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/iis_state_FSM_FFd3"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/ldata_reg_6"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/ldata_reg_7"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/ldata_reg_8"
+        BEL "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_R_10" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/ldata_reg_9"
+        BEL "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_R_11" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_R_12" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_R_13" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_R_14" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_R_15" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_R_20" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_R_21" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_R_16" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_R_17" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_R_22" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_R_18" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_R_23" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_R_19" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_L_10" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_L_11" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_L_12" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_L_13" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_L_14" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_L_20" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_L_15" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_L_16" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_L_21" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_L_17" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_L_22" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_L_23" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_L_18" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_L_19" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/iis_state_FSM_FFd2_1"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/iis_state_FSM_FFd3_1"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/sclk_d1"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_bvalid_i"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/ldata_reg_10"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/ldata_reg_11"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/ldata_reg_12"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/ldata_reg_13"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/ldata_reg_14"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/ldata_reg_15"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/ldata_reg_20"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/ldata_reg_16"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/ldata_reg_21"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/ldata_reg_17"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/ldata_reg_22"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/ldata_reg_18"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/ldata_reg_23"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/ldata_reg_19"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/bit_cntr_0"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/bit_cntr_1"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/bit_cntr_2"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/bit_cntr_3"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/bit_cntr_4"
+        BEL "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/data_rdy_bit" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/lrclk_d1_1"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/rdata_reg_10"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/rdata_reg_11"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/rdata_reg_12"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/rdata_reg_13"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/rdata_reg_14"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/rdata_reg_20"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/rdata_reg_15"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/rdata_reg_21"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/rdata_reg_16"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/rdata_reg_22"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/rdata_reg_17"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/rdata_reg_23"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/rdata_reg_18"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/rdata_reg_19"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/sdata_reg"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/Bus_RNW_reg_1"
+        BEL "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_L_0" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_L_1" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_L_2" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_L_3" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_L_4" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_L_5" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_L_6" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_L_7" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_L_8" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_L_9" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/rst"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_10"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_11"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_12"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_13"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_14"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/ldata_reg_10"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_15"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_20"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/ldata_reg_11"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_16"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_21"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/ldata_reg_12"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_17"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_22"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/ldata_reg_13"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_23"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_18"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/ldata_reg_14"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_24"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_19"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/ldata_reg_20"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/ldata_reg_15"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_30"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_25"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/ldata_reg_21"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/ldata_reg_16"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_31"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_26"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/ldata_reg_22"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/ldata_reg_17"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_27"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/ldata_reg_23"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/ldata_reg_18"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_28"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/ldata_reg_19"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_29"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rvalid_i"
+        BEL "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/clk_cntr_10_1" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_L_0" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_L_1" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_L_2" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_L_3" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_L_4" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_L_5" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_L_6" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_L_7" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_L_8" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_L_9" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_R_10" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/rdata_reg_0"
+        BEL "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_R_11" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/rdata_reg_1"
+        BEL "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_R_12" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/rdata_reg_2"
+        BEL "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_R_13" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/rdata_reg_3"
+        BEL "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_R_14" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/rdata_reg_4"
+        BEL "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_R_15" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_R_20" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/rdata_reg_5"
+        BEL "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_R_16" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_R_21" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/rdata_reg_6"
+        BEL "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_R_17" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_R_22" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/rdata_reg_7"
+        BEL "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_R_18" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_R_23" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/rdata_reg_8"
+        BEL "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_R_19" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_R_24" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/rdata_reg_9"
+        BEL "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_R_25" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_R_30" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_R_26" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_R_31" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_R_27" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_R_28" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_R_29" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_L_10" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_L_11" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_L_12" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_L_13" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_L_14" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_R_0" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_L_15" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_R_1" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_L_20" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_L_16" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_R_2" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_L_21" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_L_17" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_R_3" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_L_22" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_L_18" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_R_4" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_L_23" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_L_19" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_R_5" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_L_24" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_L_25" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_R_6" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_L_30" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_L_26" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_R_7" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_L_31" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_L_27" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_R_8" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_L_28" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataRx_R_9" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_L_29" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/clk_cntr_10" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/state_FSM_FFd1"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/rdata_reg_0"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/state_FSM_FFd2"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/rdata_reg_1"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/rdata_reg_2"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/rdata_reg_3"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/rdata_reg_4"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/rdata_reg_5"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/rdata_reg_6"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/rdata_reg_7"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/rdata_reg_8"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/rdata_reg_9"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_0"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_1"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_2"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_3"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_4"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/bit_cntr_0"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/bit_cntr_1"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/bit_cntr_2"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/bit_cntr_3"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/bit_cntr_4"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/lrclk_d1"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_0"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_1"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_2"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_3"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_4"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_5"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_6"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_7"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_8"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_9"
+        BEL "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_R_0" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_R_1" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_R_2" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_R_3" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_R_4" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_R_5" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_R_6" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_R_7" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_R_8" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/clk_cntr_0" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/DataTx_R_9" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/rdata_reg_10"
+        BEL "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/clk_cntr_1" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/rdata_reg_11"
+        BEL "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/clk_cntr_2" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/rdata_reg_12"
+        BEL "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/clk_cntr_3" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/rdata_reg_13"
+        BEL "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/clk_cntr_4" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/clk_cntr_5" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/rdata_reg_14"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/rdata_reg_15"
+        BEL "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/clk_cntr_6" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/rdata_reg_20"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/rdata_reg_16"
+        BEL "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/clk_cntr_7" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/rdata_reg_21"
+        BEL "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/clk_cntr_8" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/rdata_reg_22"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/rdata_reg_17"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/rdata_reg_18"
+        BEL "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/clk_cntr_9" BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/rdata_reg_23"
+        BEL
+        "sytem_i/i2s_ctrl_0/i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/rdata_reg_19"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/mi_converter_bank/gen_conv_slot[0].clock_conv_inst/m_axi_reset_out_n_i"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/mi_protocol_conv_bank/gen_protocol_slot[1].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/areset_d_1"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.splitter_ar/m_ready_d_0"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.splitter_ar/m_ready_d_1"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/s_arvalid_reg_0"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/mi_converter_bank/gen_conv_slot[2].clock_conv_inst/m_axi_reset_out_n_i"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.gen_decerr.decerr_slave_inst/s_axi_awready_i"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/s_awvalid_reg_0"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/mi_protocol_conv_bank/gen_protocol_slot[2].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/busy"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.gen_decerr.decerr_slave_inst/s_axi_arready_i"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_valid_i_1"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_valid_i"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/grant_rnw_1"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.gen_decerr.decerr_slave_inst/write_cs_FSM_FFd1"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.gen_decerr.decerr_slave_inst/write_cs_FSM_FFd2"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/busy"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/mi_register_slice_bank/gen_reg_slot[1].register_slice_inst/reset"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/grant_rnw"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.gen_decerr.decerr_slave_inst/read_cnt_0"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/mi_protocol_conv_bank/gen_protocol_slot[2].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/write_active"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.gen_decerr.decerr_slave_inst/read_cnt_1"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.gen_decerr.decerr_slave_inst/read_cnt_2"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.gen_decerr.decerr_slave_inst/read_cnt_3"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/mi_register_slice_bank/gen_reg_slot[3].register_slice_inst/reset"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_grant_hot_i_0"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/m_atarget_enc_0"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/m_atarget_enc_1"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/m_atarget_enc_2"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.splitter_aw/m_ready_d_0"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.splitter_aw/m_ready_d_1"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.splitter_aw/m_ready_d_2"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/mi_protocol_conv_bank/gen_protocol_slot[2].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/areset_d_1"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/reset"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/mi_protocol_conv_bank/gen_protocol_slot[1].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/read_active"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/mi_protocol_conv_bank/gen_protocol_slot[3].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/read_active"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/m_atarget_hot_0"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/m_atarget_hot_1"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/m_atarget_hot_2"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/m_atarget_hot_3"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/m_atarget_hot_4"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_pipe_0"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_pipe_1"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_pipe_2"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/mi_converter_bank/gen_conv_slot[1].clock_conv_inst/m_axi_reset_out_n_i"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/mi_protocol_conv_bank/gen_protocol_slot[3].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/busy"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/mi_protocol_conv_bank/gen_protocol_slot[1].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/write_active"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/mi_converter_bank/gen_conv_slot[3].clock_conv_inst/m_axi_reset_out_n_i"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_10"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_11"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_12"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_13"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/mi_protocol_conv_bank/gen_protocol_slot[3].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/areset_d_1"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_14"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_20"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_15"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_16"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_30"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_31"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_32"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_28"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_33"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_29"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_34"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_35"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_40"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_36"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_41"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_42"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_37"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_38"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_43"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_39"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_44"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/s_ready_i_0"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_45"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_46"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_47"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_52"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_53"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/mi_protocol_conv_bank/gen_protocol_slot[1].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/busy"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/mi_register_slice_bank/gen_reg_slot[0].register_slice_inst/reset"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/areset_d_1"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.gen_decerr.decerr_slave_inst/s_axi_rlast_i"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/mi_register_slice_bank/gen_reg_slot[2].register_slice_inst/reset"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.gen_decerr.decerr_slave_inst/read_cs_0"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_0"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_1"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_2"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/read_active"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_0"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_1"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_2"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_3"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_4"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_5"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_6"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_7"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_8"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_9"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/mi_protocol_conv_bank/gen_protocol_slot[3].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/write_active"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/mi_protocol_conv_bank/gen_protocol_slot[2].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/read_active"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/write_active"
+        BEL "sytem_i/fir_left/fir_left/fir_U/ap_reg_ppiten_pp0_it0" BEL
+        "sytem_i/fir_left/fir_left/fir_U/ap_reg_ppiten_pp0_it1" BEL
+        "sytem_i/fir_left/fir_left/fir_U/ap_reg_ppiten_pp0_it2" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/_x_0" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/_x_1" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/_x_2" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/_x_3" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/wstate_FSM_FFd1" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/_x_4" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/wstate_FSM_FFd2" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/_x_5" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/_x_6" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/_x_7" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/_x_8" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/_x_9" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/waddr_0" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/waddr_1" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/waddr_2" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/waddr_3" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/waddr_4" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/rstate_FSM_FFd1" BEL
+        "sytem_i/fir_left/fir_left/fir_U/c_U/fir_c_rom_U/q0_0" BEL
+        "sytem_i/fir_left/fir_left/fir_U/c_U/fir_c_rom_U/q0_1" BEL
+        "sytem_i/fir_left/fir_left/fir_U/c_U/fir_c_rom_U/q0_2" BEL
+        "sytem_i/fir_left/fir_left/fir_U/c_U/fir_c_rom_U/q0_3" BEL
+        "sytem_i/fir_left/fir_left/fir_U/c_U/fir_c_rom_U/q0_4" BEL
+        "sytem_i/fir_left/fir_left/fir_U/c_U/fir_c_rom_U/q0_5" BEL
+        "sytem_i/fir_left/fir_left/fir_U/c_U/fir_c_rom_U/q0_6" BEL
+        "sytem_i/fir_left/fir_left/fir_U/c_U/fir_c_rom_U/q0_7" BEL
+        "sytem_i/fir_left/fir_left/fir_U/c_U/fir_c_rom_U/q0_8" BEL
+        "sytem_i/fir_left/fir_left/fir_U/c_U/fir_c_rom_U/q0_9" BEL
+        "sytem_i/fir_left/fir_left/fir_U/indvar_reg_113_0" BEL
+        "sytem_i/fir_left/fir_left/fir_U/indvar_reg_113_1" BEL
+        "sytem_i/fir_left/fir_left/fir_U/indvar_reg_113_2" BEL
+        "sytem_i/fir_left/fir_left/fir_U/indvar_reg_113_3" BEL
+        "sytem_i/fir_left/fir_left/fir_U/indvar_reg_113_4" BEL
+        "sytem_i/fir_left/fir_left/fir_U/indvar_reg_113_5" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/rdata_0" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/rdata_1" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/rdata_2" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/rdata_3" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/rdata_4" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/rdata_5" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/rdata_6" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/rdata_7" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/rdata_8" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/rdata_9" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_reg_124_0" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_reg_124_1" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_reg_124_2" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_reg_124_3" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_reg_124_4" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_reg_124_5" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_reg_124_6" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_reg_124_7" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/auto_restart" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_reg_124_8" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_reg_124_9" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_cast8_reg_334_6" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_cast8_reg_334_7" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_cast8_reg_334_8" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_cast8_reg_334_9" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/ier_0" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/ier_1" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/_x_10" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/_x_11" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/_x_12" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/_x_13" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/_x_14" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/_x_15" BEL
+        "sytem_i/fir_left/fir_left/fir_U/c_U/fir_c_rom_U/q0_10" BEL
+        "sytem_i/fir_left/fir_left/fir_U/c_U/fir_c_rom_U/q0_11" BEL
+        "sytem_i/fir_left/fir_left/fir_U/c_U/fir_c_rom_U/q0_12" BEL
+        "sytem_i/fir_left/fir_left/fir_U/exitcond2_reg_300_0" BEL
+        "sytem_i/fir_left/fir_left/fir_U/ap_CS_fsm_FSM_FFd1" BEL
+        "sytem_i/fir_left/fir_left/fir_U/ap_CS_fsm_FSM_FFd2" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/isr_0" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/isr_1" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/_y_ap_vld" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/rdata_10" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/rdata_11" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/rdata_12" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/rdata_13" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/rdata_14" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/rdata_15" BEL
+        "sytem_i/fir_left/fir_left/fir_U/ap_reg_ppstg_exitcond2_reg_300_pp0_it1_0"
+        BEL "sytem_i/fir_left/fir_left/fir_io_if_U/ap_done" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_cast8_reg_334_10" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_cast8_reg_334_11" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_cast8_reg_334_12" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_cast8_reg_334_13" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_cast8_reg_334_14" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_cast8_reg_334_20" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_cast8_reg_334_15" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_cast8_reg_334_21" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_cast8_reg_334_16" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_cast8_reg_334_17" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_cast8_reg_334_22" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_cast8_reg_334_23" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_cast8_reg_334_18" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_cast8_reg_334_24" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_cast8_reg_334_19" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_cast8_reg_334_25" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_cast8_reg_334_30" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_cast8_reg_334_26" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_cast8_reg_334_27" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_cast8_reg_334_28" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_cast8_reg_334_29" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/gie" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_reg_124_10" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_reg_124_11" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_reg_124_12" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_reg_124_13" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_reg_124_14" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_reg_124_15" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_reg_124_20" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_reg_124_21" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_reg_124_16" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_reg_124_17" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_reg_124_22" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_reg_124_18" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_reg_124_23" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_reg_124_19" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_reg_124_24" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_reg_124_25" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_reg_124_30" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_reg_124_26" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_reg_124_27" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_reg_124_28" BEL
+        "sytem_i/fir_left/fir_left/fir_U/acc_1_reg_124_29" BEL
+        "sytem_i/fir_left/fir_left/fir_U/i_cast_reg_309_0" BEL
+        "sytem_i/fir_left/fir_left/fir_U/i_cast_reg_309_1" BEL
+        "sytem_i/fir_left/fir_left/fir_U/i_cast_reg_309_2" BEL
+        "sytem_i/fir_left/fir_left/fir_U/i_cast_reg_309_3" BEL
+        "sytem_i/fir_left/fir_left/fir_U/i_cast_reg_309_4" BEL
+        "sytem_i/fir_left/fir_left/fir_U/i_cast_reg_309_5" BEL
+        "sytem_i/fir_left/fir_left/fir_io_if_U/ap_start" PIN
+        "sytem_i/fir_left/fir_left/fir_U/Mmult_tmp_s_fu_220_p2_pins<117>" BEL
+        "sytem_i/fir_right/fir_right/fir_U/c_U/fir_c_rom_U/q0_10" BEL
+        "sytem_i/fir_right/fir_right/fir_U/c_U/fir_c_rom_U/q0_11" BEL
+        "sytem_i/fir_right/fir_right/fir_U/c_U/fir_c_rom_U/q0_12" BEL
+        "sytem_i/fir_right/fir_right/fir_io_if_U/waddr_0" BEL
+        "sytem_i/fir_right/fir_right/fir_io_if_U/waddr_1" BEL
+        "sytem_i/fir_right/fir_right/fir_io_if_U/waddr_2" BEL
+        "sytem_i/fir_right/fir_right/fir_io_if_U/waddr_3" BEL
+        "sytem_i/fir_right/fir_right/fir_io_if_U/waddr_4" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_reg_124_0" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_reg_124_1" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_reg_124_2" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_reg_124_3" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_reg_124_4" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_reg_124_5" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_reg_124_6" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_reg_124_7" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_reg_124_8" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_reg_124_9" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_cast8_reg_334_10" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_cast8_reg_334_11" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_cast8_reg_334_12" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_cast8_reg_334_13" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_cast8_reg_334_14" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_cast8_reg_334_20" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_cast8_reg_334_15" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_cast8_reg_334_21" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_cast8_reg_334_16" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_cast8_reg_334_17" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_cast8_reg_334_22" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_cast8_reg_334_23" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_cast8_reg_334_18" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_cast8_reg_334_24" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_cast8_reg_334_19" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_cast8_reg_334_25" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_cast8_reg_334_30" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_cast8_reg_334_26" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_cast8_reg_334_27" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_cast8_reg_334_28" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_cast8_reg_334_29" BEL
+        "sytem_i/fir_right/fir_right/fir_io_if_U/auto_restart" BEL
+        "sytem_i/fir_right/fir_right/fir_io_if_U/gie" BEL
+        "sytem_i/fir_right/fir_right/fir_io_if_U/rdata_0" BEL
+        "sytem_i/fir_right/fir_right/fir_io_if_U/rdata_1" BEL
+        "sytem_i/fir_right/fir_right/fir_io_if_U/rdata_2" BEL
+        "sytem_i/fir_right/fir_right/fir_io_if_U/rdata_3" BEL
+        "sytem_i/fir_right/fir_right/fir_io_if_U/rdata_4" BEL
+        "sytem_i/fir_right/fir_right/fir_io_if_U/rdata_5" BEL
+        "sytem_i/fir_right/fir_right/fir_io_if_U/rdata_6" BEL
+        "sytem_i/fir_right/fir_right/fir_io_if_U/rdata_7" BEL
+        "sytem_i/fir_right/fir_right/fir_io_if_U/rdata_8" BEL
+        "sytem_i/fir_right/fir_right/fir_io_if_U/rdata_9" PIN
+        "sytem_i/fir_right/fir_right/fir_U/Mmult_tmp_s_fu_220_p2_pins<117>"
+        BEL "sytem_i/fir_right/fir_right/fir_io_if_U/_y_ap_vld" BEL
+        "sytem_i/fir_right/fir_right/fir_U/ap_reg_ppiten_pp0_it0" BEL
+        "sytem_i/fir_right/fir_right/fir_U/ap_reg_ppiten_pp0_it1" BEL
+        "sytem_i/fir_right/fir_right/fir_U/ap_reg_ppiten_pp0_it2" BEL
+        "sytem_i/fir_right/fir_right/fir_io_if_U/rdata_10" BEL
+        "sytem_i/fir_right/fir_right/fir_io_if_U/rdata_11" BEL
+        "sytem_i/fir_right/fir_right/fir_io_if_U/rdata_12" BEL
+        "sytem_i/fir_right/fir_right/fir_io_if_U/rdata_13" BEL
+        "sytem_i/fir_right/fir_right/fir_io_if_U/rdata_14" BEL
+        "sytem_i/fir_right/fir_right/fir_io_if_U/rdata_15" BEL
+        "sytem_i/fir_right/fir_right/fir_U/ap_reg_ppstg_exitcond2_reg_300_pp0_it1_0"
+        BEL "sytem_i/fir_right/fir_right/fir_io_if_U/wstate_FSM_FFd1" BEL
+        "sytem_i/fir_right/fir_right/fir_io_if_U/wstate_FSM_FFd2" BEL
+        "sytem_i/fir_right/fir_right/fir_U/ap_CS_fsm_FSM_FFd1" BEL
+        "sytem_i/fir_right/fir_right/fir_U/ap_CS_fsm_FSM_FFd2" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_reg_124_10" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_reg_124_11" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_reg_124_12" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_reg_124_13" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_reg_124_14" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_reg_124_15" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_reg_124_20" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_reg_124_21" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_reg_124_16" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_reg_124_22" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_reg_124_17" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_reg_124_18" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_reg_124_23" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_reg_124_24" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_reg_124_19" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_reg_124_30" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_reg_124_25" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_reg_124_26" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_reg_124_27" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_reg_124_28" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_reg_124_29" BEL
+        "sytem_i/fir_right/fir_right/fir_io_if_U/ier_0" BEL
+        "sytem_i/fir_right/fir_right/fir_io_if_U/ier_1" BEL
+        "sytem_i/fir_right/fir_right/fir_U/i_cast_reg_309_0" BEL
+        "sytem_i/fir_right/fir_right/fir_U/i_cast_reg_309_1" BEL
+        "sytem_i/fir_right/fir_right/fir_U/i_cast_reg_309_2" BEL
+        "sytem_i/fir_right/fir_right/fir_U/i_cast_reg_309_3" BEL
+        "sytem_i/fir_right/fir_right/fir_U/i_cast_reg_309_4" BEL
+        "sytem_i/fir_right/fir_right/fir_U/i_cast_reg_309_5" BEL
+        "sytem_i/fir_right/fir_right/fir_io_if_U/_x_10" BEL
+        "sytem_i/fir_right/fir_right/fir_io_if_U/_x_11" BEL
+        "sytem_i/fir_right/fir_right/fir_io_if_U/_x_12" BEL
+        "sytem_i/fir_right/fir_right/fir_io_if_U/_x_13" BEL
+        "sytem_i/fir_right/fir_right/fir_io_if_U/_x_14" BEL
+        "sytem_i/fir_right/fir_right/fir_U/exitcond2_reg_300_0" BEL
+        "sytem_i/fir_right/fir_right/fir_io_if_U/_x_15" BEL
+        "sytem_i/fir_right/fir_right/fir_io_if_U/ap_start" BEL
+        "sytem_i/fir_right/fir_right/fir_io_if_U/_x_0" BEL
+        "sytem_i/fir_right/fir_right/fir_io_if_U/_x_1" BEL
+        "sytem_i/fir_right/fir_right/fir_io_if_U/_x_2" BEL
+        "sytem_i/fir_right/fir_right/fir_io_if_U/_x_3" BEL
+        "sytem_i/fir_right/fir_right/fir_io_if_U/_x_4" BEL
+        "sytem_i/fir_right/fir_right/fir_io_if_U/_x_5" BEL
+        "sytem_i/fir_right/fir_right/fir_io_if_U/_x_6" BEL
+        "sytem_i/fir_right/fir_right/fir_io_if_U/rstate_FSM_FFd1" BEL
+        "sytem_i/fir_right/fir_right/fir_io_if_U/_x_7" BEL
+        "sytem_i/fir_right/fir_right/fir_io_if_U/_x_8" BEL
+        "sytem_i/fir_right/fir_right/fir_io_if_U/_x_9" BEL
+        "sytem_i/fir_right/fir_right/fir_U/c_U/fir_c_rom_U/q0_0" BEL
+        "sytem_i/fir_right/fir_right/fir_U/c_U/fir_c_rom_U/q0_1" BEL
+        "sytem_i/fir_right/fir_right/fir_U/c_U/fir_c_rom_U/q0_2" BEL
+        "sytem_i/fir_right/fir_right/fir_U/c_U/fir_c_rom_U/q0_3" BEL
+        "sytem_i/fir_right/fir_right/fir_U/c_U/fir_c_rom_U/q0_4" BEL
+        "sytem_i/fir_right/fir_right/fir_U/c_U/fir_c_rom_U/q0_5" BEL
+        "sytem_i/fir_right/fir_right/fir_U/c_U/fir_c_rom_U/q0_6" BEL
+        "sytem_i/fir_right/fir_right/fir_U/c_U/fir_c_rom_U/q0_7" BEL
+        "sytem_i/fir_right/fir_right/fir_io_if_U/ap_done" BEL
+        "sytem_i/fir_right/fir_right/fir_U/c_U/fir_c_rom_U/q0_8" BEL
+        "sytem_i/fir_right/fir_right/fir_U/c_U/fir_c_rom_U/q0_9" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_cast8_reg_334_6" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_cast8_reg_334_7" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_cast8_reg_334_8" BEL
+        "sytem_i/fir_right/fir_right/fir_U/acc_1_cast8_reg_334_9" BEL
+        "sytem_i/fir_right/fir_right/fir_io_if_U/isr_0" BEL
+        "sytem_i/fir_right/fir_right/fir_io_if_U/isr_1" BEL
+        "sytem_i/fir_right/fir_right/fir_U/indvar_reg_113_0" BEL
+        "sytem_i/fir_right/fir_right/fir_U/indvar_reg_113_1" BEL
+        "sytem_i/fir_right/fir_right/fir_U/indvar_reg_113_2" BEL
+        "sytem_i/fir_right/fir_right/fir_U/indvar_reg_113_3" BEL
+        "sytem_i/fir_right/fir_right/fir_U/indvar_reg_113_4" BEL
+        "sytem_i/fir_right/fir_right/fir_U/indvar_reg_113_5" PIN
+        "sytem_i/processing_system7_0/processing_system7_0/PS7_i_pins<362>"
+        PIN
+        "sytem_i/fir_left/fir_left/fir_U/shift_reg_U/fir_shift_reg_ram_U/Mram_ram_pins<32>"
+        PIN
+        "sytem_i/fir_left/fir_left/fir_U/shift_reg_U/fir_shift_reg_ram_U/Mram_ram_pins<33>"
+        PIN
+        "sytem_i/fir_right/fir_right/fir_U/shift_reg_U/fir_shift_reg_ram_U/Mram_ram_pins<32>"
+        PIN
+        "sytem_i/fir_right/fir_right/fir_U/shift_reg_U/fir_shift_reg_ram_U/Mram_ram_pins<33>";
+TIMEGRP axi_interconnect_1_reset_resync = BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_0"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_1"
+        BEL
+        "sytem_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_2";
+TIMEGRP clk_fpga_1 = BEL "processing_system7_0_FCLK_CLK1_pin";
+TIMEGRP axi_interconnect_1_reset_source = FFS(*) PADS(*);
+TS_clk_fpga_1 = PERIOD TIMEGRP "clk_fpga_1" 10 MHz HIGH 50%;
+TS_clk_fpga_0 = PERIOD TIMEGRP "clk_fpga_0" 100 MHz HIGH 50%;
+PATH TS_axi_interconnect_1_reset_resync_path = FROM TIMEGRP
+        "axi_interconnect_1_reset_source" TO TIMEGRP
+        "axi_interconnect_1_reset_resync";
+PATH "TS_axi_interconnect_1_reset_resync_path" TIG;
+SCHEMATIC END;
+

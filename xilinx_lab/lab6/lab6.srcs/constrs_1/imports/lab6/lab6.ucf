@@ -1,0 +1,22 @@
+#
+# pin constraints
+#
+#
+# additional constraints
+#
+# Audio Related constraints
+NET i2s_ctrl_0_BCLK_pin  LOC = AA6 | IOSTANDARD = LVCMOS33;
+NET i2s_ctrl_0_LRCLK_pin LOC = Y6  | IOSTANDARD = LVCMOS33;
+NET i2s_ctrl_0_SDATA_I_pin LOC = AA7 | IOSTANDARD = LVCMOS33;
+NET i2s_ctrl_0_SDATA_O_pin LOC = Y8  | IOSTANDARD = LVCMOS33;
+
+NET processing_system7_0_FCLK_CLK1_pin LOC = AB2 | IOSTANDARD = LVCMOS33; #MCLK
+
+NET processing_system7_0_I2C0_SCL LOC = AB4 | IOSTANDARD = LVCMOS33; 
+NET processing_system7_0_I2C0_SDA LOC = AB5 | IOSTANDARD = LVCMOS33;
+
+NET axi_gpio_0_GPIO_IO_pin<0> LOC = AB1 | IOSTANDARD = LVCMOS33;
+NET axi_gpio_0_GPIO_IO_pin<1> LOC = Y5 | IOSTANDARD = LVCMOS33;
+
+NET axi_gpio_0_GPIO2_IO_pin<0> LOC = F22 | IOSTANDARD = LVCMOS33; # SW0 for Profiling or free running
+NET axi_gpio_0_GPIO2_IO_pin<1> LOC = G22 | IOSTANDARD = LVCMOS33; # SW1 for bypass or through filter

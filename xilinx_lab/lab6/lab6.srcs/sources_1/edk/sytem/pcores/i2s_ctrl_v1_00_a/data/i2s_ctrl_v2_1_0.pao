@@ -1,0 +1,12 @@
+##############################################################################
+## Filename:          C:/Sam_work/EDK_Projects/zed_i2s_rw_test/pcores/i2s_ctrl_v1_00_a/data/i2s_ctrl_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Wed Aug 15 18:20:40 2012 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib proc_common_v3_00_a  all 
+lib axi_lite_ipif_v1_01_a  all 
+lib i2s_ctrl_v1_00_a iis_deser vhdl
+lib i2s_ctrl_v1_00_a iis_ser vhdl
+lib i2s_ctrl_v1_00_a user_logic vhdl
+lib i2s_ctrl_v1_00_a i2s_ctrl vhdl

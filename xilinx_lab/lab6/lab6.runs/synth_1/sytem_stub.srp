@@ -1,0 +1,452 @@
+Release 14.4 - xst P.49d (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> 
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Reading design: sytem_stub.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "sytem_stub.prj"
+
+---- Target Parameters
+Target Device                      : xc7z020clg484-1
+Output File Name                   : "sytem_stub.ngc"
+
+---- Source Options
+Top Module Name                    : sytem_stub
+
+---- General Options
+Optimization Goal                  : speed
+Optimization Effort                : 1
+Netlist Hierarchy                  : rebuilt
+
+---- Other Options
+Cores Search Directories           : {..\..\lab6.srcs\sources_1\edk\sytem\implementation}
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "H:/github/zedboard_project/xilinx_lab/lab6/lab6.srcs/sources_1/edk/sytem/hdl/sytem.vhd" into library work
+Parsing entity <sytem>.
+Parsing architecture <STRUCTURE> of entity <sytem>.
+Parsing VHDL file "H:/github/zedboard_project/xilinx_lab/lab6/lab6.srcs/sources_1/edk/sytem/sytem_stub.vhd" into library work
+Parsing entity <sytem_stub>.
+Parsing architecture <STRUCTURE> of entity <sytem_stub>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <sytem_stub> (architecture <STRUCTURE>) from library <work>.
+
+Elaborating entity <sytem> (architecture <>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <sytem_stub>.
+    Related source file is "H:/github/zedboard_project/xilinx_lab/lab6/lab6.srcs/sources_1/edk/sytem/sytem_stub.vhd".
+    Set property "BOX_TYPE = user_black_box" for instance <sytem_i>.
+    Summary:
+	no macro.
+Unit <sytem_stub> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <..\..\lab6.srcs\sources_1\edk\sytem\implementation/sytem.ngc>.
+Reading core <..\..\lab6.srcs\sources_1\edk\sytem\implementation/sytem_processing_system7_0_wrapper.ngc>.
+Reading core <..\..\lab6.srcs\sources_1\edk\sytem\implementation/sytem_i2s_ctrl_0_wrapper.ngc>.
+Reading core <..\..\lab6.srcs\sources_1\edk\sytem\implementation/sytem_axi_interconnect_1_wrapper.ngc>.
+Reading core <..\..\lab6.srcs\sources_1\edk\sytem\implementation/sytem_fir_left_wrapper.ngc>.
+Reading core <..\..\lab6.srcs\sources_1\edk\sytem\implementation/sytem_fir_right_wrapper.ngc>.
+Reading core <..\..\lab6.srcs\sources_1\edk\sytem\implementation/sytem_axi_gpio_0_wrapper.ngc>.
+Loading core <sytem_processing_system7_0_wrapper> for timing and area information for instance <processing_system7_0>.
+Loading core <sytem_i2s_ctrl_0_wrapper> for timing and area information for instance <i2s_ctrl_0>.
+Loading core <sytem_axi_interconnect_1_wrapper> for timing and area information for instance <axi_interconnect_1>.
+Loading core <sytem_fir_left_wrapper> for timing and area information for instance <fir_left>.
+Loading core <sytem_fir_right_wrapper> for timing and area information for instance <fir_right>.
+Loading core <sytem_axi_gpio_0_wrapper> for timing and area information for instance <axi_gpio_0>.
+Loading core <sytem> for timing and area information for instance <sytem_i>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+WARNING:Xst:528 - Multi-source in Unit <processing_system7_0> on signal <PS_SRSTB>; this signal is connected to multiple drivers.
+Drivers are: 
+   Primary input port <processing_system7_0_PS_SRSTB>
+   Output port PS7:PSSRSTB of instance <sytem_i/processing_system7_0/processing_system7_0/PS7_i>
+
+WARNING:Xst:528 - Multi-source in Unit <processing_system7_0> on signal <PS_CLK>; this signal is connected to multiple drivers.
+Drivers are: 
+   Primary input port <processing_system7_0_PS_CLK>
+   Output port PS7:PSCLK of instance <sytem_i/processing_system7_0/processing_system7_0/PS7_i>
+
+WARNING:Xst:528 - Multi-source in Unit <processing_system7_0> on signal <PS_PORB>; this signal is connected to multiple drivers.
+Drivers are: 
+   Primary input port <processing_system7_0_PS_PORB>
+   Output port PS7:PSPORB of instance <sytem_i/processing_system7_0/processing_system7_0/PS7_i>
+
+Optimizing unit <sytem_stub> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 0) on block sytem_stub, actual ratio is 0.
+INFO:Xst:2260 - The FF/Latch <i2s_ctrl_0/USER_LOGIC_I/clk_cntr_10> in Unit <i2s_ctrl_0> is equivalent to the following FF/Latch : <i2s_ctrl_0/USER_LOGIC_I/clk_cntr_10_1> 
+INFO:Xst:2260 - The FF/Latch <i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/iis_state_FSM_FFd3> in Unit <i2s_ctrl_0> is equivalent to the following FF/Latch : <i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/iis_state_FSM_FFd3_1> 
+INFO:Xst:2260 - The FF/Latch <i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/Bus_RNW_reg> in Unit <i2s_ctrl_0> is equivalent to the following FF/Latch : <i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/Bus_RNW_reg_1> 
+INFO:Xst:2260 - The FF/Latch <i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/iis_state_FSM_FFd2> in Unit <i2s_ctrl_0> is equivalent to the following FF/Latch : <i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/iis_state_FSM_FFd2_1> 
+INFO:Xst:2260 - The FF/Latch <i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/lrclk_d1> in Unit <i2s_ctrl_0> is equivalent to the following FF/Latch : <i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/lrclk_d1_1> 
+INFO:Xst:2260 - The FF/Latch <axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/grant_rnw> in Unit <axi_interconnect_1> is equivalent to the following FF/Latch : <axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/grant_rnw_1> 
+INFO:Xst:2260 - The FF/Latch <axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_valid_i> in Unit <axi_interconnect_1> is equivalent to the following FF/Latch : <axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_valid_i_1> 
+INFO:Xst:2260 - The FF/Latch <i2s_ctrl_0/USER_LOGIC_I/clk_cntr_10> in Unit <i2s_ctrl_0> is equivalent to the following FF/Latch : <i2s_ctrl_0/USER_LOGIC_I/clk_cntr_10_1> 
+INFO:Xst:2260 - The FF/Latch <i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/iis_state_FSM_FFd3> in Unit <i2s_ctrl_0> is equivalent to the following FF/Latch : <i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/iis_state_FSM_FFd3_1> 
+INFO:Xst:2260 - The FF/Latch <i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/Bus_RNW_reg> in Unit <i2s_ctrl_0> is equivalent to the following FF/Latch : <i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/Bus_RNW_reg_1> 
+INFO:Xst:2260 - The FF/Latch <i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/iis_state_FSM_FFd2> in Unit <i2s_ctrl_0> is equivalent to the following FF/Latch : <i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/iis_state_FSM_FFd2_1> 
+INFO:Xst:2260 - The FF/Latch <i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/lrclk_d1> in Unit <i2s_ctrl_0> is equivalent to the following FF/Latch : <i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/lrclk_d1_1> 
+INFO:Xst:2260 - The FF/Latch <axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/grant_rnw> in Unit <axi_interconnect_1> is equivalent to the following FF/Latch : <axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/grant_rnw_1> 
+INFO:Xst:2260 - The FF/Latch <axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_valid_i> in Unit <axi_interconnect_1> is equivalent to the following FF/Latch : <axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_valid_i_1> 
+INFO:Xst:2260 - The FF/Latch <i2s_ctrl_0/USER_LOGIC_I/clk_cntr_10> in Unit <i2s_ctrl_0> is equivalent to the following FF/Latch : <i2s_ctrl_0/USER_LOGIC_I/clk_cntr_10_1> 
+INFO:Xst:2260 - The FF/Latch <i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/iis_state_FSM_FFd3> in Unit <i2s_ctrl_0> is equivalent to the following FF/Latch : <i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/iis_state_FSM_FFd3_1> 
+INFO:Xst:2260 - The FF/Latch <i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/Bus_RNW_reg> in Unit <i2s_ctrl_0> is equivalent to the following FF/Latch : <i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/Bus_RNW_reg_1> 
+INFO:Xst:2260 - The FF/Latch <i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/iis_state_FSM_FFd2> in Unit <i2s_ctrl_0> is equivalent to the following FF/Latch : <i2s_ctrl_0/USER_LOGIC_I/Inst_iis_ser/iis_state_FSM_FFd2_1> 
+INFO:Xst:2260 - The FF/Latch <i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/lrclk_d1> in Unit <i2s_ctrl_0> is equivalent to the following FF/Latch : <i2s_ctrl_0/USER_LOGIC_I/Inst_iis_deser/lrclk_d1_1> 
+INFO:Xst:2260 - The FF/Latch <axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/grant_rnw> in Unit <axi_interconnect_1> is equivalent to the following FF/Latch : <axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/grant_rnw_1> 
+INFO:Xst:2260 - The FF/Latch <axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_valid_i> in Unit <axi_interconnect_1> is equivalent to the following FF/Latch : <axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_valid_i_1> 
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : sytem_stub.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 1575
+#      GND                         : 7
+#      INV                         : 116
+#      LUT1                        : 16
+#      LUT2                        : 172
+#      LUT3                        : 96
+#      LUT4                        : 180
+#      LUT5                        : 217
+#      LUT6                        : 339
+#      MUXCY                       : 201
+#      MUXF7                       : 49
+#      VCC                         : 5
+#      XORCY                       : 177
+# FlipFlops/Latches                : 758
+#      FD                          : 84
+#      FDC                         : 15
+#      FDE                         : 337
+#      FDR                         : 71
+#      FDRE                        : 247
+#      FDSE                        : 4
+# RAMS                             : 2
+#      RAMB18E1                    : 2
+# Shift Registers                  : 4
+#      SRLC16E                     : 4
+# Clock Buffers                    : 2
+#      BUFG                        : 2
+# IO Buffers                       : 14
+#      IBUF                        : 4
+#      IOBUF                       : 6
+#      OBUF                        : 4
+# DSPs                             : 2
+#      DSP48E1                     : 2
+# Others                           : 1
+#      PS7                         : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7z020clg484-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             758  out of  106400     0%  
+ Number of Slice LUTs:                 1140  out of  53200     2%  
+    Number used as Logic:              1136  out of  53200     2%  
+    Number used as Memory:                4  out of  17400     0%  
+       Number used as SRL:                4
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   1401
+   Number with an unused Flip Flop:     643  out of   1401    45%  
+   Number with an unused LUT:           261  out of   1401    18%  
+   Number of fully used LUT-FF pairs:   497  out of   1401    35%  
+   Number of unique control sets:        63
+
+IO Utilization: 
+ Number of IOs:                         141
+ Number of bonded IOBs:                  14  out of    200     7%  
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:                1  out of    140     0%  
+    Number using Block RAM only:          1
+ Number of BUFG/BUFGCTRLs:                2  out of     32     6%  
+ Number of DSP48E1s:                      2  out of    220     0%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+------------------------------------------------------------------------+------------------------+-------+
+Clock Signal                                                            | Clock buffer(FF name)  | Load  |
+------------------------------------------------------------------------+------------------------+-------+
+sytem_i/processing_system7_0/processing_system7_0/FCLK_CLK_unbuffered<0>| BUFG                   | 766   |
+------------------------------------------------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+---------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+-------+
+Control Signal                                                                                     | Buffer(FF name)                                                                 | Load  |
+---------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+-------+
+sytem_i/fir_left/N1(sytem_i/fir_left/XST_VCC:P)                                                    | NONE(sytem_i/fir_left/fir_left/fir_U/shift_reg_U/fir_shift_reg_ram_U/Mram_ram)  | 4     |
+sytem_i/fir_left/s_axi_fir_io_RRESP<0>(sytem_i/fir_left/XST_GND:G)                                 | NONE(sytem_i/fir_left/fir_left/fir_U/shift_reg_U/fir_shift_reg_ram_U/Mram_ram)  | 4     |
+sytem_i/fir_right/N1(sytem_i/fir_right/XST_VCC:P)                                                  | NONE(sytem_i/fir_right/fir_right/fir_U/shift_reg_U/fir_shift_reg_ram_U/Mram_ram)| 4     |
+sytem_i/fir_right/s_axi_fir_io_RRESP<0>(sytem_i/fir_right/XST_GND:G)                               | NONE(sytem_i/fir_right/fir_right/fir_U/shift_reg_U/fir_shift_reg_ram_U/Mram_ram)| 4     |
+sytem_i/fir_left/fir_left/sig_fir_ap_done(sytem_i/fir_left/fir_left/fir_U/ap_CS_fsm_ap_done1:O)    | NONE(sytem_i/fir_left/fir_left/fir_U/shift_reg_U/fir_shift_reg_ram_U/Mram_ram)  | 2     |
+sytem_i/fir_right/fir_right/sig_fir_ap_done(sytem_i/fir_right/fir_right/fir_U/ap_CS_fsm_ap_done1:O)| NONE(sytem_i/fir_right/fir_right/fir_U/shift_reg_U/fir_shift_reg_ram_U/Mram_ram)| 2     |
+---------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 5.101ns (Maximum Frequency: 196.040MHz)
+   Minimum input arrival time before clock: 2.566ns
+   Maximum output required time after clock: 4.026ns
+   Maximum combinational path delay: 0.865ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'sytem_i/processing_system7_0/processing_system7_0/FCLK_CLK_unbuffered<0>'
+  Clock period: 5.101ns (frequency: 196.040MHz)
+  Total number of paths / destination ports: 42455 / 1762
+-------------------------------------------------------------------------
+Delay:               5.101ns (Levels of Logic = 25)
+  Source:            sytem_i/fir_left/fir_left/fir_U/shift_reg_U/fir_shift_reg_ram_U/Mram_ram (RAM)
+  Destination:       sytem_i/fir_left/fir_left/fir_U/acc_1_reg_124_30 (FF)
+  Source Clock:      sytem_i/processing_system7_0/processing_system7_0/FCLK_CLK_unbuffered<0> rising
+  Destination Clock: sytem_i/processing_system7_0/processing_system7_0/FCLK_CLK_unbuffered<0> rising
+
+  Data Path: sytem_i/fir_left/fir_left/fir_U/shift_reg_U/fir_shift_reg_ram_U/Mram_ram to sytem_i/fir_left/fir_left/fir_U/acc_1_reg_124_30
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     RAMB18E1:CLKARDCLK->DOADO3    4   2.454   0.505  fir_left/fir_U/shift_reg_U/fir_shift_reg_ram_U/Mram_ram (fir_left/fir_U/tmp_cast_fu_134_p1<3>)
+     LUT2:I0->O            1   0.053   0.000  fir_left/fir_U/Msub_acc_fu_162_p2_lut<5> (fir_left/fir_U/Msub_acc_fu_162_p2_lut<5>)
+     MUXCY:S->O            1   0.291   0.000  fir_left/fir_U/Msub_acc_fu_162_p2_cy<5> (fir_left/fir_U/Msub_acc_fu_162_p2_cy<5>)
+     MUXCY:CI->O           1   0.015   0.000  fir_left/fir_U/Msub_acc_fu_162_p2_cy<6> (fir_left/fir_U/Msub_acc_fu_162_p2_cy<6>)
+     MUXCY:CI->O           1   0.015   0.000  fir_left/fir_U/Msub_acc_fu_162_p2_cy<7> (fir_left/fir_U/Msub_acc_fu_162_p2_cy<7>)
+     MUXCY:CI->O           1   0.015   0.000  fir_left/fir_U/Msub_acc_fu_162_p2_cy<8> (fir_left/fir_U/Msub_acc_fu_162_p2_cy<8>)
+     MUXCY:CI->O           1   0.015   0.000  fir_left/fir_U/Msub_acc_fu_162_p2_cy<9> (fir_left/fir_U/Msub_acc_fu_162_p2_cy<9>)
+     MUXCY:CI->O           1   0.015   0.000  fir_left/fir_U/Msub_acc_fu_162_p2_cy<10> (fir_left/fir_U/Msub_acc_fu_162_p2_cy<10>)
+     MUXCY:CI->O           1   0.015   0.000  fir_left/fir_U/Msub_acc_fu_162_p2_cy<11> (fir_left/fir_U/Msub_acc_fu_162_p2_cy<11>)
+     MUXCY:CI->O           1   0.015   0.000  fir_left/fir_U/Msub_acc_fu_162_p2_cy<12> (fir_left/fir_U/Msub_acc_fu_162_p2_cy<12>)
+     MUXCY:CI->O           1   0.015   0.000  fir_left/fir_U/Msub_acc_fu_162_p2_cy<13> (fir_left/fir_U/Msub_acc_fu_162_p2_cy<13>)
+     MUXCY:CI->O           1   0.015   0.000  fir_left/fir_U/Msub_acc_fu_162_p2_cy<14> (fir_left/fir_U/Msub_acc_fu_162_p2_cy<14>)
+     MUXCY:CI->O           1   0.015   0.000  fir_left/fir_U/Msub_acc_fu_162_p2_cy<15> (fir_left/fir_U/Msub_acc_fu_162_p2_cy<15>)
+     MUXCY:CI->O           1   0.015   0.000  fir_left/fir_U/Msub_acc_fu_162_p2_cy<16> (fir_left/fir_U/Msub_acc_fu_162_p2_cy<16>)
+     MUXCY:CI->O           1   0.015   0.000  fir_left/fir_U/Msub_acc_fu_162_p2_cy<17> (fir_left/fir_U/Msub_acc_fu_162_p2_cy<17>)
+     MUXCY:CI->O           1   0.015   0.000  fir_left/fir_U/Msub_acc_fu_162_p2_cy<18> (fir_left/fir_U/Msub_acc_fu_162_p2_cy<18>)
+     MUXCY:CI->O           1   0.015   0.000  fir_left/fir_U/Msub_acc_fu_162_p2_cy<19> (fir_left/fir_U/Msub_acc_fu_162_p2_cy<19>)
+     MUXCY:CI->O           0   0.015   0.000  fir_left/fir_U/Msub_acc_fu_162_p2_cy<20> (fir_left/fir_U/Msub_acc_fu_162_p2_cy<20>)
+     XORCY:CI->O           6   0.320   0.518  fir_left/fir_U/Msub_acc_fu_162_p2_xor<21> (fir_left/fir_U/acc_fu_162_p2<25>)
+     LUT5:I3->O            1   0.053   0.000  fir_left/fir_U/Maccum_acc_1_reg_124_lut<25> (fir_left/fir_U/Maccum_acc_1_reg_124_lut<25>)
+     MUXCY:S->O            1   0.291   0.000  fir_left/fir_U/Maccum_acc_1_reg_124_cy<25> (fir_left/fir_U/Maccum_acc_1_reg_124_cy<25>)
+     MUXCY:CI->O           1   0.015   0.000  fir_left/fir_U/Maccum_acc_1_reg_124_cy<26> (fir_left/fir_U/Maccum_acc_1_reg_124_cy<26>)
+     MUXCY:CI->O           1   0.015   0.000  fir_left/fir_U/Maccum_acc_1_reg_124_cy<27> (fir_left/fir_U/Maccum_acc_1_reg_124_cy<27>)
+     MUXCY:CI->O           1   0.015   0.000  fir_left/fir_U/Maccum_acc_1_reg_124_cy<28> (fir_left/fir_U/Maccum_acc_1_reg_124_cy<28>)
+     MUXCY:CI->O           0   0.015   0.000  fir_left/fir_U/Maccum_acc_1_reg_124_cy<29> (fir_left/fir_U/Maccum_acc_1_reg_124_cy<29>)
+     XORCY:CI->O           1   0.320   0.000  fir_left/fir_U/Maccum_acc_1_reg_124_xor<30> (fir_left/fir_U/Result<30>)
+     FDE:D                     0.011          fir_left/fir_U/acc_1_reg_124_30
+    ----------------------------------------
+    Total                      5.101ns (4.078ns logic, 1.023ns route)
+                                       (79.9% logic, 20.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'sytem_i/processing_system7_0/processing_system7_0/FCLK_CLK_unbuffered<0>'
+  Total number of paths / destination ports: 519 / 292
+-------------------------------------------------------------------------
+Offset:              2.566ns (Levels of Logic = 5)
+  Source:            sytem_i/processing_system7_0/processing_system7_0/PS7_i:MAXIGP0WVALID (PAD)
+  Destination:       sytem_i/fir_left/fir_left/fir_io_if_U/_x_15 (FF)
+  Destination Clock: sytem_i/processing_system7_0/processing_system7_0/FCLK_CLK_unbuffered<0> rising
+
+  Data Path: sytem_i/processing_system7_0/processing_system7_0/PS7_i:MAXIGP0WVALID to sytem_i/fir_left/fir_left/fir_io_if_U/_x_15
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    PS7:MAXIGP0WVALID      8   0.000   0.000  processing_system7_0/PS7_i (M_AXI_GP0_WVALID)
+     end scope: 'sytem_i/processing_system7_0:M_AXI_GP0_WVALID'
+     begin scope: 'sytem_i/axi_interconnect_1:S_AXI_WVALID<0>'
+     LUT5:I2->O            3   0.053   0.616  axi_interconnect_1/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/M_AXI_WVALID1 (DEBUG_MP_MR_WDATACONTROL<0>)
+     end scope: 'sytem_i/axi_interconnect_1:M_AXI_WVALID<0>'
+     begin scope: 'sytem_i/fir_left:s_axi_fir_io_WVALID'
+     LUT4:I1->O            6   0.053   0.446  fir_left/fir_io_if_U/w_hs_WDATA[0]_AND_312_o41 (fir_left/fir_io_if_U/w_hs_WDATA[0]_AND_312_o_bdd4)
+     LUT4:I3->O           16   0.053   0.497  fir_left/fir_io_if_U/w_hs_waddr[4]_AND_327_o21 (fir_left/fir_io_if_U/w_hs_waddr[4]_AND_327_o)
+     FDE:CE                    0.200          fir_left/fir_io_if_U/_x_0
+    ----------------------------------------
+    Total                      2.566ns (1.007ns logic, 1.559ns route)
+                                       (39.2% logic, 60.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'sytem_i/processing_system7_0/processing_system7_0/FCLK_CLK_unbuffered<0>'
+  Total number of paths / destination ports: 276 / 73
+-------------------------------------------------------------------------
+Offset:              4.026ns (Levels of Logic = 8)
+  Source:            sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/Bus_RNW_reg (FF)
+  Destination:       sytem_i/processing_system7_0/processing_system7_0/PS7_i:MAXIGP0WREADY (PAD)
+  Source Clock:      sytem_i/processing_system7_0/processing_system7_0/FCLK_CLK_unbuffered<0> rising
+
+  Data Path: sytem_i/i2s_ctrl_0/i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/Bus_RNW_reg to sytem_i/processing_system7_0/processing_system7_0/PS7_i:MAXIGP0WREADY
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              35   0.282   0.892  i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/Bus_RNW_reg (i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/Bus_RNW_reg)
+     LUT6:I0->O            1   0.053   0.000  i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/wr_done1_F (N124)
+     MUXF7:I0->O          10   0.214   0.661  i2s_ctrl_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/wr_done1 (S_AXI_AWREADY)
+     end scope: 'sytem_i/i2s_ctrl_0:S_AXI_WREADY'
+     begin scope: 'sytem_i/axi_interconnect_1:M_AXI_WREADY<2>'
+     LUT3:I0->O            1   0.053   0.725  axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.mi_wready_mux_inst/gen_fpga.l1 (axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.mi_wready_mux_inst/gen_fpga.l1)
+     LUT6:I1->O            1   0.053   0.000  axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.mi_wready_mux_inst/gen_fpga.l4 (axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.mi_wready_mux_inst/gen_fpga.l)
+     MUXF7:I0->O           3   0.214   0.427  axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.mi_wready_mux_inst/gen_fpga.gen_mux_5_8[0].mux_s2_inst (axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.mi_wready_mux_inst/o_i)
+     LUT5:I4->O            1   0.053   0.399  axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/si_wready1 (DEBUG_SF_CB_WDATACONTROL<1>)
+     end scope: 'sytem_i/axi_interconnect_1:S_AXI_WREADY<0>'
+     begin scope: 'sytem_i/processing_system7_0:M_AXI_GP0_WREADY'
+    PS7:MAXIGP0WREADY          0.000          processing_system7_0/PS7_i
+    ----------------------------------------
+    Total                      4.026ns (0.922ns logic, 3.104ns route)
+                                       (22.9% logic, 77.1% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 131 / 129
+-------------------------------------------------------------------------
+Delay:               0.865ns (Levels of Logic = 3)
+  Source:            sytem_i/processing_system7_0/processing_system7_0/PS7_i:EMIOI2C0SDATN (PAD)
+  Destination:       processing_system7_0_I2C0_SDA (PAD)
+
+  Data Path: sytem_i/processing_system7_0/processing_system7_0/PS7_i:EMIOI2C0SDATN to processing_system7_0_I2C0_SDA
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    PS7:EMIOI2C0SDATN      1   0.000   0.399  processing_system7_0/PS7_i (processing_system7_0/I2C0_SDA_T_n)
+     INV:I->O              1   0.067   0.399  processing_system7_0/I2C0_SDA_T1_INV_0 (I2C0_SDA_T)
+     end scope: 'sytem_i/processing_system7_0:I2C0_SDA_T'
+     IOBUF:T->IO               0.000          iobuf_0 (processing_system7_0_I2C0_SDA)
+     end scope: 'sytem_i:processing_system7_0_I2C0_SDA'
+    ----------------------------------------
+    Total                      0.865ns (0.067ns logic, 0.798ns route)
+                                       (7.7% logic, 92.3% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock sytem_i/processing_system7_0/processing_system7_0/FCLK_CLK_unbuffered<0>
+------------------------------------------------------------------------+---------+---------+---------+---------+
+                                                                        | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                                                            |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+------------------------------------------------------------------------+---------+---------+---------+---------+
+sytem_i/processing_system7_0/processing_system7_0/FCLK_CLK_unbuffered<0>|    5.101|         |         |         |
+------------------------------------------------------------------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 26.00 secs
+Total CPU time to Xst completion: 26.31 secs
+ 
+--> 
+
+Total memory usage is 301032 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    3 (   0 filtered)
+Number of infos    :   21 (   0 filtered)
+
