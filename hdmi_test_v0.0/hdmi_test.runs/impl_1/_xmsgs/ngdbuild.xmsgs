@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="NgdBuild" num="649" delta="new" >Removing redundant &apos;<arg fmt="%s" index="1">IBUF</arg>&apos; symbol &apos;<arg fmt="%s" index="2">processing_system7_0_PS_PORB_IBUF</arg>&apos;.  All constraints associated with this symbol will be ignored.
+</msg>
+
+<msg type="info" file="NgdBuild" num="649" delta="new" >Removing redundant &apos;<arg fmt="%s" index="1">IBUF</arg>&apos; symbol &apos;<arg fmt="%s" index="2">processing_system7_0_PS_CLK_IBUF</arg>&apos;.  All constraints associated with this symbol will be ignored.
+</msg>
+
+<msg type="info" file="NgdBuild" num="649" delta="new" >Removing redundant &apos;<arg fmt="%s" index="1">IBUF</arg>&apos; symbol &apos;<arg fmt="%s" index="2">processing_system7_0_PS_SRSTB_IBUF</arg>&apos;.  All constraints associated with this symbol will be ignored.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="58" delta="new" >Constraint <arg fmt="%s" index="1">&lt;TIMEGRP axi_hdmi_gp_reset_source =   FFS  PADS  CPUS;&gt; [system_stub.ucf(550)]</arg>: <arg fmt="%s" index="2">CPUS &quot;*&quot;</arg> does not match any design objects.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="58" delta="new" >Constraint <arg fmt="%s" index="1">&lt;TIMEGRP axi_hdmi_hp_reset_source =   FFS  PADS  CPUS;&gt; [system_stub.ucf(574)]</arg>: <arg fmt="%s" index="2">CPUS &quot;*&quot;</arg> does not match any design objects.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">clk_fpga_2</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_clk_fpga_2</arg>&apos;, was traced into <arg fmt="%s" index="4">MMCME2_ADV</arg> instance <arg fmt="%s" index="5">axi_clkgen_0/USER_LOGIC_I/i_clkgen/i_mmcm</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">MMCME2_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT0</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_system_i_axi_clkgen_0_axi_clkgen_0_USER_LOGIC_I_i_clkgen_mmcm_clk_s = PERIOD &quot;system_i_axi_clkgen_0_axi_clkgen_0_USER_LOGIC_I_i_clkgen_mmcm_clk_s&quot; TS_clk_fpga_2 * 0.742424242 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="new" >SFF primitive &apos;<arg fmt="%s" index="1">system_i/axi_iic_hdmi/axi_iic_hdmi/X_IIC/X_AXI_IPIF_SSP1/X_SOFT_RESET/FF_WRACK</arg>&apos; has unconnected output pin
+</msg>
+
+</messages>
+

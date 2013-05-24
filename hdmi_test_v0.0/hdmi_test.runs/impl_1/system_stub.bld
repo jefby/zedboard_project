@@ -1,0 +1,68 @@
+Release 14.4 ngdbuild P.49d (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.4\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -p xc7z020clg484-1 -dd _ngo -uc system_stub.ucf system_stub.edf
+
+Executing edif2ngd -quiet "system_stub.edf" "_ngo\system_stub.ngo"
+Release 14.4 - edif2ngd P.49d (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Reading NGO file
+"E:/xilinx_proj/hdmi_test/hdmi_test.runs/impl_1/_ngo/system_stub.ngo" ...
+Gathering constraint information from source properties...
+Done.
+INFO:NgdBuild:649 - Removing redundant 'IBUF' symbol
+   'processing_system7_0_PS_PORB_IBUF'.  All constraints associated with this
+   symbol will be ignored.
+INFO:NgdBuild:649 - Removing redundant 'IBUF' symbol
+   'processing_system7_0_PS_CLK_IBUF'.  All constraints associated with this
+   symbol will be ignored.
+INFO:NgdBuild:649 - Removing redundant 'IBUF' symbol
+   'processing_system7_0_PS_SRSTB_IBUF'.  All constraints associated with this
+   symbol will be ignored.
+
+Annotating constraints to design from ucf file "system_stub.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+WARNING:ConstraintSystem:58 - Constraint <TIMEGRP axi_hdmi_gp_reset_source =  
+   FFS  PADS  CPUS;> [system_stub.ucf(550)]: CPUS "*" does not match any design
+   objects.
+
+WARNING:ConstraintSystem:58 - Constraint <TIMEGRP axi_hdmi_hp_reset_source =  
+   FFS  PADS  CPUS;> [system_stub.ucf(574)]: CPUS "*" does not match any design
+   objects.
+
+INFO:ConstraintSystem:178 - TNM 'clk_fpga_2', used in period specification
+   'TS_clk_fpga_2', was traced into MMCME2_ADV instance
+   axi_clkgen_0/USER_LOGIC_I/i_clkgen/i_mmcm. The following new TNM groups and
+   period specifications were generated at the MMCME2_ADV output(s): 
+   CLKOUT0: <TIMESPEC
+   TS_system_i_axi_clkgen_0_axi_clkgen_0_USER_LOGIC_I_i_clkgen_mmcm_clk_s =
+   PERIOD "system_i_axi_clkgen_0_axi_clkgen_0_USER_LOGIC_I_i_clkgen_mmcm_clk_s"
+   TS_clk_fpga_2 * 0.742424242 HIGH 50%>
+
+Done...
+
+Checking expanded design ...
+WARNING:NgdBuild:443 - SFF primitive
+   'system_i/axi_iic_hdmi/axi_iic_hdmi/X_IIC/X_AXI_IPIF_SSP1/X_SOFT_RESET/FF_WRA
+   CK' has unconnected output pin
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   3
+
+Total memory usage is 267716 kilobytes
+
+Writing NGD file "system_stub.ngd" ...
+Total REAL time to NGDBUILD completion: 1 min  32 sec
+Total CPU time to NGDBUILD completion:   37 sec
+
+Writing NGDBUILD log file "system_stub.bld"...

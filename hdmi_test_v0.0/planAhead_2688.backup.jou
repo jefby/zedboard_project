@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# PlanAhead v14.4 (64-bit)
+# Build 222254 by xbuild on Tue Dec 18 05:21:09 MST 2012
+# Start of session at: Sun May 19 23:19:36 2013
+# Process ID: 8532
+# Log file: E:/xilinx_proj/hdmi_test/planAhead.log
+# Journal file: E:/xilinx_proj/hdmi_test\planAhead.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:\xilinx_proj\hdmi_test\hdmi_test.ppr}
+launch_sdk -workspace E:/xilinx_proj/hdmi_test/hdmi_test.sdk/SDK/SDK_Export -hwspec E:/xilinx_proj/hdmi_test/hdmi_test.sdk/SDK/SDK_Export/hw/system.xml

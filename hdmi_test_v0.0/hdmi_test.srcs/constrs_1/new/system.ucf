@@ -1,0 +1,31 @@
+#############################################################
+#                                                           #
+# HDMI Interface                                            #
+#                                                           #
+#############################################################
+NET hdmi_clk        LOC = W18  | IOSTANDARD = LVCMOS33;
+NET hdmi_vsync      LOC = W17  | IOSTANDARD = LVCMOS33;
+NET hdmi_hsync      LOC = V17  | IOSTANDARD = LVCMOS33;
+NET hdmi_data_e     LOC = U16  | IOSTANDARD = LVCMOS33;
+NET hdmi_data[0]    LOC = Y13  | IOSTANDARD = LVCMOS33;
+NET hdmi_data[1]    LOC = AA13 | IOSTANDARD = LVCMOS33;
+NET hdmi_data[2]    LOC = AA14 | IOSTANDARD = LVCMOS33;
+NET hdmi_data[3]    LOC = Y14  | IOSTANDARD = LVCMOS33;
+NET hdmi_data[4]    LOC = AB15 | IOSTANDARD = LVCMOS33;
+NET hdmi_data[5]    LOC = AB16 | IOSTANDARD = LVCMOS33;
+NET hdmi_data[6]    LOC = AA16 | IOSTANDARD = LVCMOS33;
+NET hdmi_data[7]    LOC = AB17 | IOSTANDARD = LVCMOS33;
+NET hdmi_data[8]    LOC = AA17 | IOSTANDARD = LVCMOS33;
+NET hdmi_data[9]    LOC = Y15  | IOSTANDARD = LVCMOS33;
+NET hdmi_data[10]   LOC = W13  | IOSTANDARD = LVCMOS33;
+NET hdmi_data[11]   LOC = W15  | IOSTANDARD = LVCMOS33;
+NET hdmi_data[12]   LOC = V15  | IOSTANDARD = LVCMOS33;
+NET hdmi_data[13]   LOC = U17  | IOSTANDARD = LVCMOS33;
+NET hdmi_data[14]   LOC = V14  | IOSTANDARD = LVCMOS33;
+NET hdmi_data[15]   LOC = V13  | IOSTANDARD = LVCMOS33;
+NET hdmi_int        LOC = W16  | IOSTANDARD = LVCMOS33;
+NET hdmi_iic_scl    LOC = AA18 | IOSTANDARD = LVCMOS33;
+NET hdmi_iic_sda    LOC = Y16  | IOSTANDARD = LVCMOS33;
+NET otg_oc          LOC = L16  | IOSTANDARD="LVCMOS33";
+
+NET processing_system7_0_GPIO LOC = G17  | IOSTANDARD = LVCMOS33;	# USB-Reset

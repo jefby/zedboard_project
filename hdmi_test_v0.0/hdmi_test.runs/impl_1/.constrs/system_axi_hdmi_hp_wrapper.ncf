@@ -1,0 +1,3 @@
+INST "axi_hdmi_hp/*clock_conv*/*_resync*" TNM = FFS "axi_hdmi_hp_reset_resync";
+TIMEGRP "axi_hdmi_hp_reset_source" = FFS PADS CPUS;
+TIMESPEC "TS_axi_hdmi_hp_reset_resync" = FROM "axi_hdmi_hp_reset_source" TO "axi_hdmi_hp_reset_resync" TIG;

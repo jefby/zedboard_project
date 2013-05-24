@@ -1,0 +1,295 @@
+Xilinx First Stage Boot Loader m.
+Release 14.3 May 24 2013-13:02:11
+Devcfg driver initialized
+Silicon Version 1.0
+Boot mode is SD
+SD Init Done
+Flash BaseAddress E0100000
+Reboot status register 0x60000000
+ImageStartAddress = 00000000
+PartitionNumber = 00000000
+flash read base addr E0100000, image base 0
+FSBL main: Skip partition
+Reboot status register 0x61000000
+ImageStartAddress = 00000000
+PartitionNumber = 00000001
+flash read base addr E0100000, image base 0
+Reset USB...
+SUCCESSFUL_HANDOFF
+  FSBLStatus = 0x1
+
+
+U-Boot 2012.04.01 (Jan 07 2013 - 13:42:00)
+
+DRAM:  512 MiB
+WARNING: Caches not enabled
+MMC:   SDHCI: 0
+Using default environment
+
+In:    serial
+Out:   serial
+Err:   serial
+Net:   zynq_gem
+Hit any key to stop autoboot:  0
+zed-boot> mmcinfo
+Device: SDHCI
+Manufacturer ID: 6f
+OEM: 0
+Name: SMI
+Tran Speed: 25000000
+Rd Block Len: 512
+SD version 2.0
+High Capacity: Yes
+Capacity: 3.7 GiB
+Bus Width: 4-bit
+zed-boot> fatload mmc 0 0x8000 zImage
+reading zImage
+
+2458688 bytes read
+zed-boot> fatload mmc 0 0x1000000
+usage: fatload <interface> <dev[:part]> <addr> <filename> [bytes]
+zed-boot> fatload mmc 0 0x1000000 devicetree_hdmi.dtb
+reading devicetree_hdmi.dtb
+
+7628 bytes read
+zed-boot> go 8000
+## Starting application at 0x00008000 ...
+Uncompressing Linux... done, booting the kernel.
+[    0.000000] Booting Linux on physical CPU 0
+[    0.000000] Linux version 3.6.0-digilent-13.01 (Sham@TheFootball) (gcc versio
+n 4.6.1 (Sourcery CodeBench Lite 2011.09-50) ) #4 SMP PREEMPT Mon Jan 7 14:01:41
+ PST 2013
+[    0.000000] CPU: ARMv7 Processor [413fc090] revision 0 (ARMv7), cr=18c5387d
+[    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instructio
+n cache
+[    0.000000] Machine: Xilinx Zynq Platform, model: Xilinx Zynq ZED
+[    0.000000] Memory policy: ECC disabled, Data cache writealloc
+[    0.000000] PERCPU: Embedded 7 pages/cpu @c08a4000 s6976 r8192 d13504 u32768
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pag
+es: 130048
+[    0.000000] Kernel command line: console=ttyPS0,115200 root=/dev/mmcblk0p2 rw
+ earlyprintk rootfstype=ext4 rootwait devtmpfs.mount=1
+[    0.000000] PID hash table entries: 2048 (order: 1, 8192 bytes)
+[    0.000000] Dentry cache hash table entries: 65536 (order: 6, 262144 bytes)
+[    0.000000] Inode-cache hash table entries: 32768 (order: 5, 131072 bytes)
+[    0.000000] Memory: 512MB = 512MB total
+[    0.000000] Memory: 514948k/514948k available, 9340k reserved, 0K highmem
+[    0.000000] Virtual kernel memory layout:
+[    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+[    0.000000]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+[    0.000000]     vmalloc : 0xe0800000 - 0xfd000000   ( 456 MB)
+[    0.000000]     lowmem  : 0xc0000000 - 0xe0000000   ( 512 MB)
+[    0.000000]     pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)
+[    0.000000]     modules : 0xbf000000 - 0xbfe00000   (  14 MB)
+[    0.000000]       .text : 0xc0008000 - 0xc0427b3c   (4223 kB)
+[    0.000000]       .init : 0xc0428000 - 0xc044db40   ( 151 kB)
+[    0.000000]       .data : 0xc044e000 - 0xc0486920   ( 227 kB)
+[    0.000000]        .bss : 0xc0486944 - 0xc049d0f0   (  90 kB)
+[    0.000000] Preemptible hierarchical RCU implementation.
+[    0.000000]  Dump stacks of tasks blocking RCU-preempt GP.
+[    0.000000]  RCU restricting CPUs from NR_CPUS=4 to nr_cpu_ids=2.
+[    0.000000] NR_IRQS:512
+[    0.000000] Zynq clock init
+[    0.000000] xlnx,ps7-ttc-1.00.a #0 at 0xe0800000, irq=43
+[    0.000000] sched_clock: 32 bits at 100 Hz, resolution 10000000ns, wraps ever
+y 4294967286ms
+[    0.000000] Console: colour dummy device 80x30
+[    0.090000] Calibrating delay loop... 1332.01 BogoMIPS (lpj=6660096)
+[    0.090000] pid_max: default: 32768 minimum: 301
+[    0.090000] Mount-cache hash table entries: 512
+[    0.090000] CPU: Testing write buffer coherency: ok
+[    0.090000] CPU0: thread -1, cpu 0, socket 0, mpidr 80000000
+[    0.090000] hw perfevents: enabled with ARMv7 Cortex-A9 PMU driver, 7 counter
+s available
+[    0.090000] Setting up static identity map for 0x2f09e0 - 0x2f0a14
+[    0.090000] L310 cache controller enabled
+[    0.090000] l2x0: 8 ways, CACHE_ID 0x410000c8, AUX_CTRL 0x72360000, Cache siz
+e: 524288 B
+[    0.130000] Map SLCR registers
+[    0.130000] CPU1: Booted secondary processor
+[    0.220000] CPU1: thread -1, cpu 1, socket 0, mpidr 80000001
+[    0.220000] Brought up 2 CPUs
+[    0.220000] SMP: Total of 2 processors activated (2664.03 BogoMIPS).
+[    0.220000] devtmpfs: initialized
+[    0.220000] NET: Registered protocol family 16
+[    0.220000] DMA: preallocated 256 KiB pool for atomic coherent allocations
+[    0.220000] xgpiops e000a000.ps7-gpio: gpio at 0xe000a000 mapped to 0xe084a00
+0
+[    0.230000] registering platform device 'pl330' id 0
+[    0.230000] registering platform device 'arm-pmu' id 0
+[    0.230000] registering platform device 'zynq-dvfs' id 0
+[    0.230000]
+[    0.230000] ###############################################
+[    0.230000] #                                             #
+[    0.230000] #                Board ZED Init               #
+[    0.230000] #                                             #
+[    0.230000] ###############################################
+[    0.230000]
+[    0.230000] hw-breakpoint: found 5 (+1 reserved) breakpoint and 1 watchpoint
+registers.
+[    0.230000] hw-breakpoint: maximum watchpoint size is 4 bytes.
+[    0.250000] xslcr xslcr.0: at 0xF8000000 mapped to 0xF8000000
+[    0.260000] bio: create slab <bio-0> at 0
+[    0.260000] SCSI subsystem initialized
+[    0.270000] usbcore: registered new interface driver usbfs
+[    0.270000] usbcore: registered new interface driver hub
+[    0.270000] usbcore: registered new device driver usb
+[    0.270000] Advanced Linux Sound Architecture Driver Version 1.0.25.
+[    0.270000] Switching to clocksource xttcpss_timer1
+[    0.280000] NET: Registered protocol family 2
+[    0.280000] TCP established hash table entries: 16384 (order: 5, 131072 bytes
+)
+[    0.280000] TCP bind hash table entries: 16384 (order: 5, 131072 bytes)
+[    0.280000] TCP: Hash tables configured (established 16384 bind 16384)
+[    0.280000] TCP: reno registered
+[    0.280000] UDP hash table entries: 256 (order: 1, 8192 bytes)
+[    0.280000] UDP-Lite hash table entries: 256 (order: 1, 8192 bytes)
+[    0.280000] NET: Registered protocol family 1
+[    0.280000] pl330 dev 0 probe success
+[    0.290000] msgmni has been set to 1005
+[    0.290000] io scheduler noop registered
+[    0.290000] io scheduler deadline registered
+[    0.290000] io scheduler cfq registered (default)
+[    0.290000] e0001000.serial: ttyPS0 at MMIO 0xe0001000 (irq = 82) is a xuartp
+s
+[    0.760000] console [ttyPS0] enabled
+[    0.770000] xdevcfg f8007000.ps7-dev-cfg: ioremap f8007000 to e0850000 with s
+ize 1000
+[    0.770000] [drm] Initialized drm 1.1.0 20060810
+[    0.790000] brd: module loaded
+[    0.800000] loop: module loaded
+[    0.800000] xqspips e000d000.ps7-qspi: master is unqueued, this is deprecated
+
+[    0.810000] xqspips e000d000.ps7-qspi: at 0xE000D000 mapped to 0xE0852000, ir
+q=51
+[    0.820000] libphy: XEMACPS mii bus: probed
+[    0.830000] xemacps e000b000.ps7-ethernet: pdev->id -1, baseaddr 0xe000b000,
+irq 54
+[    0.830000] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    0.840000] usb_hcd_xusbps_probe: No OTG assigned!
+[    0.850000] usb_hcd_xusbps_probe: OTG now assigned!
+[    0.850000] xusbps-ehci xusbps-ehci.0: Xilinx PS USB EHCI Host Controller
+[    0.860000] xusbps-ehci xusbps-ehci.0: new USB bus registered, assigned bus n
+umber 1
+[    0.890000] xusbps-ehci xusbps-ehci.0: irq 53, io mem 0x00000000
+[    0.910000] xusbps-ehci xusbps-ehci.0: USB 2.0 started, EHCI 1.00
+[    0.910000] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+[    0.920000] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=
+1
+[    0.930000] usb usb1: Product: Xilinx PS USB EHCI Host Controller
+[    0.930000] usb usb1: Manufacturer: Linux 3.6.0-digilent-13.01 ehci_hcd
+[    0.940000] usb usb1: SerialNumber: xusbps-ehci.0
+[    0.940000] hub 1-0:1.0: USB hub found
+[    0.950000] hub 1-0:1.0: 1 port detected
+[    0.950000] Initializing USB Mass Storage driver...
+[    0.960000] usbcore: registered new interface driver usb-storage
+[    0.960000] USB Mass Storage support registered.
+[    0.970000] mousedev: PS/2 mouse device common for all mice
+[    0.970000] sdhci: Secure Digital Host Controller Interface driver
+[    0.980000] sdhci: Copyright(c) Pierre Ossman
+[    0.990000] sdhci-pltfm: SDHCI platform and OF driver helper
+[    0.990000] mmc0: Invalid maximum block size, assuming 512 bytes
+[    1.050000] mmc0: SDHCI controller on e0100000.ps7-sdio [e0100000.ps7-sdio] u
+sing ADMA
+[    1.060000] usbcore: registered new interface driver usbhid
+[    1.060000] usbhid: USB HID core driver
+[    1.070000] TCP: cubic registered
+[    1.070000] NET: Registered protocol family 17
+[    1.070000] VFP support v0.3: implementor 41 architecture 3 part 30 variant 9
+ rev 4
+[    1.080000] Registering SWP/SWPB emulation handler
+[    1.090000] registered taskstats version 1
+[    1.090000] drivers/rtc/hctosys.c: unable to open rtc device (rtc0)
+[    1.090000] mmc0: new high speed SDHC card at address b368
+[    1.100000] mmcblk0: mmc0:b368 SMI   3.71 GiB
+[    1.100000] ALSA device list:
+[    1.100000]   No soundcards found.
+[    1.120000]  mmcblk0: p1 p2
+[    1.130000] EXT4-fs (mmcblk0p2): warning: maximal mount count reached, runnin
+g e2fsck is recommended
+[    1.150000] EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. O
+pts: (null)
+[    1.160000] new mode: 1280x1024 1688x1066 108000
+[    1.160000] VFS: Mounted root (ext4 filesystem) on device 179:2.
+[    1.170000] new mode: 1920x1080 2200x1125 148500
+[    1.170000] devtmpfs: mounted
+[    1.170000] Freeing init memory: 148K
+[    1.180000] new mode: 1280x1024 1728x1066 128946
+[    1.180000] new mode: 1680x1050 1840x1080 119000
+[    1.190000] new mode: 1440x900 1600x926 88750
+[    1.190000] new mode: 1280x800 1440x823 71000
+[    1.190000] new mode: 1280x800 1696x838 106500
+[    1.200000] new mode: 1280x720 1664x746 74440
+[    1.200000] new mode: 800x600 1056x628 40000
+[    1.210000] new mode: 800x600 1024x625 36000
+[    1.210000] new mode: 640x480 840x500 31500
+[    1.220000] new mode: 640x480 832x520 31500
+[    1.220000] new mode: 640x480 800x525 25200
+[    1.220000] new mode: 720x400 900x449 28320
+[    1.230000] new mode: 1280x1024 1688x1066 135000
+[    1.230000] new mode: 1024x768 1312x800 78800
+[    1.240000] new mode: 1024x768 1328x806 75000
+[    1.240000] new mode: 1024x768 1344x806 65000
+[    1.250000] new mode: 800x600 1056x625 49500
+[    1.250000] new mode: 800x600 1040x666 50000
+[    1.250000] new mode: 848x480 1088x517 33750
+[    1.260000] new mode: 1152x864 1600x900 108000
+[    1.260000] new mode: 1280x768 1440x790 68250
+[    1.270000] new mode: 1280x768 1696x805 102250
+[    1.270000] new mode: 1280x960 1800x1000 108000
+[    1.280000] new mode: 1360x768 1792x795 85500
+[    1.280000] new mode: 1400x1050 1560x1080 101000
+[    1.290000] new mode: 1400x1050 1896x1099 156000
+[    1.290000] new mode: 1440x900 1936x942 136750
+[    1.290000] new mode: 1024x576 1312x597 46970
+[    1.300000] new mode: 1366x768 1800x795 85885
+[    1.300000] new mode: 1600x900 2128x932 118963
+[    1.310000] new mode: 1680x945 2240x978 131481
+[    1.310000] new mode: 1280x1024 1688x1066 108000
+[    1.320000] new mode: 1920x1080 2200x1125 148500
+[    1.320000] new mode: 800x600 1056x628 40000
+[    1.330000] new mode: 800x600 1024x625 36000
+[    1.330000] new mode: 640x480 840x500 31500
+[    1.330000] new mode: 640x480 832x520 31500
+[    1.340000] new mode: 640x480 800x525 25200
+[    1.340000] new mode: 720x400 900x449 28320
+[    1.350000] new mode: 1280x1024 1688x1066 135000
+[    1.350000] new mode: 1024x768 1312x800 78800
+[    1.360000] new mode: 1024x768 1328x806 75000
+[    1.360000] new mode: 1024x768 1344x806 65000
+[    1.360000] new mode: 800x600 1056x625 49500
+[    1.370000] new mode: 800x600 1040x666 50000
+[    1.380000] setting clock to: 108000
+[    1.380000] raw_edid: d82107c0 0
+[    2.770000] init: Failed to create pty - disabling logging for jobs 5ice
+[    2.780000] init: Temporary process spawn error: No space left on device
+[    2.800000] init: Failed to create pty - disabling logging for job
+[    2.810000] init: Temporary process spawn error: No space left on device
+[    2.840000] init: Failed to create pty - disabling logging for job
+[    2.850000] init: Temporary process spawn error: No space left on device
+modprobe: FATAL: Could not load /lib/modules/3.6.0-digilent-13.01/modules.dep: N
+o such file or directory
+
+ * Starting mDNS/DNS-SD daemon[ OK ]
+ * Starting bluetooth daemon[ OK ]
+ * Starting configure network device security[ OK ]
+ * Starting Userspace bootsplash[ OK ]
+ * Starting configure network device[ OK ]
+speech-dispatcher disabled; edit /etc/default/speech-dispatcher
+saned disabled; edit /etc/default/saned
+
+Last login: Thu Jan  1 00:00:14 UTC 1970 on tty1
+cat: /var/lib/update-notifier/fsck-at-reboot: No such file or directory
+run-parts: /etc/update-motd.d/98-fsck-at-reboot exited with return code 1
+Welcome to Linaro 12.06 (GNU/Linux 3.6.0-digilent-13.01 armv7l)
+
+ * Documentation:  https://wiki.linaro.org/
+
+433 packages can be updated.
+150 updates are security updates.
+
+root@linaro-ubuntu-desktop:~# ls
+1.txt  boot.c
+root@linaro-ubuntu-desktop:~# ls
+1.txt  boot.c
+root@linaro-ubuntu-desktop:~#

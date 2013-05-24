@@ -1,0 +1,22 @@
+
+<RENDERBATCH>
+
+  <RENDERIMG RASNAME="E:\xilinx_proj\hdmi_test\hdmi_test.sdk\SDK\SDK_Export\hw\imgs\processing_system7_0.jpg" SVGNAME="E:\xilinx_proj\hdmi_test\hdmi_test.sdk\SDK\SDK_Export\hw\imgs\processing_system7_0.svg" TMPSVGFN="E:\xilinx_proj\hdmi_test\hdmi_test.srcs\sources_1\edk\system\__xps\.dswkshop\processing_system7_0.svg"/>
+
+  <RENDERIMG RASNAME="E:\xilinx_proj\hdmi_test\hdmi_test.sdk\SDK\SDK_Export\hw\imgs\axi_hdmi_tx_16b_0.jpg" SVGNAME="E:\xilinx_proj\hdmi_test\hdmi_test.sdk\SDK\SDK_Export\hw\imgs\axi_hdmi_tx_16b_0.svg" TMPSVGFN="E:\xilinx_proj\hdmi_test\hdmi_test.srcs\sources_1\edk\system\__xps\.dswkshop\axi_hdmi_tx_16b_0.svg"/>
+
+  <RENDERIMG RASNAME="E:\xilinx_proj\hdmi_test\hdmi_test.sdk\SDK\SDK_Export\hw\imgs\axi_hdmi_gp.jpg" SVGNAME="E:\xilinx_proj\hdmi_test\hdmi_test.sdk\SDK\SDK_Export\hw\imgs\axi_hdmi_gp.svg" TMPSVGFN="E:\xilinx_proj\hdmi_test\hdmi_test.srcs\sources_1\edk\system\__xps\.dswkshop\axi_hdmi_gp.svg"/>
+
+  <RENDERIMG RASNAME="E:\xilinx_proj\hdmi_test\hdmi_test.sdk\SDK\SDK_Export\hw\imgs\axi_vdma_0.jpg" SVGNAME="E:\xilinx_proj\hdmi_test\hdmi_test.sdk\SDK\SDK_Export\hw\imgs\axi_vdma_0.svg" TMPSVGFN="E:\xilinx_proj\hdmi_test\hdmi_test.srcs\sources_1\edk\system\__xps\.dswkshop\axi_vdma_0.svg"/>
+
+  <RENDERIMG RASNAME="E:\xilinx_proj\hdmi_test\hdmi_test.sdk\SDK\SDK_Export\hw\imgs\axi_hdmi_hp.jpg" SVGNAME="E:\xilinx_proj\hdmi_test\hdmi_test.sdk\SDK\SDK_Export\hw\imgs\axi_hdmi_hp.svg" TMPSVGFN="E:\xilinx_proj\hdmi_test\hdmi_test.srcs\sources_1\edk\system\__xps\.dswkshop\axi_hdmi_hp.svg"/>
+
+  <RENDERIMG RASNAME="E:\xilinx_proj\hdmi_test\hdmi_test.sdk\SDK\SDK_Export\hw\imgs\axi_iic_hdmi.jpg" SVGNAME="E:\xilinx_proj\hdmi_test\hdmi_test.sdk\SDK\SDK_Export\hw\imgs\axi_iic_hdmi.svg" TMPSVGFN="E:\xilinx_proj\hdmi_test\hdmi_test.srcs\sources_1\edk\system\__xps\.dswkshop\axi_iic_hdmi.svg"/>
+
+  <RENDERIMG RASNAME="E:\xilinx_proj\hdmi_test\hdmi_test.sdk\SDK\SDK_Export\hw\imgs\axi_clkgen_0.jpg" SVGNAME="E:\xilinx_proj\hdmi_test\hdmi_test.sdk\SDK\SDK_Export\hw\imgs\axi_clkgen_0.svg" TMPSVGFN="E:\xilinx_proj\hdmi_test\hdmi_test.srcs\sources_1\edk\system\__xps\.dswkshop\axi_clkgen_0.svg"/>
+
+  <RENDERIMG RASNAME="E:\xilinx_proj\hdmi_test\hdmi_test.sdk\SDK\SDK_Export\hw\imgs\util_vector_logic_0.jpg" SVGNAME="E:\xilinx_proj\hdmi_test\hdmi_test.sdk\SDK\SDK_Export\hw\imgs\util_vector_logic_0.svg" TMPSVGFN="E:\xilinx_proj\hdmi_test\hdmi_test.srcs\sources_1\edk\system\__xps\.dswkshop\util_vector_logic_0.svg"/>
+
+  <RENDERIMG RASNAME="E:\xilinx_proj\hdmi_test\hdmi_test.sdk\SDK\SDK_Export\hw\imgs\system_blkd.jpg" SVGNAME="E:\xilinx_proj\hdmi_test\hdmi_test.sdk\SDK\SDK_Export\hw\imgs\system_blkd.svg" TMPSVGFN="E:\xilinx_proj\hdmi_test\hdmi_test.srcs\sources_1\edk\system\__xps\.dswkshop\system_blkd.svg"/>
+
+</RENDERBATCH>
