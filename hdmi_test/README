@@ -1,11 +1,11 @@
-Reversion History:
+        Reversion History:
 	2013/5/23:
 	hdmi_test_v0.1:
         this project is based on the linux project which digilent provided,and i deleted
 	the ip core such as the audio and the i2s ip which i would not use,and modified 
         the dts file,finally it can work!
         2013/5/26:
-	In this version,i build the project scratchly,and i added the ip core axi_clkgen
+	In this version,i build the project scratch,and i added the ip core axi_clkgen
         and axi_hdmi_tx_16b ip,and some ip which xilinx provided ,such as axi_vdma,in 
         this period,i have learned a lot and faced many problems, for example ,the clock	
         is very important to a design,originally i set the FCLK2 to 200 MHZ,but the ise
