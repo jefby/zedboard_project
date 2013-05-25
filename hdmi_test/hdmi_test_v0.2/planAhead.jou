@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# PlanAhead v14.4 (64-bit)
+# Build 222254 by xbuild on Tue Dec 18 05:21:09 MST 2012
+# Start of session at: Sun May 26 01:19:39 2013
+# Process ID: 5868
+# Log file: H:/github/zedboard_project/hdmi_test_v0.0/planAhead.log
+# Journal file: H:/github/zedboard_project/hdmi_test_v0.0\planAhead.jou
+#-----------------------------------------------------------
+start_gui
+open_project {H:\github\zedboard_project\hdmi_test_v0.0\hdmi_test.ppr}
+open_run synth_1 -name netlist_1
+set_delay_model -interconnect estimated
+report_timing -delay_type min_max -max_paths 10 -sort_by group -input_pins -name timing_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step Bitgen
+wait_on_run impl_1
+export_hardware [get_files H:/github/zedboard_project/hdmi_test_v0.0/hdmi_test.srcs/sources_1/edk/system/system.xmp] [get_runs impl_1] -bitstream
+launch_sdk -bit H:/github/zedboard_project/hdmi_test_v0.0/hdmi_test.sdk/SDK/SDK_Export/hw/system_stub.bit -workspace H:/github/zedboard_project/hdmi_test_v0.0/hdmi_test.sdk/SDK/SDK_Export -hwspec H:/github/zedboard_project/hdmi_test_v0.0/hdmi_test.sdk/SDK/SDK_Export/hw/system.xml
+file copy -force H:/github/zedboard_project/hdmi_test_v0.0/hdmi_test.runs/impl_1/system_stub.bit H:/github/zedboard_project/hdmi_test_v0.0/image/system

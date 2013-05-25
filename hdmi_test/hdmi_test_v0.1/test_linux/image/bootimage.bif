@@ -1,0 +1,6 @@
+the_ROM_image:
+{
+	[bootloader]/Project/openhw/hdmi_test_v0.1/test_linux/test_linux.sdk/SDK/SDK_Export/fsbl_zynq_0/Debug/fsbl_zynq_0.elf
+	/Project/openhw/hdmi_test_v0.1/test_linux/system.bit
+	/Project/openhw/hdmi_test_v0.1/test_linux/image/u-boot.elf
+}

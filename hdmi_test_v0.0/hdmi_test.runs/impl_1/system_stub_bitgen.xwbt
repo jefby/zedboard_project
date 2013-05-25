@@ -1,8 +1,0 @@
-INTSTYLE=pa
-INFILE=E:\xilinx_proj\hdmi_test\hdmi_test.runs\impl_1\system_stub_routed.ncd
-OUTFILE=E:\xilinx_proj\hdmi_test\hdmi_test.runs\impl_1\system_stub.bit
-FAMILY=Zynq
-PART=xc7z020-1clg484
-WORKINGDIR=E:\xilinx_proj\hdmi_test\hdmi_test.runs\impl_1
-LICENSE=WebPack
-USER_INFO=_

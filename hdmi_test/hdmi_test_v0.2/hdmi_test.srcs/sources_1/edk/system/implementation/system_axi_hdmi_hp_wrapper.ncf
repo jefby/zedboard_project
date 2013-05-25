@@ -1,0 +1,13 @@
+INST "axi_hdmi_hp/*clock_conv*/*_resync*" TNM = FFS "axi_hdmi_hp_reset_resync";
+TIMEGRP "axi_hdmi_hp_reset_source" = FFS PADS CPUS;
+TIMESPEC "TS_axi_hdmi_hp_reset_resync" = FROM "axi_hdmi_hp_reset_source" TO "axi_hdmi_hp_reset_resync" TIG;
+INST "axi_hdmi_hp/*_converter_bank/*clock_conv_inst/*asyncfifo_*/*mem/*dout_i_?" TNM = "axi_hdmi_hp_async_clock_conv_FFDEST";
+INST "axi_hdmi_hp/*_converter_bank/*clock_conv_inst/*asyncfifo_*/*mem/*dout_i_??" TNM = "axi_hdmi_hp_async_clock_conv_FFDEST";
+INST "axi_hdmi_hp/*_converter_bank/*clock_conv_inst/*asyncfifo_*/*mem/*dout_i_???" TNM = "axi_hdmi_hp_async_clock_conv_FFDEST";
+INST "axi_hdmi_hp/*_converter_bank/*clock_conv_inst/*asyncfifo_*/*mem/*dout_i_????" TNM = "axi_hdmi_hp_async_clock_conv_FFDEST";
+TIMESPEC "TS_axi_hdmi_hp_async_clock_conv" = FROM RAMS TO "axi_hdmi_hp_async_clock_conv_FFDEST" 5999 PS DATAPATHONLY;
+NET "axi_hdmi_hp/*_converter_bank/*clock_conv_inst/*asyncfifo_*/wr_pntr_gc*" TIG;
+NET "axi_hdmi_hp/*_converter_bank/*clock_conv_inst/*asyncfifo_*/rd_pntr_gc*" TIG;
+NET "axi_hdmi_hp/*_converter_bank/*clock_conv_inst/*asyncfifo_*/*clkx/wr_q*" TIG;
+NET "axi_hdmi_hp/*_converter_bank/*clock_conv_inst/*asyncfifo_*/*clkx/rd_q*" TIG;
+NET "axi_hdmi_hp/*_converter_bank/*clock_conv_inst/*async_conv_reset" TIG;

@@ -1,0 +1,1 @@
+ -p zynq -lang vhdl$(PROJECT_SEARCHPATHOPT) $(GLOBAL_SEARCHPATHOPT) -msg __xps/ise/xmsgprops.lst -s isim -X E:/Project/openhw/hdmi_test_v0.1/test_linux/test_linux.srcs/sources_1/edk/xps_proj/

@@ -1,6 +1,0 @@
-the_ROM_image:
-{
-	[bootloader]/xilinx_proj/hdmi_test/hdmi_test.sdk/SDK/SDK_Export/fsbl_zynq_0/Debug/fsbl_zynq_0.elf
-	/xilinx_proj/hdmi_test/hdmi_test.runs/impl_1/system_stub.bit
-	/xilinx_proj/hdmi_test/u-boot.elf
-}

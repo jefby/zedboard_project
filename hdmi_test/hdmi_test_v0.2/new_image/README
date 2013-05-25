@@ -1,0 +1,12 @@
+Note:
+	a. u-boot.bin,u-boot.mcs and bootimage.bif is generated from SDK.
+	b. The directory SD contains the file which can be copied to the SD card,
+	and follow the instruments from wiki
+	http://wiki.analog.com/resources/tools-software/linux-drivers/platforms/zynq#enable_xf86-video-modesetting_xorg_driver
+	c. The file devicetree_hdmi.dtb is the device tree file this project could use.
+	d. zImage is the linux kernel 3.6
+	e. boot.bin is the boot file,contains fsbl,PL configuration file and the u-boot 
+	f. this project is based on the linux project which digilent provided,Thanks to their job.
+	
+Author:jefby
+Date:2013/5/26

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# PlanAhead v14.4 (64-bit)
+# Build 222254 by xbuild on Tue Dec 18 05:21:09 MST 2012
+# Start of session at: Sat May 25 13:35:32 2013
+# Process ID: 1892
+# Log file: E:/Project/openhw/hdmi_test_v0.1/test_linux/planAhead.log
+# Journal file: E:/Project/openhw/hdmi_test_v0.1/test_linux\planAhead.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:\Project\openhw\hdmi_test_v0.1\test_linux\test_linux.ppr}
+open_run synth_1 -name netlist_1
+open_run impl_1

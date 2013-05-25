@@ -1,0 +1,6 @@
+the_ROM_image:
+{
+	[bootloader]/github/zedboard_project/hdmi_test_v0.0/hdmi_test.sdk/SDK/SDK_Export/fsbl_zynq_0/Debug/fsbl_zynq_0.elf
+	/github/zedboard_project/hdmi_test_v0.0/image/system.bit
+	/github/zedboard_project/hdmi_test_v0.0/image/u-boot.elf
+}
