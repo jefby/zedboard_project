@@ -1,0 +1,57 @@
+#############################################################
+#                                                           #
+# HDMI Interface                                            #
+#                                                           #
+#############################################################
+NET "hdmi_clk" LOC = W18;
+NET "hdmi_clk" IOSTANDARD = LVCMOS33;
+NET "hdmi_vsync" LOC = W17;
+NET "hdmi_vsync" IOSTANDARD = LVCMOS33;
+NET "hdmi_hsync" LOC = V17;
+NET "hdmi_hsync" IOSTANDARD = LVCMOS33;
+NET "hdmi_data_e" LOC = U16;
+NET "hdmi_data_e" IOSTANDARD = LVCMOS33;
+NET "hdmi_data[0]" LOC = Y13;
+NET "hdmi_data[0]" IOSTANDARD = LVCMOS33;
+NET "hdmi_data[1]" LOC = AA13;
+NET "hdmi_data[1]" IOSTANDARD = LVCMOS33;
+NET "hdmi_data[2]" LOC = AA14;
+NET "hdmi_data[2]" IOSTANDARD = LVCMOS33;
+NET "hdmi_data[3]" LOC = Y14;
+NET "hdmi_data[3]" IOSTANDARD = LVCMOS33;
+NET "hdmi_data[4]" LOC = AB15;
+NET "hdmi_data[4]" IOSTANDARD = LVCMOS33;
+NET "hdmi_data[5]" LOC = AB16;
+NET "hdmi_data[5]" IOSTANDARD = LVCMOS33;
+NET "hdmi_data[6]" LOC = AA16;
+NET "hdmi_data[6]" IOSTANDARD = LVCMOS33;
+NET "hdmi_data[7]" LOC = AB17;
+NET "hdmi_data[7]" IOSTANDARD = LVCMOS33;
+NET "hdmi_data[8]" LOC = AA17;
+NET "hdmi_data[8]" IOSTANDARD = LVCMOS33;
+NET "hdmi_data[9]" LOC = Y15;
+NET "hdmi_data[9]" IOSTANDARD = LVCMOS33;
+NET "hdmi_data[10]" LOC = W13;
+NET "hdmi_data[10]" IOSTANDARD = LVCMOS33;
+NET "hdmi_data[11]" LOC = W15;
+NET "hdmi_data[11]" IOSTANDARD = LVCMOS33;
+NET "hdmi_data[12]" LOC = V15;
+NET "hdmi_data[12]" IOSTANDARD = LVCMOS33;
+NET "hdmi_data[13]" LOC = U17;
+NET "hdmi_data[13]" IOSTANDARD = LVCMOS33;
+NET "hdmi_data[14]" LOC = V14;
+NET "hdmi_data[14]" IOSTANDARD = LVCMOS33;
+NET "hdmi_data[15]" LOC = V13;
+NET "hdmi_data[15]" IOSTANDARD = LVCMOS33;
+NET "hdmi_int" LOC = W16;
+NET "hdmi_int" IOSTANDARD = LVCMOS33;
+NET "hdmi_iic_scl" LOC = AA18;
+NET "hdmi_iic_scl" IOSTANDARD = LVCMOS33;
+NET "hdmi_iic_sda" LOC = Y16;
+NET "hdmi_iic_sda" IOSTANDARD = LVCMOS33;
+NET "otg_oc" LOC = L16;
+NET "otg_oc" IOSTANDARD = LVCMOS33;
+
+# USB-Reset
+NET "processing_system7_0_GPIO" LOC = G17;
+NET "processing_system7_0_GPIO" IOSTANDARD = LVCMOS33;
