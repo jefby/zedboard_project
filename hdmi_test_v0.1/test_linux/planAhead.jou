@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# PlanAhead v14.4 (64-bit)
+# Build 222254 by xbuild on Tue Dec 18 05:21:09 MST 2012
+# Start of session at: Sat May 25 17:06:24 2013
+# Process ID: 6400
+# Log file: H:/github/zedboard_project/hdmi_test_v0.2/test_linux/planAhead.log
+# Journal file: H:/github/zedboard_project/hdmi_test_v0.2/test_linux\planAhead.jou
+#-----------------------------------------------------------
+start_gui
+open_project {H:\github\zedboard_project\hdmi_test_v0.2\test_linux\test_linux.ppr}
+file delete -force H:/github/zedboard_project/hdmi_test_v0.2/test_linux/test_linux.srcs/sources_1/edk/xps_proj/system_stub.v
+remove_files H:/github/zedboard_project/hdmi_test_v0.2/test_linux/test_linux.srcs/sources_1/edk/xps_proj/system_stub.v
+set_property target_constrs_file H:/github/zedboard_project/hdmi_test_v0.2/test_linux/test_linux.srcs/constrs_1/imports/test_linux/system.ucf [current_fileset -constrset]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+make_wrapper -files [get_files H:/github/zedboard_project/hdmi_test_v0.2/test_linux/test_linux.srcs/sources_1/edk/xps_proj/system.xmp] -top -fileset [get_filesets sources_1] -import
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+reset_run impl_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step Bitgen
+wait_on_run impl_1
+export_hardware [get_files H:/github/zedboard_project/hdmi_test_v0.2/test_linux/test_linux.srcs/sources_1/edk/xps_proj/system.xmp]
+launch_sdk -workspace H:/github/zedboard_project/hdmi_test_v0.2/test_linux/test_linux.sdk/SDK/SDK_Export -hwspec H:/github/zedboard_project/hdmi_test_v0.2/test_linux/test_linux.sdk/SDK/SDK_Export/hw/system.xml
+file copy -force H:/github/zedboard_project/hdmi_test_v0.2/test_linux/test_linux.runs/impl_1/system_stub.bit H:/github/zedboard_project/hdmi_test_v0.2/test_linux/image/system
+file copy -force H:/github/zedboard_project/hdmi_test_v0.2/test_linux/test_linux.runs/impl_1/system_stub.bit H:/github/zedboard_project/hdmi_test_v0.2/test_linux/image/system
+file copy -force H:/github/zedboard_project/hdmi_test_v0.2/test_linux/test_linux.runs/impl_1/system_stub.bit H:/github/zedboard_project/hdmi_test_v0.2/test_linux/image/system.bit
